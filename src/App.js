@@ -33,7 +33,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className='App'>
-        
+          <h1>Hello</h1>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/photographyPortfolio" element={
