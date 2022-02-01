@@ -7,15 +7,30 @@ import photographyPortfolio from '../images/photographyPortfolio.png'
 
 
 import { Card } from 'react-bootstrap'
+import { useEffect, useState } from 'react'
 const Projects = () => {
+    
+    const [radius, setRadius] = useState("100px");
 
+    useEffect(()=>{
+        if(window.innerWidth<550){
+            setRadius("40px");
+        }
+        else if (window.innerWidth<780){
+            setRadius("60px");
+        }
+        else{
+            setRadius("100px");
+        }
+    },[window.innerWidth])
+    
     function cardFocusIn() {
         const cards = document.querySelectorAll('.projectCards');
         cards.forEach((card)=> card.classList.add('zoom'));
     }
     
     return (
-        <Grid container id="projectsSection">
+        <Grid container id="projectsSection" style={{borderRadius: radius}}>
             
             <Grid item xs={3}></Grid>
             <Grid item xs={6}>Projects</Grid>

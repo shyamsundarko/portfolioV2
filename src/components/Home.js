@@ -32,7 +32,7 @@ const Home = () => {
     window.addEventListener('scroll', changeBackground);
 
     return (
-        <Container fluid className={ background ?  "show" : "mainContainer"}>
+        <Container fluid className={ background ?  "show" : "mainContainer"} >
             <Navigationbar check="true"/>
             <IntroComponent />
             <Projects />
