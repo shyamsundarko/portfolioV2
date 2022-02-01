@@ -8,7 +8,7 @@ import {Container, Nav, Navbar} from 'react-bootstrap'
 
 const Navigationbar = ({check}) => {
    const [background, setBackground] = useState(false);
-   console.log(check);
+   
   
    
    useEffect(() => {

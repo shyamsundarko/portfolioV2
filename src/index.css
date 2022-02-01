@@ -5,11 +5,11 @@
   background-color: #101010;
   
   padding: 0;
-  transition: 0.2s ease-out;
+  transition: 0.1s ease-out;
 }
 .show {
   padding: 0;
-  transition: 0.2s ease-out;
+  transition: 0.1s ease-out;
   
 }
 a{
