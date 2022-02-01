@@ -10,17 +10,17 @@ import { Card } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
 const Projects = () => {
     
-    const [radius, setRadius] = useState("100px");
+    const [radius, setRadius] = useState("100px 100px 0px 0px");
 
     useEffect(()=>{
         if(window.innerWidth<550){
-            setRadius("40px");
+            setRadius("40px 40px 0px 0px");
         }
         else if (window.innerWidth<780){
-            setRadius("60px");
+            setRadius("60px 60px 0px 0px");
         }
         else{
-            setRadius("100px");
+            setRadius("100px 100px 0px 0px");
         }
     },[window.innerWidth])
     
