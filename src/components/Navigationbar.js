@@ -17,7 +17,7 @@ const Navigationbar = ({check}) => {
       if(window.innerWidth<768){
          const gapMargin = window.innerHeight/2;
          setGap(gapMargin+"px");
-         setTopGap((gapMargin*0.57)+"px");
+         setTopGap((gapMargin*0.6)+"px");
          setFSize("1.5rem");
       }
       else{
