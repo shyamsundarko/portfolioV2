@@ -15,7 +15,7 @@ const IntroComponent = () => {
           setMarginScreen(marginNew+"vmin");
         }
         else{
-          const marginNew = 0.024 * window.innerHeight;
+          const marginNew = 0.03 * window.innerHeight;
           setMarginScreen(marginNew+"vmin");
         }
         

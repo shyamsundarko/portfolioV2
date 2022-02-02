@@ -1,9 +1,10 @@
 import React from 'react'
-import Grid from '@material-ui/core/Grid'
+
 import { useState, useEffect } from 'react'
 import logo from '../images/logo.png'
 import logoBlack from '../images/logoBlack.png'
 import {Container, Nav, Navbar} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 
 const Navigationbar = ({check}) => {
@@ -78,7 +79,7 @@ const Navigationbar = ({check}) => {
                   <Nav>
                      <a href="/" style={{fontSize: fSize, marginTop: topGap, marginBottom:"2vmin"}}>Home</a>
                      <a href='/#projectsSection' style={{fontSize: fSize, marginBottom: "2vmin"}}>Projects</a>
-                     <a href='/' style={{fontSize: fSize, marginBottom: "2vmin"}}>About</a>
+                     <Link to="/About" style={{fontSize: fSize, marginBottom: "2vmin"}}>About</Link>
                      <a href='/#footerContainer' style={{fontSize: fSize, marginBottom: gap}}>Contact</a>
                   </Nav>
                </Navbar.Collapse>

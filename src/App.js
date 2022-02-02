@@ -10,6 +10,7 @@ import ScrollToTop from './components/ScrollToTop';
 import reactIcon from './images/react.png';
 import vscIcon from './images/vsc.png';
 import jsIcon from './images/js.png';
+import About from './components/About';
 
 const db = {
   "portfolio": {
@@ -33,9 +34,10 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className='App'>
-          <h1>Hello</h1>
+          
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route exact path="/About" element={<About check="false" />} />
             <Route exact path="/photographyPortfolio" element={
               <PhotographyPro check="false" title={db.portfolio.title} 
                 txtColor={db.portfolio.color}  headerText={db.portfolio.headerText} designBody={db.portfolio.designContent} 
