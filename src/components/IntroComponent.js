@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 const IntroComponent = () => {
 
     const [marginScreen, setMarginScreen] = useState("21vmin");
+  
     useEffect(() => {
         if(window.innerWidth<300){
           const marginNew = 0.13 * window.innerHeight;

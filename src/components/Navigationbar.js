@@ -9,18 +9,23 @@ import {Container, Nav, Navbar} from 'react-bootstrap'
 const Navigationbar = ({check}) => {
    const [background, setBackground] = useState(false);
    const [fSize, setFSize] = useState("2vmin");
+   const [gap, setGap] = useState("2vmin");
+   const [topGap, setTopGap] = useState("0");
   
+   
    useEffect(()=>{
-      if(window.innerWidth >400){
-         setFSize("2vmin");
-      }
-      else if (window.innerWidth > 300){
-         
-         setFSize("3vmin");
+      if(window.innerWidth<768){
+         const gapMargin = window.innerHeight/2;
+         setGap(gapMargin+"px");
+         setTopGap((gapMargin*0.57)+"px");
+         setFSize("1.5rem");
       }
       else{
-         setFSize("3vmin");
+         setTopGap("0");
+         setGap("2vmin");
+         setFSize("2vmin");
       }
+     
    },[window.innerWidth])
 
    useEffect(() => {
@@ -71,10 +76,10 @@ const Navigationbar = ({check}) => {
                <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto"></Nav> 
                   <Nav>
-                     <a href="/" className='quickLinksItem' style={{fontSize: fSize}}>Home</a>
-                     <a href='/#projectsSection' className='quickLinksItem' style={{fontSize: fSize}}>Projects</a>
-                     <a href='/' className='quickLinksItem' style={{fontSize: fSize}}>About</a>
-                     <a href='/#footerContainer' className='quickLinksItem' style={{fontSize: fSize}}>Contact</a>
+                     <a href="/" style={{fontSize: fSize, marginTop: topGap, marginBottom:"2vmin"}}>Home</a>
+                     <a href='/#projectsSection' style={{fontSize: fSize, marginBottom: "2vmin"}}>Projects</a>
+                     <a href='/' style={{fontSize: fSize, marginBottom: "2vmin"}}>About</a>
+                     <a href='/#footerContainer' style={{fontSize: fSize, marginBottom: gap}}>Contact</a>
                   </Nav>
                </Navbar.Collapse>
             </Container>
