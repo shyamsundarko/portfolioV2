@@ -8,25 +8,41 @@ import {Container, Nav, Navbar} from 'react-bootstrap'
 
 const Navigationbar = ({check}) => {
    const [background, setBackground] = useState(false);
-   
+   const [fSize, setFSize] = useState("2vmin");
   
-   
+   useEffect(()=>{
+      if(window.innerWidth >400){
+         setFSize("2vmin");
+      }
+      else if (window.innerWidth > 300){
+         
+         setFSize("3vmin");
+      }
+      else{
+         setFSize("3vmin");
+      }
+   },[window.innerWidth])
+
    useEffect(() => {
       if(check==="true"){
          const changeBackground = () => {
-            if(window.innerWidth >400){
+            if(window.innerHeight>400){
+               
                if(window.scrollY>=340) {
                   setBackground(true);
                 }
                 else setBackground(false);
             }
-            else if (window.innerWidth > 300){
+            else if (window.innerHeight > 300){
+               
+            
                if(window.scrollY>=170) {
                   setBackground(true);
                 }
                 else setBackground(false);
             }
             else{
+               
                if(window.scrollY>=60) {
                  setBackground(true);
                }
@@ -41,8 +57,8 @@ const Navigationbar = ({check}) => {
       
       else if(check=="false"){
             setBackground(true);
+            
          }
-             
       },[check]); 
       
    
@@ -55,10 +71,10 @@ const Navigationbar = ({check}) => {
                <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto"></Nav> 
                   <Nav>
-                     <a href="/" className='quickLinksItem'>Home</a>
-                     <a href='/#projectsSection' className='quickLinksItem'>Projects</a>
-                     <a href='/' className='quickLinksItem'>About</a>
-                     <a href='/#footerContainer' className='quickLinksItem'>Contact</a>
+                     <a href="/" className='quickLinksItem' style={{fontSize: fSize}}>Home</a>
+                     <a href='/#projectsSection' className='quickLinksItem' style={{fontSize: fSize}}>Projects</a>
+                     <a href='/' className='quickLinksItem' style={{fontSize: fSize}}>About</a>
+                     <a href='/#footerContainer' className='quickLinksItem' style={{fontSize: fSize}}>Contact</a>
                   </Nav>
                </Navbar.Collapse>
             </Container>

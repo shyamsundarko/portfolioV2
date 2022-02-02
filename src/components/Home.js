@@ -9,13 +9,13 @@ const Home = () => {
     const [background, setBackground] = useState(false);
   
     const changeBackground = () => {
-      if(window.innerWidth >400){
+      if(window.innerHeight >400){
         if(window.scrollY>=340) {
            setBackground(true);
          }
          else setBackground(false);
      }
-     else if (window.innerWidth > 300){
+     else if (window.innerHeight > 300){
         if(window.scrollY>=170) {
            setBackground(true);
          }
