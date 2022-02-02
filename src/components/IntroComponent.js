@@ -4,26 +4,32 @@ import { useEffect, useState } from 'react'
 const IntroComponent = () => {
 
     const [marginScreen, setMarginScreen] = useState("21vmin");
-  
+    const [marginScreenTop, setMarginScreenTop] = useState("21vmin");
     useEffect(() => {
-        if(window.innerWidth<300){
-          const marginNew = 0.13 * window.innerHeight;
-          setMarginScreen(marginNew+"vmin");
-        }
-        else if(window.innerWidth < 500){
-          const marginNew = 0.085 * window.innerHeight;
-          setMarginScreen(marginNew+"vmin");
+        
+        if(window.innerWidth>600){
+          const marginNew = (window.innerHeight/2)*0.65;
+          const marginTop = marginNew*0.85;
+
+          setMarginScreen(marginNew+"px");
+          setMarginScreenTop(marginTop+"px");
         }
         else{
-          const marginNew = 0.03 * window.innerHeight;
-          setMarginScreen(marginNew+"vmin");
+          const marginNew = (window.innerHeight/2)*0.75;
+          const marginTop = marginNew;
+
+          setMarginScreen(marginNew+"px");
+          setMarginScreenTop(marginTop+"px");
         }
+          
+        
+        
         
       
     },[window.innerHeight])
     
     return (
-        <Grid container id="introContainer" style={{paddingTop: marginScreen}}>
+        <Grid container id="introContainer" style={{paddingTop: marginScreenTop}}>
           <Grid item xs={1}></Grid>
           <Grid item xs={10} id="introText">I am Shyam, a web developer based in <span id='flagColors'>Singapore</span></Grid>
           <Grid item xs={1}></Grid>
