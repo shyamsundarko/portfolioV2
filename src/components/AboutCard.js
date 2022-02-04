@@ -11,11 +11,12 @@ const AboutCard = ({wid}) => {
   return (
     <Card style={{ width: {wid} }} id="customCard">
     <Card.Img variant="top" src={profilepic} style={{borderRadius:"50%", border:"solid", width:"69%", marginLeft:"14.5%", marginTop:"10%"}} />
-    <Card.Body>
+    <Card.Body style={{color:"#212529"}}>
         <Card.Title style={{fontSize:"5vmin", fontWeight:"600"}}>Shyam Sundar</Card.Title>
-        <Card.Text>
-            <hr />
-            <h4 style={{fontFamily:"Roboto Mono, Times New Roman", fontWeight:"400", fontSize:"3vmin"}}>Software Developer</h4>
+        <hr />
+        <Card.Text style={{fontFamily:"Roboto Mono, Times New Roman", fontWeight:"400", fontSize:"3vmin"}}>
+            
+            Software Developer 
         </Card.Text>
         <Grid container>
             <Grid item xs={2} style={{backgroundColor:"white"}}></Grid>

@@ -4,6 +4,7 @@ import Navigationbar from './Navigationbar';
 import AboutCard from '../components/AboutCard.js';
 
 
+import Experience from './Experience';
 
 const About = ({check}) => {
     const [position, setPosition] = useState(false);
@@ -29,15 +30,13 @@ const About = ({check}) => {
   return (
     <div>
         <Navigationbar check={check}/>
-        
-            
-            <Grid container style={{paddingTop:"25vmin", paddingBottom:"15vmin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
+            <Grid container style={{paddingTop:"25vmin", paddingBottom:"11vmin", borderBottom:"solid #253775", borderBottomWidth:"thin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
                 <Grid item xs={2} md={2} lg={3}></Grid>
                 <Grid item xs={8} md={5} lg={4} style={{ marginTop: top, marginBottom: bottom }} >
                     <AboutCard wid={wid} />
                 </Grid>
                 <Grid item xs={2} md={1} lg={1}></Grid>
-                <Grid container item xs={12} md={3} lg={3} style={{color:"black" }}>
+                <Grid container item xs={12} md={3} lg={3} style={{color:"#212529" }}>
                     <Grid item xs={12}>
                         <h2 style={{fontSize:"13vmin", fontWeight:"600"}}>Hello</h2>
                     </Grid>
@@ -52,7 +51,11 @@ const About = ({check}) => {
                     <Grid item xs={1}></Grid>
                 </Grid>
                 <Grid item xs={12} md={1} lg={1}></Grid>
+                
             </Grid>
+            
+            
+            <Experience />
         
     </div>
     
