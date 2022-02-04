@@ -5,39 +5,34 @@ import insta from '../images/instagram.png';
 import linkedin from '../images/linkedin.png';
 import outlook from '../images/outlook.png';
 import github from '../images/github.png';
-const AboutCard = ({width, lftMargin}) => {
+import {Card} from 'react-bootstrap';
+
+const AboutCard = ({wid}) => {
   return (
-  <Grid style={{width: width, marginLeft: lftMargin}} id="customCard">
-    <Grid container id="CardTop">
-        <Grid item xs={12} style={{padding:"3vmin", marginTop:"2vmin"}}>
-            <img src={profilepic} alt='profile pic of Shyam' style={{borderRadius: "50%", height:"25vmin", backgroundColor:"white"}}></img>
+    <Card style={{ width: {wid} }} id="customCard">
+    <Card.Img variant="top" src={profilepic} style={{borderRadius:"50%", border:"solid", width:"69%", marginLeft:"14.5%", marginTop:"10%"}} />
+    <Card.Body>
+        <Card.Title style={{fontSize:"5vmin", fontWeight:"600"}}>Shyam Sundar</Card.Title>
+        <Card.Text>
+            <hr />
+            <h4 style={{fontFamily:"Roboto Mono, Times New Roman", fontWeight:"400", fontSize:"3vmin"}}>Software Developer</h4>
+        </Card.Text>
+        <Grid container>
+            <Grid item xs={2} style={{backgroundColor:"white"}}></Grid>
+            <Grid container item xs={8} style={{backgroundColor:"white"}}>
+                <Grid item xs={2} ></Grid>
+                <Grid item xs={2} ><a href="https://www.linkedin.com/in/shyam-s-208166137/" target="_blank"><img src={linkedin} alt="Linkedin logo" className="socialLogo"/></a></Grid>
+                <Grid item xs={2} ><a href="https://github.com/shyamsundarko" target="_blank"><img src={github} alt="Github logo" className="socialLogo"/></a></Grid>
+                <Grid item xs={2} ><a href="mailto:SHYAMSUN001@e.ntu.edu.sg" target="_blank"><img src={outlook} alt="Outlook logo" className="socialLogo"/></a></Grid>
+                <Grid item xs={2} ><a href="https://www.instagram.com/byamiloboy/?hl=en" target="_blank"><img src={insta} alt="Instagram logo" className="socialLogo"/></a></Grid>
+                <Grid item xs={2} ></Grid>
+
+            </Grid>
+            <Grid item xs={2} style={{backgroundColor:"white"}}></Grid>
         </Grid>
-        <Grid item xs={12}>
-            <h2 style={{fontWeight:"600"}}>Shyam Sundar</h2>
-        </Grid>
-        <Grid item xs={12} style={{color:"#ffffff"}}><hr></hr></Grid>
-        <Grid item xs={12} style={{fontFamily:"Roboto Mono", marginBottom:"2vmin"}}>Software Developer</Grid>  
-    </Grid>
-    <Grid container>
-        <Grid item xs={2} style={{backgroundColor:"#ffffff"}}></Grid>
-        <Grid container item xs={8} style={{backgroundColor:"white", paddingTop:"1rem", paddingBottom:"1rem"}}>
-            <Grid item xs={3}>
-                <img src={linkedin} alt="linkedin logo" className='socialLogo'></img>
-            </Grid>
-            <Grid item xs={3}>
-                <img src={github} alt="github logo" className='socialLogo'></img>
-            </Grid>
-            <Grid item xs={3}>
-                <img src={outlook} alt="outlook logo" className='socialLogo'></img>
-            </Grid>
-            <Grid item xs={3}>
-                <img src={insta} alt="instagram logo" className='socialLogo'></img>
-            </Grid>
-            
-        </Grid>
-        <Grid item xs={2} style={{backgroundColor:"white"}}></Grid>
-    </Grid>
-  </Grid>);
+    </Card.Body>
+</Card>
+  );
 }
 
 export default AboutCard;
