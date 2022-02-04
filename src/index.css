@@ -152,7 +152,22 @@ a{
   border: none;
   
 }
-
-@media (min-width: 1034px){
+.down{
+  background: linear-gradient(180deg, #ffffff 50%, #253875 50%);
+}
+.left{
+  background: linear-gradient(270deg, #ffffff 50%, #253875 50%);
+}
+#aboutMeContainer{
+ 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#CardTop{
+  background-color: #5a8fdd;
+}
+#customCard{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
   
 }
