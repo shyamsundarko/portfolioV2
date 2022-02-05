@@ -5,7 +5,7 @@ import continental from '../images/continental.png';
 const Experience = () => {
   return (
     <Grid container id="experienceContainer" >
-    <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps", marginBottom:"3vmin"}}>Work Experience</Grid>
+    <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps", marginBottom:"6vmin"}}>Work Experience</Grid>
 
     <Grid item xs={1} md={2}></Grid>
 

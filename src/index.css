@@ -182,13 +182,52 @@ a{
 }
 
 #experienceContainer{
-  padding: 3vmin 0vmin 3vmin 0vmin;
-  color:"#212529";
-  background-color: #ffffff;
+  padding: 2vmin 0vmin 3vmin 0vmin;
+  color: #212529;
+  
+  margin-bottom: 7vmin;
 }
 
 .experienceCard{
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   margin-bottom: 2vmin;
+}
+
+#skillsContainer{
+  background-color: #1b1b1b;
+  
+  
+}
+
+#skillsTitle{
+  font-size: 7vmin;
+  font-weight: 600;
+  font-variant: small-caps;
+  margin-bottom: 6vmin;
+  margin-top: 2vmin;
+  color: #ffcc01;
+  
+  
+}
+.customCard{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: #151616;
+  color: #ffffff;
+  
+}
+
+
+
+h4{
+  opacity: 0;
+  position: relative;
+  bottom: -20px;
+  transition: all 0.4s ease-out;
+}
+
+.reveal {
+  opacity: 1;
+  bottom: 0;
 }
