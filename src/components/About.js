@@ -22,9 +22,9 @@ const About = ({check}) => {
     const [wid, setWid] = useState("20vmin");
     
     useEffect(()=>{
-        Aos.init({ duration: 700,
+        Aos.init({ duration: 500,
             mirror: "true",
-            anchorPlacement:"bottom-bottom" });
+            anchorPlacement:"top-bottom" });
         
         if(window.innerWidth<960){
             setPosition(false);
