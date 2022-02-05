@@ -35,7 +35,7 @@ const Home = () => {
     useEffect(()=>{
       Aos.init({ duration: 300,
         mirror: "true",
-        anchorPlacement:"top-bottom" });
+        anchorPlacement:"center-bottom" });
     },[]);
 
     return (
