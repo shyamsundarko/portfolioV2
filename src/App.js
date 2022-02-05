@@ -12,6 +12,8 @@ import vscIcon from './images/vsc.png';
 import jsIcon from './images/js.png';
 import About from './components/About';
 
+import "aos/dist/aos.css";
+
 const db = {
   "portfolio": {
     "title": "Photography Portfolio",
@@ -32,7 +34,7 @@ function App() {
   return (
     
     <Router>
-      <ScrollToTop />
+      
       <div className='App'>
           
           <Routes>

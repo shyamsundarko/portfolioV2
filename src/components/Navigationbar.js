@@ -27,7 +27,7 @@ const Navigationbar = ({check}) => {
          setFSize("2vmin");
       }
      
-   },[window.innerWidth])
+   },[])
 
    useEffect(() => {
       if(check==="true"){

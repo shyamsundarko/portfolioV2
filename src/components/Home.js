@@ -3,8 +3,10 @@ import Projects from './Projects';
 import { Container} from 'react-bootstrap'
 import IntroComponent from './IntroComponent';
 import Footer from './Footer';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import Navigationbar from './Navigationbar';
+import ScrollToTop from './ScrollToTop';
+import Aos from 'aos';
 const Home = () => {
     const [background, setBackground] = useState(false);
   
@@ -28,11 +30,19 @@ const Home = () => {
         else setBackground(false);
      }
     }
-
+    
     window.addEventListener('scroll', changeBackground);
 
+    useEffect(()=>{
+      Aos.init({ duration: 300,
+        mirror: "true",
+        anchorPlacement:"bottom-bottom" });
+    },[]);
+
     return (
+      
         <Container fluid className={ background ?  "show" : "mainContainer"} >
+          <ScrollToTop />
             <Navigationbar check="true"/>
             <IntroComponent />
             <Projects />

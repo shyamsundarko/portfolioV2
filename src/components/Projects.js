@@ -22,7 +22,7 @@ const Projects = () => {
         else{
             setRadius("100px 100px 0px 0px");
         }
-    },[window.innerWidth])
+    },[])
     
     function cardFocusIn() {
         const cards = document.querySelectorAll('.projectCards');
@@ -33,25 +33,25 @@ const Projects = () => {
         <Grid container id="projectsSection" style={{borderRadius: radius}}>
             
             <Grid item xs={3}></Grid>
-            <Grid item xs={6}>Projects</Grid>
+            <Grid item xs={6} style={{marginBottom:"2vmin"}}>Projects</Grid>
             <Grid item xs={3}></Grid>
 
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} data-aos="fade-right">
             <Link to="/photographyPortfolio" onMouseOver={() => {cardFocusIn()}}>
-                    <Card className="projectCards">
+                    <Card className="projectCards" >
                         <Card.Img variant="top" src={photographyPortfolio} className='cardImage'></Card.Img>
                     </Card>
                 </Link>
                 
                 </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} data-aos="fade-left" >
                 <a href="https://www.mastercard.us/en-us/vision/who-we-are/careers.html" onMouseOver={() => {cardFocusIn()}}>
                     <Card className="projectCards">
                         <Card.Img variant="top" src={blogProject} className='cardImage'></Card.Img>
                     </Card>
                 </a>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} data-aos="fade-right">
                 <a href="https://www.mastercard.us/en-us/vision/who-we-are/careers.html" onMouseOver={() => {cardFocusIn()}}>
                     <Card className="projectCards">
                         <Card.Img variant="top" src={trialWebsite} className='cardImage'></Card.Img>

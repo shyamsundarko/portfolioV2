@@ -8,7 +8,7 @@ useEffect(()=>{
     setTopGap("22vmin")
   }
   else setTopGap("15vmin");
-},[window.innerWidth])
+},[])
   
   return (
     <Grid container className="project">

@@ -10,7 +10,7 @@ const Experience = () => {
     <Grid item xs={1} md={2}></Grid>
 
     <Grid item xs={10} md={3}>
-        <Card className='experienceCard'>
+        <Card className='experienceCard' data-aos="zoom-in" data-aos-duration="300" >
             <Card.Img variant="top" src={continental} ></Card.Img>
         </Card>
     </Grid>

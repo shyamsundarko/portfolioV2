@@ -61,7 +61,7 @@ a{
 }
 
 .SubText{
-  text-align: center;
+  
   color: rgba(216, 215, 215, 0.61);
   font-weight: 300;
   font-size: 2vmin;
@@ -82,14 +82,17 @@ a{
 }
 
 .projectCards {
-  margin: 4vmin; 
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
+  margin-bottom: 4vmin; 
+
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   height: 41vmin;
   overflow: hidden;
+  width: 95%;
+  
 }
 
 .cardImage {
-  height: 41vmin;
+  height: 100%;
 }
 
 .zoom {
@@ -98,7 +101,7 @@ a{
 }
 
 .zoom:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #footerContainer { 
@@ -220,14 +223,3 @@ a{
 
 
 
-h4{
-  opacity: 0;
-  position: relative;
-  bottom: -20px;
-  transition: all 0.4s ease-out;
-}
-
-.reveal {
-  opacity: 1;
-  bottom: 0;
-}
