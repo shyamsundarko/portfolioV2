@@ -5,7 +5,6 @@ import IntroComponent from './IntroComponent';
 import Footer from './Footer';
 import {useState, useEffect} from 'react';
 import Navigationbar from './Navigationbar';
-import ScrollToTop from './ScrollToTop';
 import Aos from 'aos';
 const Home = () => {
     const [background, setBackground] = useState(false);
@@ -42,7 +41,7 @@ const Home = () => {
     return (
       
         <Container fluid className={ background ?  "show" : "mainContainer"} >
-          <ScrollToTop />
+          
             <Navigationbar check="true"/>
             <IntroComponent />
             <Projects />

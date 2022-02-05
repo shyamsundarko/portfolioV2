@@ -34,7 +34,7 @@ function App() {
   return (
     
     <Router>
-      
+      <ScrollToTop />
       <div className='App'>
           
           <Routes>

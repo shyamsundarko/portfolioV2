@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Grid } from '@material-ui/core';
 import { Card } from 'react-bootstrap';
 import continental from '../images/continental.png';
+
+
+
 const Experience = () => {
+    
+   
   return (
     <Grid container id="experienceContainer" >
     <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps", marginBottom:"6vmin"}}>Work Experience</Grid>
 
     <Grid item xs={1} md={2}></Grid>
 
-    <Grid item xs={10} md={3}>
-        <Card className='experienceCard' data-aos="zoom-in" data-aos-duration="300" >
+    <Grid item xs={10} md={3} >
+        <Card className='experienceCard'>
             <Card.Img variant="top" src={continental} ></Card.Img>
         </Card>
     </Grid>
@@ -19,7 +24,7 @@ const Experience = () => {
 
     <Grid container item xs={12} md={4} >
         <Grid item xs={12}>                      
-            <h4 style={{fontWeight:"400", fontSize:"4vmin"}} className='resumeFont'>Continental Automotive Pte. Ltd.</h4>
+            <h4 style={{fontWeight:"400", fontSize:"4vmin"}} className='resumeFont' >Continental Automotive Pte. Ltd.</h4>
         </Grid>
         <Grid item xs={12}>
             <h5 style={{fontWeight:"600"}}>Software Developer Intern</h5>

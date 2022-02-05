@@ -9,7 +9,7 @@ const Skills = () => {
             <Grid item xs={12}  id="skillsTitle">Skills</Grid>
             <Grid item xs={2}></Grid>
             <Grid container item xs={8} style={{marginBottom:"10rem"}}>
-                <Grid item xs={6} md={2}>
+                <Grid item xs={6} md={2} data-aos="zoom-in" data-aos-duration="400">
                     <Card style={{width:"15vmin", paddingLeft:"1vmin", paddingRight:"1vmin"}} className='customCard'>
                         <Card.Img variant="top" src={react} ></Card.Img>
                         <Card.Title style={{fontSize:"3vmin"}}>ReactJS</Card.Title>
@@ -21,12 +21,7 @@ const Skills = () => {
                         <Card.Title style={{fontSize:"3vmin"}}>ReactJS</Card.Title>
                     </Card>
                 </Grid>
-                <Grid item xs={6} md={2}>
-                    <Card style={{width:"15vmin", paddingLeft:"1vmin", paddingRight:"1vmin"}} className='customCard'>
-                        <Card.Img variant="top" src={react} ></Card.Img>
-                        <Card.Title style={{fontSize:"3vmin"}}>ReactJS</Card.Title>
-                    </Card>
-                </Grid>
+                
              
                 
                
