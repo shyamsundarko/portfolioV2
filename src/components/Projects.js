@@ -44,7 +44,7 @@ const Projects = () => {
                 </Link>
                 
                 </Grid>
-            <Grid item xs={12} md={6} data-aos="fade-left" >
+            <Grid item xs={12} md={6} data-aos="fade-right" >
                 <a href="https://www.mastercard.us/en-us/vision/who-we-are/careers.html" onMouseOver={() => {cardFocusIn()}}>
                     <Card className="projectCards">
                         <Card.Img variant="top" src={blogProject} className='cardImage'></Card.Img>

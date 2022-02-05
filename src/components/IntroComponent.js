@@ -32,7 +32,7 @@ const IntroComponent = () => {
           <Grid item xs={10} id="introText" data-aos="fade-right" >I am Shyam, a web developer based in <span id='flagColors'>Singapore</span></Grid>
           <Grid item xs={1} ></Grid>
           <Grid item xs={3} ></Grid>
-          <Grid item xs={6} className="SubText" data-aos="fade-left" >Being a professional photographer, I have an eye for all things beautiful and aim to demonstrate that through the websites I create.</Grid>
+          <Grid item xs={6} className="SubText" data-aos="fade-up" >Being a professional photographer, I have an eye for all things beautiful and aim to demonstrate that through the websites I create.</Grid>
           <Grid item xs={3} ></Grid>
           <Grid item xs={3} ></Grid>
           <Grid item xs={6} className="SubText" style={{marginTop: marginScreen}} >Scroll down to see some of my work</Grid>
