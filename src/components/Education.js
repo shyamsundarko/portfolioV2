@@ -9,7 +9,7 @@ const Education = () => {
         <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps", paddingTop:"2vmin", marginBottom:"4vmin"}}>Education</Grid>
         
         <Grid item xs={1}></Grid>
-        <Grid item xs={10} md={3} data-aos="fade-up-right" data-aos-duration="300">
+        <Grid item xs={10} md={3} data-aos="zoom-in" data-aos-duration="300">
             <Card className='experienceCard'>
                 <Card.Img variant="top" src={ntulogo} ></Card.Img>
             </Card>
@@ -33,7 +33,7 @@ const Education = () => {
         
 
         <Grid item xs={1} ></Grid>
-        <Grid item xs={10} md={3} data-aos="fade-up-right" data-aos-duration="300">
+        <Grid item xs={10} md={3} data-aos="zoom-in" data-aos-duration="300">
             <Card className='experienceCard'>
                 <Card.Img variant="top" src={giislogo} ></Card.Img>
             </Card>
