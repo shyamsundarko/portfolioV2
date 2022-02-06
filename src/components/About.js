@@ -70,10 +70,18 @@ const About = ({check}) => {
                 
             </Grid>
             
+            <Grid container>
+                <Grid item xs={12}>
+                    <Experience />
+                </Grid>
+                <Grid item xs={12}>
+                    <Skills />
+                </Grid>
+                <Grid item xs={12}>
+                    <Footer />  
+                </Grid>
+            </Grid>
             
-            <Experience />
-            <Skills />
-            <Footer />
     </div>
     
     );
