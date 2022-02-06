@@ -10,6 +10,7 @@ import Skills from './Skills';
 import ScrollToTop from './ScrollToTop';
 
 import Aos from 'aos';
+import Education from './Education';
 
 
 
@@ -62,7 +63,7 @@ const About = ({check}) => {
                     <br />
                     <Grid item xs={1}></Grid>
                     <Grid item xs={10}>                    
-                        <p style={{fontSize:"90%"}} data-aos="fade-right">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                        <p style={{fontSize:"90%"}} data-aos="fade-right">Motivated Computer Science undergraduate at Nanyang Technological University with 1.5 years experience in web development. Actively looking for intership in Summer of 2022.</p>
                     </Grid>
                     <Grid item xs={1}></Grid>
                 </Grid>
@@ -76,6 +77,9 @@ const About = ({check}) => {
                 </Grid>
                 <Grid item xs={12}>
                     <Skills />
+                </Grid>
+                <Grid item xs={12}>
+                    <Education />
                 </Grid>
                 <Grid item xs={12}>
                     <Footer />  
