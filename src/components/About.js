@@ -26,7 +26,7 @@ const About = ({check}) => {
     useEffect(()=>{
         Aos.init({ duration: 500,
             mirror: "true",
-            anchorPlacement:"center-bottom" });
+            anchorPlacement:"top-bottom" });
         
         if(window.innerWidth<960){
             setPosition(false);
