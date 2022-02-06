@@ -4,6 +4,7 @@ import Navigationbar from './Navigationbar';
 import AboutCard from '../components/AboutCard.js';
 
 
+import Footer from './Footer';
 import Experience from './Experience';
 import Skills from './Skills';
 import ScrollToTop from './ScrollToTop';
@@ -72,7 +73,7 @@ const About = ({check}) => {
             
             <Experience />
             <Skills />
-        
+            <Footer />
     </div>
     
     );
