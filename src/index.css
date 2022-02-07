@@ -106,13 +106,14 @@ a{
 
 #footerContainer { 
   padding-top: 7vmin;
-  
+
+  border-top: #e6e6e6 solid 1px;
   text-align: center;
   
 }
 
 .socialLogo {
-  max-width: 4vmin;
+  max-width: 6vmin;
   
 }
 
