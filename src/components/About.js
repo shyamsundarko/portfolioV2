@@ -48,8 +48,8 @@ const About = ({check}) => {
             <Grid container style={{paddingTop:"25vmin", paddingBottom:"11vmin", borderBottom:"solid #253775", borderBottomWidth:"thin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
             <ScrollToTop />
             
-                <Grid item xs={2} md={2} lg={3}></Grid>
-                <Grid item xs={8} md={5} lg={4} style={{ marginTop: top, marginBottom: bottom }} data-aos="zoom-in-up" data-aos-duration="300">
+                <Grid item xs={2} md={2} lg={3} xl={4}></Grid>
+                <Grid item xs={8} md={5} lg={4} xl={3} style={{ marginTop: top, marginBottom: bottom }} data-aos="zoom-in-up" data-aos-duration="300">
                     <AboutCard wid={wid}  />
                 </Grid>
                 <Grid item xs={2} md={1} lg={1}></Grid>

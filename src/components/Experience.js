@@ -11,8 +11,8 @@ const Experience = () => {
   return (
     <Grid container id="experienceContainer" >
     <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps"}}>Work Experience</Grid>
-    <Grid item xs={1} md={2}></Grid>
-
+    
+    <Grid item xs={1} md={2} ></Grid>
     <Grid item xs={10} md={3}>
         <Card className='experienceCard'>
             <Card.Img variant="top" src={continental} ></Card.Img>
