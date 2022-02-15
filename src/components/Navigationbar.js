@@ -15,16 +15,17 @@ const Navigationbar = ({check}) => {
   
    
    useEffect(()=>{
-      
-         const gapMargin = window.innerHeight/2;
-         setGap(gapMargin+"px");
-         setTopGap((gapMargin*0.65)+"px");
-         
+      const gapMargin = window.innerHeight/2;
+
          if(window.innerWidth<600){
             setFSize("1.5rem");
+            setGap(gapMargin+"px");
+            setTopGap((gapMargin*0.75)+"px");
          }
          else{
             setFSize("4vmin");
+            setTopGap((gapMargin*0.64)+"px");
+            setGap(gapMargin+"px");
          }
      
    },[])
