@@ -21,7 +21,7 @@ const Education = () => {
             </Grid>
             <Grid item xs={12}>
                 <h5 style={{fontWeight:"600"}}>Bachelor of Engineering in Computer Science</h5>
-                <h6 style={{fontStyle:"italic", fontWeight:"400"}}>August 2019 - May 2023</h6>
+                <h6 style={{fontStyle:"italic", fontWeight:"400"}} className="text-muted">August 2019 - May 2023</h6>
                 <h6>CGPA: 4.24</h6>
             </Grid>
             <Grid item  xs={1}></Grid>
@@ -45,7 +45,7 @@ const Education = () => {
             </Grid>
             <Grid item xs={12}>
                 <h5 style={{fontWeight:"600"}}>CBSE XII ('A' level equivalent)</h5>
-                <h6 style={{fontStyle:"italic", fontWeight:"400"}}>Board Exam</h6>
+                <h6 style={{fontStyle:"italic", fontWeight:"400"}} className="text-muted">Board Exam</h6>
                 <h6>Percentage: 94%</h6>
             </Grid>
             <Grid item  xs={1}></Grid>

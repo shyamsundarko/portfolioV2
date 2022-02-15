@@ -30,77 +30,77 @@ const Skills = () => {
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card  className='customCard'>
                         <Card.Img variant="top" src={react} className='customCardImg' ></Card.Img>
-                        <Card.Title style={{fontSize:"2.5vmin"}}>ReactJS</Card.Title>
+                        <Card.Title style={{fontSize:"2vmin"}}>ReactJS</Card.Title>
                         </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                             <Card className='customCard'>
                                 <Card.Img variant="top" src={node} className='customCardImg' ></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>NodeJS</Card.Title>
+                                <Card.Title style={{fontSize:"2vmin"}}>NodeJS</Card.Title>
                             </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card className='customCard'>
                                 <Card.Img variant="top" src={html5} className='customCardImg'></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>HTML5</Card.Title>
+                                <Card.Title style={{fontSize:"2vmin"}}>HTML5</Card.Title>
                             </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card className='customCard'>
                                 <Card.Img variant="top" src={css3} className='customCardImg'></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>CSS3</Card.Title>
+                                <Card.Title style={{fontSize:"2vmin"}}>CSS3</Card.Title>
                             </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card className='customCard'>
                                 <Card.Img variant="top" src={java} className='customCardImg'></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>Java</Card.Title>
+                                <Card.Title style={{fontSize:"2vmin"}}>Java</Card.Title>
                             </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card className='customCard'>
                                 <Card.Img variant="top" src={mysql} className='customCardImg'></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>SQL</Card.Title>
+                                <Card.Title style={{fontSize:"2vmin"}}>SQL</Card.Title>
                             </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card className='customCard'>
                                 <Card.Img variant="top" src={mongo} className='customCardImg'></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>MongoDB</Card.Title>
+                                <Card.Title style={{fontSize:"2vmin"}}>MongoDB</Card.Title>
                             </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card className='customCard'>
                                 <Card.Img variant="top" src={XD} className='customCardImg'></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>Adobe XD</Card.Title>
+                                <Card.Title style={{fontSize:"2vmin"}}>Adobe XD</Card.Title>
                             </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card className='customCard'>
                                 <Card.Img variant="top" src={PS} className='customCardImg'></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>Photoshop</Card.Title>
+                                <Card.Title style={{fontSize:"1.9vmin"}}>Photoshop</Card.Title>
                             </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card className='customCard'>
                                 <Card.Img variant="top" src={figma} className='customCardImg'></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>Figma</Card.Title>
+                                <Card.Title style={{fontSize:"2vmin"}}>Figma</Card.Title>
                             </Card>
                         </Col>
                         <Col></Col>
                         <Col data-aos="zoom-in" data-aos-duration="400">
                         <Card className='customCard'>
                                 <Card.Img variant="top" src={git} className='customCardImg'></Card.Img>
-                                <Card.Title style={{fontSize:"2.5vmin"}}>Github</Card.Title>
+                                <Card.Title style={{fontSize:"2vmin"}}>Github</Card.Title>
                             </Card>
                         </Col>
                     </Row>

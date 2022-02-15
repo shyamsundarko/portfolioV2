@@ -26,7 +26,7 @@ const Experience = () => {
             <h4 style={{fontWeight:"400", fontSize:"4vmin"}} className='resumeFont' >Continental Automotive Pte. Ltd.</h4>
         </Grid>
         <Grid item xs={12}>
-            <h5 style={{fontWeight:"600"}}>Software Developer Intern</h5>
+            <h5 style={{fontWeight:"600"}} className="text-muted">Software Developer Intern</h5>
         </Grid>
         
         <Grid item  xs={1}></Grid>
