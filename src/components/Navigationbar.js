@@ -15,17 +15,17 @@ const Navigationbar = ({check}) => {
   
    
    useEffect(()=>{
-      if(window.innerWidth<768){
+      
          const gapMargin = window.innerHeight/2;
          setGap(gapMargin+"px");
          setTopGap((gapMargin*0.65)+"px");
-         setFSize("1.5rem");
-      }
-      else{
-         setTopGap("0");
-         setGap("2vmin");
-         setFSize("2vmin");
-      }
+         
+         if(window.innerWidth<600){
+            setFSize("1.5rem");
+         }
+         else{
+            setFSize("4vmin");
+         }
      
    },[])
 
@@ -70,7 +70,7 @@ const Navigationbar = ({check}) => {
    
     return (
       
-         <Navbar collapseOnSelect expand="md"   className={background ? 'quickLinksWhite fixed-top' : 'quickLinks fixed-top'} >
+         <Navbar collapseOnSelect expand="xxxl"   className={background ? 'quickLinksWhite fixed-top' : 'quickLinks fixed-top'} >
             <Container fluid>
                <Navbar.Brand href="#home"><img src={background ? logoBlack : logo } alt="shyam's website logo" id="logo"></img></Navbar.Brand>
                <Navbar.Toggle aria-controls="responsive-navbar-nav" id="hamburger"/>
