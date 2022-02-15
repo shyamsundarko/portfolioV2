@@ -77,7 +77,7 @@ const Navigationbar = ({check}) => {
                <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto"></Nav> 
                   <Nav>
-                     <a href="/" style={{fontSize: fSize, marginTop: topGap, marginBottom:"2vmin"}}>Home</a>
+                     <Link to="/" style={{fontSize: fSize, marginTop: topGap, marginBottom:"2vmin"}}>Home</Link>
                      <a href='/#projectsSection' style={{fontSize: fSize, marginBottom: "2vmin"}}>Projects</a>
                      <Link to="/About" style={{fontSize: fSize, marginBottom: "2vmin"}}>About</Link>
                      <a href='/#footerContainer' style={{fontSize: fSize, marginBottom: gap}}>Contact</a>
