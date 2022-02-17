@@ -63,7 +63,7 @@ const About = ({check}) => {
                     <br />
                     <Grid item xs={1}></Grid>
                     <Grid item xs={10}>                    
-                        <p style={{fontSize:"90%"}} data-aos="fade-right" className='text-muted'>Motivated Computer Science undergraduate at Nanyang Technological University with 1.5 years experience in web development. Actively looking for intership in Summer of 2022.</p>
+                        <p style={{fontSize:"90%"}} data-aos="fade-right" className='text-muted'>Motivated Computer Science undergraduate at Nanyang Technological University with 1.5 years experience in web development. Actively looking for internship in Summer of 2022.</p>
                     </Grid>
                     <Grid item xs={1}></Grid>
                 </Grid>
