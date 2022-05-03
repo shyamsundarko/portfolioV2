@@ -15,7 +15,7 @@ const Navigationbar = ({check}) => {
   
    
    useEffect(()=>{
-      const gapMargin = window.innerHeight/2;
+      const gapMargin = window.innerHeight/1.9;
 
          if(window.innerWidth<600){
             setFSize("1.5rem");
