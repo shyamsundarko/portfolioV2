@@ -22,7 +22,7 @@ const Education = () => {
             <Grid item xs={12}>
                 <h5 style={{fontWeight:"600"}}>Bachelor of Engineering in Computer Science</h5>
                 <h6 style={{fontStyle:"italic", fontWeight:"400"}} className="text-muted">August 2019 - May 2023</h6>
-                <h6>CGPA: 4.24</h6>
+                <h6>CGPA: 4.18</h6>
             </Grid>
             <Grid item  xs={1}></Grid>
             <Grid item  xs={10}></Grid>
