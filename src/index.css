@@ -22,6 +22,12 @@ a{
 
 }
 
+.stateColor{
+  color: rgb(49, 77, 168);
+}
+.cityColor{
+  color: #e6d02f;
+}
 
 .quickLinks, .quickLinksWhite{
   background-color: #101010;
@@ -54,20 +60,27 @@ a{
 }
 
 #introText {
-  font-size: 6vmin;
+  font-size: 8vmin;
   text-align: center;
   color: rgb(240, 240, 240);
   font-weight: 600;
 }
-
+.introSub{
+  font-size: 4vmin;
+  text-align: center;
+  color: rgb(240, 240, 240);
+  font-weight: 600;
+}
 .SubText{
   
-  color: rgba(216, 215, 215, 0.61);
+  color: rgba(216, 215, 215, 0.781);
   font-weight: 300;
   font-size: 2vmin;
   padding-top: 3vmin;
 }
-
+.colorize{
+  color: rgb(202, 49, 49);
+}
 #projectsSection {
   
   background-color: white;
@@ -117,12 +130,7 @@ a{
   
 }
 
-#flagColors {
-  
-  background: linear-gradient(360deg, #ffffff 32%, #ff0000 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 #headerText {
   margin-top: 1rem;

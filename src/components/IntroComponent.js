@@ -1,7 +1,7 @@
 
 import Grid from '@material-ui/core/Grid'
 import { useEffect, useState } from 'react'
-
+import locationPin from "../images/locationPin.png"
 
 const IntroComponent = () => {
 
@@ -29,7 +29,10 @@ const IntroComponent = () => {
     return (
         <Grid container id="introContainer" style={{paddingTop: marginScreenTop}} >
           <Grid item xs={1} xl={3}></Grid>
-          <Grid item xs={10} xl={6} id="introText" data-aos="fade-right" >I am Shyam, a web developer based in <span id='flagColors'>Singapore</span></Grid>
+          <Grid item xs={10} xl={6} id="introText" data-aos="fade-right" ><span className="colorize">Hey!</span> I'm Shyam</Grid>
+          <Grid item xs={1} xl={3}></Grid>
+          <Grid item xs={1} xl={3}></Grid>
+          <Grid item xs={10} xl={6}  className="introSub" data-aos="fade-right" >A Software Engineer in <span className="cityColor">Boston</span>, <span className="stateColor">MA</span></Grid>
           <Grid item xs={1} xl={3}></Grid>
           <Grid item xs={3} xl={4}></Grid>
           <Grid item xs={6} xl={4} className="SubText" data-aos="fade-up" >Being a professional photographer, I have an eye for all things beautiful and aim to demonstrate that through the websites I create.</Grid>
