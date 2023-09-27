@@ -1,7 +1,7 @@
 
 import Grid from '@material-ui/core/Grid'
 import { useEffect, useState } from 'react'
-import locationPin from "../images/locationPin.png"
+
 
 const IntroComponent = () => {
 
