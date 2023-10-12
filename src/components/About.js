@@ -47,12 +47,12 @@ const About = ({check}) => {
         <Navigationbar check={check}/>
             <Grid container style={{paddingTop:"13vmin", paddingBottom:"11vmin", borderBottom:"solid #253775", borderBottomWidth:"thin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
             <ScrollToTop />
-                <Grid item lg={1} />
-                <Grid item lg={4}>
+                <Grid item xs={2} lg={1} />
+                <Grid item xs={8} lg={4}>
                     <AboutCard wid={wid}/>
                 </Grid>
-                <Grid item lg={1} />
-                <Grid item lg={6}>
+                <Grid item xs={2} lg={1} />
+                <Grid item xs={12} lg={6}>
                 <p style={{fontSize:"98%", margin:"10%"}} data-aos="fade-right" >
                     Currently pursuing a Masters in
                     <div style={{color:"#72b383", fontSize:"130%"}}>Software Engineering Systems @ Northeastern</div>
@@ -83,6 +83,9 @@ const About = ({check}) => {
     
     );
 }
+
+export default About;
+
 
 export default About;
 
