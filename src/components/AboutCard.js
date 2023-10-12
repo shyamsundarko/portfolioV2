@@ -15,8 +15,7 @@ const AboutCard = ({wid}) => {
         <Card.Title style={{fontSize:"5vmin", fontWeight:"600"}}>Shyam Sundar</Card.Title>
         <hr />
         <Card.Text style={{fontFamily:"Roboto Mono, Times New Roman", fontWeight:"400", fontSize:"3vmin"}}>
-            
-            Software Developer 
+            Software Engineer 
         </Card.Text>
         <Grid container>
             <Grid item xs={2} style={{backgroundColor:"white"}}></Grid>
@@ -37,3 +36,4 @@ const AboutCard = ({wid}) => {
 }
 
 export default AboutCard;
+
