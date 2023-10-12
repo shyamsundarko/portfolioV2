@@ -86,6 +86,3 @@ const About = ({check}) => {
 
 export default About;
 
-
-export default About;
-
