@@ -56,7 +56,7 @@ const About = ({check}) => {
                 <Grid item xs={12} md={6} lg={6} >
                 <p style={{fontSize:"2.4vmin", margin:"2.5% 10% 5% 10%"}} data-aos="fade-right" >
                     Currently pursuing a Masters in<br /> 
-                    <div style={{color:"#72b383", fontSize:"2.9vmin"}}>Software Engineering Systems @ Northeastern</div><br /> 
+                    <div style={{color:"#37a153", fontSize:"2.9vmin"}}>Software Engineering Systems @ Northeastern</div><br /> 
                     following the successful completion of my degree in
                     <div style={{fontSize:"2.9vmin", color:"#3d6ba6"}}>Computer Science @ NTU Singapore</div>
                     <br/>
