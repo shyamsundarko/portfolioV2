@@ -54,13 +54,13 @@ const About = ({check}) => {
                 <Grid item xs={2} md={1} lg={1} />
                 
                 <Grid item xs={12} md={6} lg={6} >
-                <p style={{fontSize:"2.2vmin", margin:"2.5% 10% 5% 10%"}} data-aos="fade-right" >
+                <p style={{fontSize:"2.4vmin", margin:"2.5% 10% 5% 10%"}} data-aos="fade-right" >
                     Currently pursuing a Masters in<br /> 
-                    <div style={{color:"#72b383", fontSize:"2.7vmin"}}>Software Engineering Systems @ Northeastern</div><br /> 
+                    <div style={{color:"#72b383", fontSize:"2.9vmin"}}>Software Engineering Systems @ Northeastern</div><br /> 
                     following the successful completion of my degree in
-                    <div style={{fontSize:"2.7vmin", color:"#3d6ba6"}}>Computer Science @ NTU Singapore</div>
+                    <div style={{fontSize:"2.9vmin", color:"#3d6ba6"}}>Computer Science @ NTU Singapore</div>
                     <br/>
-                     <div style={{color:"#4f5359", fontSize:"2.2vmin"}}>I excel in dynamic environments, embracing complex challenges with enthusiasm and precision. A quick learner, I eagerly acquire new skills and maintain an organized, curious approach. I consistently explore emerging tools and technologies to stay at the forefront of the field.</div>
+                     <div style={{color:"#4f5359"}}>I excel in dynamic environments, embracing complex challenges with enthusiasm and precision. A quick learner, I eagerly acquire new skills and maintain an organized, curious approach. I consistently explore emerging tools and technologies to stay at the forefront of the field.</div>
                 </p>
                 </Grid>
             </Grid>
