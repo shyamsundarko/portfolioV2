@@ -44,7 +44,7 @@ const About = ({check}) => {
     },[])
   return (
     <div>
-        <Navigationbar check={check}/>
+        
             <Grid container style={{paddingTop:"13vmin", paddingBottom:"11vmin", borderBottom:"solid #253775", borderBottomWidth:"thin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
             <ScrollToTop />
                 <Grid item xs={2} lg={1} />
@@ -54,13 +54,13 @@ const About = ({check}) => {
                 <Grid item xs={2} md={1} lg={1} />
                 
                 <Grid item xs={12} md={6} lg={6} >
-                <p style={{fontSize:"2.5vmin", margin:"10%"}} data-aos="fade-right" >
-                    Currently pursuing a Masters in
-                    <div style={{color:"#72b383", fontSize:"3vmin"}}>Software Engineering Systems @ Northeastern</div>
+                <p style={{fontSize:"2.2vmin", margin:"2.5% 10% 5% 10%"}} data-aos="fade-right" >
+                    Currently pursuing a Masters in<br /> 
+                    <div style={{color:"#72b383", fontSize:"2.7vmin"}}>Software Engineering Systems @ Northeastern</div><br /> 
                     following the successful completion of my degree in
-                    <div style={{fontSize:"3vmin", color:"#3d6ba6"}}>Computer Science @ NTU Singapore</div>
+                    <div style={{fontSize:"2.7vmin", color:"#3d6ba6"}}>Computer Science @ NTU Singapore</div>
                     <br/>
-                     <div style={{color:"#4f5359"}}>I thrive in fast-paced environments, relishing the opportunity to tackle complex problems with passion and precision. While I may not know everything, I excel at swiftly picking up new skills and am always eager to learn. Known for my organized approach and insatiable curiosity, I'm a motivated learner who constantly seeks to try out new tools and technologies, ensuring I stay at the cutting edge of the field.</div>
+                     <div style={{color:"#4f5359", fontSize:"2.2vmin"}}>I excel in dynamic environments, embracing complex challenges with enthusiasm and precision. A quick learner, I eagerly acquire new skills and maintain an organized, curious approach. I consistently explore emerging tools and technologies to stay at the forefront of the field.</div>
                 </p>
                 </Grid>
             </Grid>
@@ -72,7 +72,6 @@ const About = ({check}) => {
                 <Grid item xs={12}>
                     <Experience />
                 </Grid>
-                
                 <Grid item xs={12}>
                     <Skills />
                 </Grid>
@@ -86,5 +85,6 @@ const About = ({check}) => {
 }
 
 export default About;
+
 
 
