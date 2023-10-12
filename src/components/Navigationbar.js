@@ -7,8 +7,7 @@ import {Container, Nav, Navbar} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 
-const Navigationbar = ({check}) => {
-   const [background, setBackground] = useState(false);
+const Navigationbar = ({check, background}) => {
    const [fSize, setFSize] = useState("2vmin");
    const [gap, setGap] = useState("2vmin");
    const [topGap, setTopGap] = useState("0");
@@ -30,58 +29,13 @@ const Navigationbar = ({check}) => {
      
    },[])
 
-   useEffect(() => {
-      if(check==="true"){
-         const changeBackground = () => {
-            if(window.innerHeight>400){
-               
-               if(window.scrollY>=340) {
-                  setBackground(true);
-                }
-                else setBackground(false);
-            }
-            else if (window.innerHeight > 300){
-               
-            
-               if(window.scrollY>=170) {
-                  setBackground(true);
-                }
-                else setBackground(false);
-            }
-            else{
-               
-               if(window.scrollY>=60) {
-                 setBackground(true);
-               }
-               else setBackground(false);
-            }
-           
-         }
-       
-         window.addEventListener('scroll', changeBackground);
-      }
-
       
-      else if(check=="false"){
-            setBackground(true);
-            
-         }
-      },[check]); 
-      
-   
+   console.log("The value of background rn:"+background);
     return (
       
          <Navbar collapseOnSelect expand="xxxl"   className={background ? 'quickLinksWhite fixed-top' : 'quickLinks fixed-top'} >
             <Container fluid>
-               <Navbar.Brand href="/"><img src={background ? logoBlack : logo } alt="shyam's website logo" id="logo"></img></Navbar.Brand>
-               {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" id="hamburger"/>
-               <Navbar.Collapse id="responsive-navbar-nav">
-                  <Nav className="me-auto"></Nav> 
-                  <Nav>
-                     <a href="/" style={{fontSize: fSize, marginTop: topGap, marginBottom:"2vmin"}}>Home</a>
-                     <Link to="/About" style={{fontSize: fSize, marginBottom: gap}}>About</Link>
-                  </Nav>
-               </Navbar.Collapse> */}
+               <Navbar.Brand href="/"><img src={background ? logoBlack : logo } alt="shyam's website logo" id="websiteLogo"></img></Navbar.Brand>
             </Container>
          </Navbar>
        
