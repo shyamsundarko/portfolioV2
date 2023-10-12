@@ -1,3 +1,4 @@
+
 import Grid from '@material-ui/core/Grid'
 import { useEffect, useState } from 'react'
 
@@ -9,8 +10,8 @@ const IntroComponent = () => {
     useEffect(() => {
         
         if(window.innerWidth>600){
-          const marginNew = (window.innerHeight/2)*0.65;
-          const marginTop = marginNew*0.85;
+          const marginNew = (window.innerHeight/2)*0.7;
+          const marginTop = marginNew*0.88;
 
           setMarginScreen(marginNew+"px");
           setMarginScreenTop(marginTop+"px");
