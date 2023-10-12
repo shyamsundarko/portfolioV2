@@ -1,7 +1,7 @@
-
 import Projects from './Projects';
 import { Container} from 'react-bootstrap'
 import IntroComponent from './IntroComponent';
+import About from './About';
 import Footer from './Footer';
 import {useState, useEffect} from 'react';
 import Navigationbar from './Navigationbar';
@@ -44,6 +44,8 @@ const Home = () => {
           
             <Navigationbar check="true"/>
             <IntroComponent />
+            
+            <About />
             <Projects />
             <Footer />
       </Container>
