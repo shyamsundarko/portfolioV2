@@ -1,3 +1,4 @@
+
 import Projects from './Projects';
 import { Container} from 'react-bootstrap'
 import IntroComponent from './IntroComponent';
@@ -10,7 +11,7 @@ const Home = () => {
     const [background, setBackground] = useState(false);
   
     const changeBackground = () => {
-      if(window.innerHeight >400){
+      if(window.innerHeight>400){
         if(window.scrollY>=340) {
            setBackground(true);
          }
@@ -31,7 +32,7 @@ const Home = () => {
     }
     
     window.addEventListener('scroll', changeBackground);
-
+    
     useEffect(()=>{
       Aos.init({ duration: 300,
         mirror: "true",
@@ -42,9 +43,8 @@ const Home = () => {
       
         <Container fluid className={ background ?  "show" : "mainContainer"} >
           
-            <Navigationbar check="true"/>
+            <Navigationbar check="true" background={background}/>
             <IntroComponent />
-            
             <About />
             <Projects />
             <Footer />
@@ -53,3 +53,4 @@ const Home = () => {
 }
 
 export default Home
+
