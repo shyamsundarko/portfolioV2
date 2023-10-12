@@ -45,45 +45,38 @@ const About = ({check}) => {
   return (
     <div>
         <Navigationbar check={check}/>
-            <Grid container style={{paddingTop:"25vmin", paddingBottom:"11vmin", borderBottom:"solid #253775", borderBottomWidth:"thin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
+            <Grid container style={{paddingTop:"13vmin", paddingBottom:"11vmin", borderBottom:"solid #253775", borderBottomWidth:"thin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
             <ScrollToTop />
-            
-                <Grid item xs={2} md={2} lg={3} xl={4}></Grid>
-                <Grid item xs={8} md={5} lg={4} xl={3} style={{ marginTop: top, marginBottom: bottom }} data-aos="zoom-in-up" data-aos-duration="300">
-                    <AboutCard wid={wid}  />
+                <Grid item lg={1} />
+                <Grid item lg={4}>
+                    <AboutCard wid={wid}/>
                 </Grid>
-                <Grid item xs={2} md={1} lg={1}></Grid>
-                <Grid container item xs={12} md={3} lg={3} style={{color:"#212529" }}>
-                    <Grid item xs={12}>
-                        <h2 style={{fontSize:"13vmin", fontWeight:"600"}}>Hello</h2>
-                    </Grid>
-                    <Grid item xs={12}>
-                        <h4 style={{fontWeight:"300"}}>Here is who I am and what I do</h4>
-                    </Grid>
-                    <br />
-                    <Grid item xs={1}></Grid>
-                    <Grid item xs={10}>                    
-                        <p style={{fontSize:"90%"}} data-aos="fade-right" className='text-muted'>Motivated Computer Science undergraduate at Nanyang Technological University with 1.5 years experience in web development. Actively looking for internship in Summer of 2022.</p>
-                    </Grid>
-                    <Grid item xs={1}></Grid>
+                <Grid item lg={1} />
+                <Grid item lg={6}>
+                <p style={{fontSize:"98%", margin:"10%"}} data-aos="fade-right" >
+                    Currently pursuing a Masters in
+                    <div style={{color:"#72b383", fontSize:"130%"}}>Software Engineering Systems @ Northeastern</div>
+                    following the successful completion of my degree in
+                    <div style={{fontSize:"130%", color:"#3d6ba6"}}>Computer Science @ NTU Singapore</div>
+                     <br /> <br /> <br /> 
+                     <div style={{color:"#4f5359"}}>I thrive in fast-paced environments, relishing the opportunity to tackle complex problems with passion and precision. While I may not know everything, I excel at swiftly picking up new skills and am always eager to learn. Known for my organized approach and insatiable curiosity, I'm a motivated learner who constantly seeks to try out new tools and technologies, ensuring I stay at the cutting edge of the field.</div>
+                </p>
                 </Grid>
-                <Grid item xs={12} md={1} lg={1}></Grid>
-                
             </Grid>
             
             <Grid container>
                 <Grid item xs={12}>
-                    <Experience />
-                </Grid>
-                <Grid item xs={12}>
-                    <Skills />
-                </Grid>
-                <Grid item xs={12}>
                     <Education />
                 </Grid>
                 <Grid item xs={12}>
-                    <Footer />  
+                    <Experience />
                 </Grid>
+                
+                <Grid item xs={12}>
+                    <Skills />
+                </Grid>
+                
+                
             </Grid>
             
     </div>
@@ -92,3 +85,4 @@ const About = ({check}) => {
 }
 
 export default About;
+
