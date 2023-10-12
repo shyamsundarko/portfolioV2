@@ -74,14 +74,14 @@ const Navigationbar = ({check}) => {
          <Navbar collapseOnSelect expand="xxxl"   className={background ? 'quickLinksWhite fixed-top' : 'quickLinks fixed-top'} >
             <Container fluid>
                <Navbar.Brand href="/"><img src={background ? logoBlack : logo } alt="shyam's website logo" id="logo"></img></Navbar.Brand>
-               <Navbar.Toggle aria-controls="responsive-navbar-nav" id="hamburger"/>
+               {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" id="hamburger"/>
                <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto"></Nav> 
                   <Nav>
                      <a href="/" style={{fontSize: fSize, marginTop: topGap, marginBottom:"2vmin"}}>Home</a>
                      <Link to="/About" style={{fontSize: fSize, marginBottom: gap}}>About</Link>
                   </Nav>
-               </Navbar.Collapse>
+               </Navbar.Collapse> */}
             </Container>
          </Navbar>
        
@@ -91,3 +91,4 @@ const Navigationbar = ({check}) => {
 }
 
 export default Navigationbar
+
