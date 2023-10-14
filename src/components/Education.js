@@ -6,7 +6,7 @@ import northeasternlogo from '../images/northeasternlogo.svg';
 const Education = () => {
   return (
     <Grid container style={{borderBottom:"solid 1px #a4a5a6"}}>
-        <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps", paddingTop:"2vmin", marginBottom:"4vmin"}}>Education</Grid>
+        <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps", paddingTop:"2vmin", marginBottom:"2vmin"}}>Education</Grid>
 
         {/* This is for Northeastern */}
         <Grid container style={{paddingBottom:"7vmin", paddingTop:"3vmin"}}>
