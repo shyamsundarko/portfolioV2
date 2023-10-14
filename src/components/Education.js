@@ -2,58 +2,39 @@ import { Grid } from '@material-ui/core';
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import ntulogo from '../images/ntulogo.jpg';
-import giislogo from '../images/giislogo.jpeg';
+import northeasternlogo from '../images/northeasternlogo.svg';
 const Education = () => {
   return (
-    <Grid container>
+    <Grid container style={{borderBottom:"solid #a4a5a6"}}>
         <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps", paddingTop:"2vmin", marginBottom:"4vmin"}}>Education</Grid>
-        
-    <Grid item xs={1} xl={2}></Grid>
-        <Grid item xs={10} md={3} xl={2}>
-            <Card className='experienceCard'>
-                <Card.Img variant="top" src={ntulogo} ></Card.Img>
-            </Card>
-        </Grid>
-        <Grid item xs={1} ></Grid>
-        <Grid container item xs={12} md={4} >
-            <Grid item xs={12}>                      
-                <h4 style={{fontWeight:"400", fontSize:"4vmin"}} className='resumeFont' >Nanyang Technological University</h4>
-            </Grid>
-            <Grid item xs={12}>
-                <h5 style={{fontWeight:"600"}}>Bachelor of Engineering in Computer Science</h5>
-                <h6 style={{fontStyle:"italic", fontWeight:"400"}} className="text-muted">August 2019 - May 2023</h6>
-                <h6>CGPA: 4.18</h6>
-            </Grid>
-            <Grid item  xs={1}></Grid>
-            <Grid item  xs={10}></Grid>
-            <Grid item  xs={1}></Grid>
-        </Grid>
-        <Grid item xs={12} md={3} ></Grid>
 
-        
-
-        <Grid item xs={1} xl={2}></Grid>
-        <Grid item xs={10} md={3} xl={2}>
-            <Card className='experienceCard'>
-                <Card.Img variant="top" src={giislogo} ></Card.Img>
-            </Card>
-        </Grid>
-        <Grid item xs={1} ></Grid>
-        <Grid container item xs={12} md={4} >
-            <Grid item xs={12}>                      
-                <h4 style={{fontWeight:"400", fontSize:"4vmin"}} className='resumeFont' >Global Indian International School</h4>
+        {/* This is for Northeastern */}
+        <Grid container style={{paddingBottom:"5vmin"}}>
+            <Grid item xs={12} md={3} />
+            <Grid item xs={12} md={3}>
+                <img src={northeasternlogo} alt="Northeastern logo" style={{width: "90%"}}/>
             </Grid>
-            <Grid item xs={12}>
-                <h5 style={{fontWeight:"600"}}>CBSE XII ('A' level equivalent)</h5>
-                <h6 style={{fontStyle:"italic", fontWeight:"400"}} className="text-muted">Board Exam</h6>
-                <h6>Percentage: 94%</h6>
+            <Grid item xs={12} md={1} />
+            <Grid item xs={12} md={3}  style={{paddingTop:"3vmin"}}>
+                <h4 style={{fontSize:"3.5vmin", color:"#353638", fontWeight:"600"}}>Northeastern University</h4>
+                <h5 style={{fontSize: "2.5vmin", color:"#5d6063", fontWeight:"500"}}>Masters in Software Engineering Systems</h5>
             </Grid>
-            <Grid item  xs={1}></Grid>
-            <Grid item  xs={10}></Grid>
-            <Grid item  xs={1}></Grid>
+            <Grid item xs={12} md={2}/>
         </Grid>
-        <Grid item xs={12} md={2} ></Grid>
-        
+        {/* This is for NTU */}
+        <Grid container style={{paddingBottom: "7vmin"}}>
+            <Grid item xs={12} md={3} />
+            <Grid item xs={12} md={3}>
+                <img src={ntulogo} alt="Ntu logo" style={{width: "90%"}}/>
+            </Grid>
+            <Grid item xs={12} md={1} />
+            <Grid item xs={12} md={3} style={{paddingTop:"3vmin"}}>
+                <h4 style={{fontSize:"3.5vmin", color:"#353638", fontWeight:"600"}}>Nanyang Technological University</h4>
+                <h5 style={{fontSize: "2.5vmin", color:"#5d6063", fontWeight:"500"}}>Bachelor of Engineering in Computer Science</h5>
+                <h6 style={{fontSize:"2vmin", color:"#5d6063"}}>CGPA: 4.11</h6>
+            </Grid>
+            <Grid item xs={12} md={2} />
+        </Grid>
     
     </Grid>
     

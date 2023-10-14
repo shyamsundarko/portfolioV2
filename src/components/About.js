@@ -75,8 +75,6 @@ const About = ({check}) => {
                 <Grid item xs={12}>
                     <Skills />
                 </Grid>
-                
-                
             </Grid>
             
     </div>
