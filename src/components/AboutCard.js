@@ -10,7 +10,7 @@ import {Card} from 'react-bootstrap';
 const AboutCard = ({wid}) => {
   return (
     <Card style={{ width: {wid} }} id="customCard">
-    <Card.Img  src={profilepic} style={{borderRadius:"1%", width:"93%", margin:"1vw"}} />
+    <Card.Img  src={profilepic} style={{borderRadius:"1%", width:"100%", padding:"1vw"}} />
 </Card>
   );
 }
