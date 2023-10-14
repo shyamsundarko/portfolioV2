@@ -12,7 +12,7 @@ const Education = () => {
         <Grid container style={{paddingBottom:"7vmin", paddingTop:"3vmin"}}>
             <Grid item xs={12} md={3} />
             <Grid item xs={12} md={3}>
-                <img src={northeasternlogo} alt="Northeastern logo" style={{width: "90%"}}/>
+                <img src={northeasternlogo} alt="Northeastern logo" style={{width: "80%"}}/>
             </Grid>
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={3}  style={{paddingTop:"3vmin"}}>
@@ -25,7 +25,7 @@ const Education = () => {
         <Grid container style={{paddingBottom: "7vmin"}}>
             <Grid item xs={12} md={3} />
             <Grid item xs={12} md={3}>
-                <img src={ntulogo} alt="Ntu logo" style={{width: "90%"}}/>
+                <img src={ntulogo} alt="Ntu logo" style={{width: "80%"}}/>
             </Grid>
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={3} style={{paddingTop:"3vmin"}}>

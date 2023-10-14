@@ -16,7 +16,7 @@ const Experience = () => {
     <Grid container style={{paddingBottom:"5vmin", paddingTop: "5vmin"}}>
             <Grid item xs={12} md={3} />
             <Grid item xs={12} md={3}>
-                <img src={accenture} alt="Accenture logo" style={{width: "90%"}}/>
+                <img src={accenture} alt="Accenture logo" style={{width: "80%", paddingBottom:"2vmin"}}/>
             </Grid>
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={3} >
@@ -40,7 +40,7 @@ const Experience = () => {
     <Grid container style={{paddingBottom:"5vmin", paddingTop: "5vmin"}}>
             <Grid item xs={12} md={3} />
             <Grid item xs={12} md={3}>
-                <img src={continental} alt="Continental logo" style={{width: "90%"}}/>
+                <img src={continental} alt="Continental logo" style={{width: "80%", paddingBottom:"2vmin"}}/>
             </Grid>
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={3} >
