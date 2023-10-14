@@ -23,13 +23,13 @@ const Experience = () => {
                 <h4 style={{fontSize:"3.5vmin", color:"#353638", fontWeight:"600"}}>Accenture Singapore</h4>
                 <h5 style={{paddingBottom:"1.5vmin", fontSize:"2vmin", color:"#a200ff"}}>Operations Support Practitioner Intern</h5>
                 <h5 style={{fontSize: "2.2vmin", color:"#5d6063", fontWeight:"500", width:"90%", margin: "0 auto"}}>
-                    <p >Supported project leads with critical project activities.
+                    <p >Worked on a major healthcare system in Singapore and supported project leads with critical project tasks
                         <br/>
                         <hr style={{width: "20%", margin: "0 auto", marginTop: "1.5vmin", marginBottom: "1.5vmin"}} />
-                        Improved the codebase's quality assurance by 40% by debugging and implementing fixes for issues highlighted by Fortify.
+                        Improved the codebase's quality assurance by 40% by debugging and implementing fixes for issues
                         <br />
                         <hr style={{width: "20%", margin: "0 auto", marginTop: "1.5vmin", marginBottom: "1.5vmin"}} />
-                        Collaborated with techno-functional and offshore team leads to get a high level view of consulting.
+                        Collaborated with techno-functional teams to deliver seamless solutions to address client’s concerns
                     </p>
                     
                 </h5>
