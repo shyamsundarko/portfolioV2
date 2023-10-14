@@ -13,7 +13,7 @@ const Experience = () => {
     <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps"}}>Work Experience</Grid>
     
     {/* Accenture */}
-    <Grid container style={{paddingBottom:"5vmin", paddingTop: "5vmin"}}>
+    <Grid container style={{paddingBottom:"5vmin", paddingTop: "7vmin"}}>
             <Grid item xs={12} md={3} />
             <Grid item xs={12} md={3}>
                 <img src={accenture} alt="Accenture logo" style={{width: "80%", paddingBottom:"2vmin"}}/>
@@ -21,7 +21,7 @@ const Experience = () => {
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={3} >
                 <h4 style={{fontSize:"3.5vmin", color:"#353638", fontWeight:"600", paddingBottom:"2vmin"}}>Accenture Singapore</h4>
-                <h5 style={{fontSize: "2.2vmin", color:"#5d6063", fontWeight:"500", width:"80%", margin: "0 auto"}}>
+                <h5 style={{fontSize: "2.2vmin", color:"#5d6063", fontWeight:"500", width:"90%", margin: "0 auto"}}>
                     <p >Supported project leads with critical project activities.
                         <br/>
                         <hr style={{width: "20%", margin: "0 auto", marginTop: "1.5vmin", marginBottom: "1.5vmin"}} />
@@ -40,7 +40,7 @@ const Experience = () => {
     <Grid container style={{paddingBottom:"5vmin", paddingTop: "5vmin"}}>
             <Grid item xs={12} md={3} />
             <Grid item xs={12} md={3}>
-                <img src={continental} alt="Continental logo" style={{width: "80%", paddingBottom:"2vmin"}}/>
+                <img src={continental} alt="Continental logo" style={{width: "90%", paddingBottom:"2vmin"}}/>
             </Grid>
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={3} >
