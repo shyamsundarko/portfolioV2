@@ -9,7 +9,7 @@ const Education = () => {
         <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps", paddingTop:"2vmin", marginBottom:"4vmin"}}>Education</Grid>
 
         {/* This is for Northeastern */}
-        <Grid container style={{paddingBottom:"5vmin"}}>
+        <Grid container style={{paddingBottom:"7vmin", paddingTop:"3vmin"}}>
             <Grid item xs={12} md={3} />
             <Grid item xs={12} md={3}>
                 <img src={northeasternlogo} alt="Northeastern logo" style={{width: "90%"}}/>

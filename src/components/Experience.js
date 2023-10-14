@@ -12,61 +12,54 @@ const Experience = () => {
     <Grid container id="experienceContainer" >
     <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps"}}>Work Experience</Grid>
     
-    <Grid item xs={1} md={2} ></Grid>
-    <Grid item xs={10} md={3}>
-        <Card className='experienceCard'>
-            <Card.Img variant="top" src={accenture} ></Card.Img>
-        </Card>
-    </Grid>
-    <Grid item xs={1} ></Grid>
-    <Grid container item xs={12} md={4} >
-        <Grid item xs={12}>                      
-            <h4 style={{fontWeight:"400", fontSize:"4vmin"}} className='resumeFont' >Accenture Pte. Ltd.</h4>
-        </Grid>
-        <Grid item xs={12}>
-            <h5 style={{fontWeight:"600"}} className="text-muted">Ops Support Practitioner Intern</h5>
-        </Grid>
-        
-        <Grid item  xs={1}></Grid>
-        <Grid item  xs={10}>
-            <ul style={{textAlign:"left", fontSize:"90%"}}>
-                <li>Supported project leads with critical project activities.</li>
-                <li>Improved the codebase's quality assurance by 40% by debugging and implementing fixes for issues highlighted by Fortify.</li>
-                <li>Collaborated with techno-functional and offshore team leads to get a high level view of consulting.</li>
-            </ul>
-        </Grid>
-        <Grid item  xs={1}></Grid>
+    {/* Accenture */}
+    <Grid container style={{paddingBottom:"5vmin", paddingTop: "5vmin"}}>
+            <Grid item xs={12} md={3} />
+            <Grid item xs={12} md={3}>
+                <img src={accenture} alt="Accenture logo" style={{width: "90%"}}/>
+            </Grid>
+            <Grid item xs={12} md={1} />
+            <Grid item xs={12} md={3} >
+                <h4 style={{fontSize:"3.5vmin", color:"#353638", fontWeight:"600", paddingBottom:"2vmin"}}>Accenture Singapore</h4>
+                <h5 style={{fontSize: "2.2vmin", color:"#5d6063", fontWeight:"500", width:"80%", margin: "0 auto"}}>
+                    <p >Supported project leads with critical project activities.
+                        <br/>
+                        <hr style={{width: "20%", margin: "0 auto", marginTop: "1.5vmin", marginBottom: "1.5vmin"}} />
+                        Improved the codebase's quality assurance by 40% by debugging and implementing fixes for issues highlighted by Fortify.
+                        <br />
+                        <hr style={{width: "20%", margin: "0 auto", marginTop: "1.5vmin", marginBottom: "1.5vmin"}} />
+                        Collaborated with techno-functional and offshore team leads to get a high level view of consulting.
+                    </p>
+                    
+                </h5>
+            </Grid>
+            <Grid item xs={12} md={2}/>
     </Grid>
 
-    <Grid item xs={12} ></Grid>
-    <Grid item xs={12} ></Grid>
+    {/* Continental */}
+    <Grid container style={{paddingBottom:"5vmin", paddingTop: "5vmin"}}>
+            <Grid item xs={12} md={3} />
+            <Grid item xs={12} md={3}>
+                <img src={continental} alt="Continental logo" style={{width: "90%"}}/>
+            </Grid>
+            <Grid item xs={12} md={1} />
+            <Grid item xs={12} md={3} >
+                <h4 style={{fontSize:"3.5vmin", color:"#353638", fontWeight:"600", paddingBottom:"2vmin"}}>Continental Automotive Singapore</h4>
+                <h5 style={{fontSize: "2.2vmin", color:"#5d6063", fontWeight:"500", width:"80%", margin: "0 auto"}}>
+                    <p >Developed unit tests for software module qualification.
+                        <br/>
+                        <hr style={{width: "20%", margin: "0 auto", marginTop: "1.5vmin", marginBottom: "1.5vmin"}} />
+                        Debugged and streamlined Doxygen documentation generation on Jenkins.
+                        <br />
+                        <hr style={{width: "20%", margin: "0 auto", marginTop: "1.5vmin", marginBottom: "1.5vmin"}} />
+                        Performed feature engineering via IBM DOORS.
+                    </p>
+                    
+                </h5>
+            </Grid>
+            <Grid item xs={12} md={2}/>
+    </Grid>
     
-    <Grid item xs={1} md={2} ></Grid>
-    <Grid item xs={10} md={3}>
-        <Card className='experienceCard'>
-            <Card.Img variant="top" src={continental} ></Card.Img>
-        </Card>
-    </Grid>
-    <Grid item xs={1} ></Grid>
-    <Grid container item xs={12} md={4} >
-        <Grid item xs={12}>                      
-            <h4 style={{fontWeight:"400", fontSize:"4vmin"}} className='resumeFont' >Continental Automotive Pte. Ltd.</h4>
-        </Grid>
-        <Grid item xs={12}>
-            <h5 style={{fontWeight:"600"}} className="text-muted">Software Developer Intern</h5>
-        </Grid>
-        
-        <Grid item  xs={1}></Grid>
-        <Grid item  xs={10}>
-            <ul style={{textAlign:"left", fontSize:"90%"}}>
-                <li>Developed unit tests for software module qualification.</li>
-                <li>Debugged and streamlined Doxygen documentation generation on Jenkins.</li>
-                <li>Performed feature engineering via IBM DOORS.</li>
-            </ul>
-        </Grid>
-        <Grid item  xs={1}></Grid>
-    </Grid>
-
     </Grid>
   );
 }

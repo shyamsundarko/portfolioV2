@@ -198,10 +198,10 @@ a{
 }
 
 #experienceContainer{
-  padding: 2vmin 0vmin 3vmin 0vmin;
+  padding: 2vmin 0vmin 0vmin 0vmin;
   color: #212529;
   
-  margin-bottom: 7vmin;
+  margin-bottom: 2vmin;
 }
 
 .experienceCard{
