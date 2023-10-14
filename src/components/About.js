@@ -45,7 +45,7 @@ const About = ({check}) => {
   return (
     <div>
         
-            <Grid container style={{paddingTop:"13vmin", paddingBottom:"11vmin", borderBottom:"solid #253775", borderBottomWidth:"thin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
+            <Grid container style={{paddingTop:"13vmin", paddingBottom:"11vmin", borderBottom:"solid 1px #a4a5a6", borderBottomWidth:"thin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
             <ScrollToTop />
                 <Grid item xs={2} lg={1} />
                 <Grid item xs={8} md={3} lg={4} style={{marginBottom: bottom}}>
