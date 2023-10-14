@@ -14,12 +14,12 @@ const Experience = () => {
     
     {/* Accenture */}
     <Grid container style={{paddingBottom:"5vmin", paddingTop: "7vmin"}}>
-            <Grid item xs={12} md={3} />
+            <Grid item xs={12} md={2} />
             <Grid item xs={12} md={3}>
                 <img src={accenture} alt="Accenture logo" style={{width: "80%", paddingBottom:"2vmin", boxShadow: "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px", padding:"3vmin", marginBottom:"2vmin"}}/>
             </Grid>
             <Grid item xs={12} md={1} />
-            <Grid item xs={12} md={3} >
+            <Grid item xs={12} md={4} >
                 <h4 style={{fontSize:"3.5vmin", color:"#353638", fontWeight:"600"}}>Accenture Singapore</h4>
                 <h5 style={{paddingBottom:"1.5vmin", fontSize:"2vmin", color:"#a200ff"}}>Operations Support Practitioner Intern</h5>
                 <h5 style={{fontSize: "2.2vmin", color:"#5d6063", fontWeight:"500", width:"90%", margin: "0 auto"}}>
@@ -39,12 +39,12 @@ const Experience = () => {
 
     {/* Continental */}
     <Grid container style={{paddingBottom:"5vmin", paddingTop: "5vmin"}}>
-            <Grid item xs={12} md={3} />
+            <Grid item xs={12} md={2} />
             <Grid item xs={12} md={3}>
                 <img src={continental} alt="Continental logo" style={{width: "90%", boxShadow: "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px", marginBottom:"2vmin"}}/>
             </Grid>
             <Grid item xs={12} md={1} />
-            <Grid item xs={12} md={3} >
+            <Grid item xs={12} md={4} >
                 <h4 style={{fontSize:"3.5vmin", color:"#353638", fontWeight:"600"}}>Continental Automotive Singapore</h4>
                 <h5 style={{paddingBottom:"1.5vmin", fontSize:"2vmin", color:"#ffa503"}}>Software Developer Intern</h5>
                 <h5 style={{fontSize: "2.2vmin", color:"#5d6063", fontWeight:"500", width:"80%", margin: "0 auto"}}>
