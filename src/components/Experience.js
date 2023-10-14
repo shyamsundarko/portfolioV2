@@ -48,7 +48,7 @@ const Experience = () => {
                 <h4 style={{fontSize:"3.5vmin", color:"#353638", fontWeight:"600"}}>Continental Automotive Singapore</h4>
                 <h5 style={{paddingBottom:"1.5vmin", fontSize:"2vmin", color:"#ffa503"}}>Software Developer Intern</h5>
                 <h5 style={{fontSize: "2.2vmin", color:"#5d6063", fontWeight:"500", width:"80%", margin: "0 auto"}}>
-                    <p >Developed unit tests for software module qualification.
+                    <p >Developed comprehensive unit tests to ensure software module qualifications, resulting in a 20% decrease in the number of bugs found during testing.
                         <br/>
                         <hr style={{width: "20%", margin: "0 auto", marginTop: "1.5vmin", marginBottom: "1.5vmin"}} />
                         Debugged and streamlined Doxygen documentation generation on Jenkins.
