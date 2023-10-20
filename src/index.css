@@ -241,6 +241,10 @@ a{
   font-size: 2vmin;
 }
 
+.individualExperienceContainer{
+  padding: 4vmin 0vmin 6vmin 0vmin;
+}
+
 .companyLogo {
   width: 80%; 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
@@ -279,7 +283,7 @@ a{
 }
 
 #experienceDivider{
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
   padding: 1.5px;
   color: rgb(107, 107, 108);
@@ -295,7 +299,7 @@ a{
 }
 
 #experienceContainer{
-  padding: 2vmin 0vmin 1.5vmin 0vmin;
+  padding: 2vmin 0vmin 5vmin 0vmin;
   color: #212529;
   background-color: #f5f6f6;
 }

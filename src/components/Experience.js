@@ -19,13 +19,13 @@ const Experience = () => {
     <Grid item xs={12} className="titles">Work Experience</Grid>
     
     {/* Accenture */}
-    <Grid container style={{paddingBottom:"6vmin", paddingTop: "6vmin"}}>
-            <Grid item xs={12} md={2} />
-            <Grid item xs={12} md={3}>
+    <Grid container className="individualExperienceContainer">
+            <Grid item xs={12} md={1} />
+            <Grid item xs={12} md={4}>
                 <img src={accenture} alt="Accenture logo" className="companyLogo" data-aos="fade-up"/>
             </Grid>
             <Grid item xs={12} md={1} />
-            <Grid item xs={12} md={4} >
+            <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Accenture Singapore</h4>
                 <h5 className="role" style={{ color:"#a200ff"}}>Operations Support Practitioner Intern</h5>
                 <h5 className="roleTasks">
@@ -40,18 +40,18 @@ const Experience = () => {
                     
                 </h5>
             </Grid>
-            <Grid item xs={12} md={2}/>
+            <Grid item xs={12} md={1}/>
     </Grid>
     <hr id="experienceDivider" />
 
     {/* Continental */}
-    <Grid container style={{paddingBottom:"6vmin", paddingTop: "6vmin"}}>
-            <Grid item xs={12} md={2} />
-            <Grid item xs={12} md={3}>
+    <Grid container className="individualExperienceContainer">
+            <Grid item xs={12} md={1} />
+            <Grid item xs={12} md={4}>
                 <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard" data-aos="fade-up"/>
             </Grid>
             <Grid item xs={12} md={1} />
-            <Grid item xs={12} md={4} >
+            <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Continental Automotive Singapore</h4>
                 <h5 className="role" style={{color:"#ffa503"}}>Software Developer Intern</h5>
                 <h5 className="roleTasks">
@@ -66,7 +66,7 @@ const Experience = () => {
                     
                 </h5>
             </Grid>
-            <Grid item xs={12} md={2}/>
+            <Grid item xs={12} md={1}/>
     </Grid>
     
     </Grid>
