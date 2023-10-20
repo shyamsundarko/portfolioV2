@@ -1,6 +1,5 @@
 
 import Grid from '@material-ui/core/Grid'
-import {Link} from 'react-router-dom'
 import blogProject from '../images/blogSpace.png'
 import trialWebsite from '../images/trialWebsite.png'
 import photographyPortfolio from '../images/photographyPortfolio.png'

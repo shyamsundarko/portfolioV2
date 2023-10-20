@@ -21,6 +21,14 @@ a{
  max-width: 30vmin;
 }
 
+.titles{
+  font-weight: 600;
+  font-size: 7vmin;
+  font-variant: small-caps;
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
+  
+}
 
 .cityColor{
   color: #e6d02f;
@@ -107,6 +115,7 @@ a{
   
 }
 
+
 .cardImage {
   height: 100%;
 }
@@ -175,22 +184,75 @@ a{
   background: linear-gradient(270deg, #ffffff 50%, #253875 50%);
 }
 #aboutMeContainer{
- 
+  
+  /* borderBottom:"solid 1px #a4a5a6", borderBottomWidth:"thin" */
+  padding: 13vmin 0 11vmin 0;
+  /* border-bottom: solid 1px #a4a5a6; */
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+#aboutMeContainer p{
+  font-size: 2.4vmin;
+  margin: 2.5% 10% 5% 10%;
+  color:#4f5359;
+}
+#customAbt1{
+  font-size: 2.9vmin;
+  color: #37a153;
+  font-weight: 500;
+}
+#customAbt2{
+  font-size: 2.9vmin;
+  color: #3d6ba6;
+  font-weight: 500;
+}
+#aboutImg{
+  border-radius: 1%;
+  width: 100%;
+  padding: 1vw;
+}
+
 #CardTop{
   background-color: #5a8fdd;
 }
-#customCard{
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  
+
+.companyLogo {
+  width: 80%; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  padding: 0vmin 2vmin 5vmin 2vmin;
+  margin-bottom: 2vmin;
 }
 
-.resumeFont{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#contiCard{
+  padding: 0.5vmin;
 }
+
+.companyTitle{
+  font-size: 3.5vmin;
+  color: #353638;
+  font-weight: 600;
+}
+.role{
+  padding-bottom: 1.5vmin;
+  font-size: 2vmin;
+}
+
+.roleTasks{
+  font-size: 2.2vmin;
+  color: #5d6063;
+  font-weight: 500;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.roleTasks hr{
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 1.5vmin;
+  margin-bottom: 1.5vmin;
+}
+
 .centering{
   align-items: center;
   justify-content: center;
@@ -200,15 +262,10 @@ a{
 #experienceContainer{
   padding: 2vmin 0vmin 1.5vmin 0vmin;
   color: #212529;
-  
   margin-bottom: 2vmin;
 }
 
-.experienceCard{
-  
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  margin-bottom: 2vmin;
-}
+
 
 #skillsContainer{
   background-color: #1b1b1b;
@@ -236,6 +293,23 @@ a{
 
 .customCardImg{
   height: 5.7rem;
+}
+
+#email{
+  color: #E1A87A; 
+  font-weight: 300;
+  text-decoration: underline;
+  font-size: 3vmin;
+}
+
+#footerText{
+  font-weight: 500;
+  font-size: 3vmin;
+  font-family: 'Times New Roman', Times, serif;
+}
+#copyright{
+  margin-top: 3vmin;
+  font-size: 2.5vmin;
 }
 
 @media (max-width: 854px) {

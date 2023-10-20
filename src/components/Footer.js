@@ -19,9 +19,9 @@ const Footer = () => {
             </Grid>
             
             <Grid item xs={2} md={4}></Grid>
-            <Grid item xs={12}><a href="mailto:shyamsundarko@gmail.com" target="_blank" style={{color: "#E1A87A", fontWeight: "300", textDecoration: "underline", fontSize: "3vmin"}}>shyamsundarko@gmail.com</a></Grid>
-            <Grid item xs={12} style={{fontWeight: "500", fontSize: "3vmin", fontFamily:"Times New Roman"}}>Say hello.</Grid>
-            <Grid item xs={12} style={{marginTop:"3vmin", fontSize:"2.5vmin"}}>@ Copyright SHYAM SUNDAR, 2022. All Rights Reserved.</Grid>
+            <Grid item xs={12}><a href="mailto:shyamsundarko@gmail.com" target="_blank" id="email">shyamsundarko@gmail.com</a></Grid>
+            <Grid item xs={12} id="footerText">Say hello.</Grid>
+            <Grid item xs={12} id="copyright">@ Copyright SHYAM SUNDAR, 2023. All Rights Reserved.</Grid>
         </Grid>
     )
 }

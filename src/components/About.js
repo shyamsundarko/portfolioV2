@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Grid } from '@material-ui/core';
-import Navigationbar from './Navigationbar';
+import Aos from 'aos';
+
 import AboutCard from '../components/AboutCard.js';
-
-
-import Footer from './Footer';
 import Experience from './Experience';
 import Skills from './Skills';
 import ScrollToTop from './ScrollToTop';
-
-import Aos from 'aos';
 import Education from './Education';
-
 
 
 
@@ -19,7 +14,7 @@ const About = ({check}) => {
    
     
     const [position, setPosition] = useState(false);
-    const [top, setTop] = useState("0");
+
     const [bottom, setBottom] = useState("0");
     const [wid, setWid] = useState("20vmin");
     
@@ -37,7 +32,6 @@ const About = ({check}) => {
         else{
             setPosition(true);
             setBottom("0");
-            setTop("0");
             setWid("20vmin");
             
         }
@@ -45,7 +39,7 @@ const About = ({check}) => {
   return (
     <div>
         
-            <Grid container style={{paddingTop:"13vmin", paddingBottom:"11vmin", borderBottom:"solid 1px #a4a5a6", borderBottomWidth:"thin"}} id="aboutMeContainer" className={position ? "left" : "down"}> 
+            <Grid container id="aboutMeContainer" className={position ? "left" : "down"}> 
             <ScrollToTop />
                 <Grid item xs={2} lg={1} />
                 <Grid item xs={8} md={3} lg={4} style={{marginBottom: bottom}}>
@@ -54,13 +48,13 @@ const About = ({check}) => {
                 <Grid item xs={2} md={1} lg={1} />
                 
                 <Grid item xs={12} md={6} lg={6} >
-                <p style={{fontSize:"2.4vmin", margin:"2.5% 10% 5% 10%"}} data-aos="fade-right" >
+                <p data-aos="fade-right" >
                     Currently pursuing a Masters in<br /> 
-                    <div style={{color:"#37a153", fontSize:"2.9vmin"}}>Software Engineering Systems @ Northeastern</div><br /> 
+                    <div id="customAbt1">Software Engineering Systems @ Northeastern</div><br /> 
                     following the successful completion of my degree in
-                    <div style={{fontSize:"2.9vmin", color:"#3d6ba6"}}>Computer Science @ NTU Singapore</div>
+                    <div id="customAbt2">Computer Science @ NTU Singapore</div>
                     <br/>
-                     <div style={{color:"#4f5359"}}>I excel in dynamic environments, embracing complex challenges with enthusiasm and precision. A quick learner, I eagerly acquire new skills and maintain an organized, curious approach. I consistently explore emerging tools and technologies to stay at the forefront of the field.</div>
+                     <div>I excel in dynamic environments, embracing complex challenges with enthusiasm and precision. A quick learner, I eagerly acquire new skills and maintain an organized, curious approach. I consistently explore emerging tools and technologies to stay at the forefront of the field.</div>
                 </p>
                 </Grid>
             </Grid>

@@ -5,8 +5,8 @@ import ntulogo from '../images/ntulogo.jpg';
 import northeasternlogo from '../images/northeasternlogo.svg';
 const Education = () => {
   return (
-    <Grid container style={{borderBottom:"solid 1px #a4a5a6"}}>
-        <Grid item xs={12} style={{fontSize:"7vmin", fontWeight:"600", fontVariant:"small-caps", paddingTop:"2vmin", marginBottom:"2vmin"}}>Education</Grid>
+    <Grid container style={{borderBottom:"solid 1px #a4a5a6", backgroundColor:"#253875"}}>
+        <Grid item xs={12} className="titles">Education</Grid>
 
         {/* This is for Northeastern */}
         <Grid container style={{paddingBottom:"7vmin", paddingTop:"3vmin"}}>
@@ -21,6 +21,7 @@ const Education = () => {
             </Grid>
             <Grid item xs={12} md={2}/>
         </Grid>
+        
         {/* This is for NTU */}
         <Grid container style={{paddingBottom: "7vmin"}}>
             <Grid item xs={12} md={2} />
