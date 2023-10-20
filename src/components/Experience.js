@@ -8,7 +8,7 @@ import accenture from '../images/accenture.png'
 const Experience = () => {
     
     useEffect(()=>{
-        Aos.init({duration: 300,
+        Aos.init({duration: 100,
                 mirror: true,
                 anchorPlacement: "top-bottom"
         });

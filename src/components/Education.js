@@ -6,7 +6,7 @@ import northeasternlogo from '../images/northeasternlogo.svg';
 const Education = () => {
 
     useEffect(()=>{
-        Aos.init({duration: 300,
+        Aos.init({duration: 200,
                 mirror: true,
                 anchorPlacement: "top-bottom"
         });
