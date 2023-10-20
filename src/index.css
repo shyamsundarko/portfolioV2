@@ -184,10 +184,8 @@ a{
   background: linear-gradient(270deg, #ffffff 50%, #253875 50%);
 }
 #aboutMeContainer{
-  
-  /* borderBottom:"solid 1px #a4a5a6", borderBottomWidth:"thin" */
   padding: 13vmin 0 11vmin 0;
-  /* border-bottom: solid 1px #a4a5a6; */
+  border-bottom: solid 1px #253875;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -217,11 +215,35 @@ a{
   background-color: #5a8fdd;
 }
 
+.individualEducationContainer{
+  padding-bottom: 4vmin;
+  padding-top: 3vmin;
+}
+.educationLogo{
+  width: 80%;
+  padding: 4vmin; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.uniName{
+  font-size: 3.5vmin;
+  color:#353638; 
+  font-weight:600;
+}
+.degreeName{
+  font-size: 2.5vmin;
+  color: #5d6063;
+  font-weight: 500;
+}
+.degreeCGPA{
+  font-size: 2vmin;
+}
+
 .companyLogo {
   width: 80%; 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   padding: 0vmin 2vmin 5vmin 2vmin;
   margin-bottom: 2vmin;
+  background-color: white;
 }
 
 #contiCard{
@@ -253,6 +275,16 @@ a{
   margin-bottom: 1.5vmin;
 }
 
+#experienceDivider{
+  width: 60%;
+  margin: 0 auto;
+  padding: 1.5px;
+  color: rgb(107, 107, 108);
+  margin-top: 2vh;
+  margin-bottom: 4.5vh;
+
+}
+
 .centering{
   align-items: center;
   justify-content: center;
@@ -262,7 +294,7 @@ a{
 #experienceContainer{
   padding: 2vmin 0vmin 1.5vmin 0vmin;
   color: #212529;
-  margin-bottom: 2vmin;
+  background-color: #f5f6f6;
 }
 
 

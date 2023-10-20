@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Aos from 'aos';
 import { Grid } from '@material-ui/core';
 import continental from '../images/continental.png';
 import accenture from '../images/accenture.png'
@@ -6,6 +7,12 @@ import accenture from '../images/accenture.png'
 
 const Experience = () => {
     
+    useEffect(()=>{
+        Aos.init({duration: 300,
+                mirror: true,
+                anchorPlacement: "top-bottom"
+        });
+    },[])    
    
   return (
     <Grid container id="experienceContainer" >
@@ -15,7 +22,7 @@ const Experience = () => {
     <Grid container style={{paddingBottom:"6vmin", paddingTop: "6vmin"}}>
             <Grid item xs={12} md={2} />
             <Grid item xs={12} md={3}>
-                <img src={accenture} alt="Accenture logo" className="companyLogo" />
+                <img src={accenture} alt="Accenture logo" className="companyLogo" data-aos="fade-up"/>
             </Grid>
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={4} >
@@ -35,13 +42,13 @@ const Experience = () => {
             </Grid>
             <Grid item xs={12} md={2}/>
     </Grid>
-    <hr style={{width: "65%",  margin: "0 auto", padding:"2px", color:"darkgrey", marginTop:"2vh", marginBottom:"5vh"}} />
+    <hr id="experienceDivider" />
 
     {/* Continental */}
     <Grid container style={{paddingBottom:"6vmin", paddingTop: "6vmin"}}>
             <Grid item xs={12} md={2} />
             <Grid item xs={12} md={3}>
-                <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard"/>
+                <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard" data-aos="fade-up"/>
             </Grid>
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={4} >
