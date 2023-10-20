@@ -59,28 +59,9 @@ const Projects = () => {
                 </a>
             </Grid>
             
-            <Grid item xs={12} md={6} xl={4} data-aos="fade-right">
-                <a href="https://shyamsundarko.github.io/personalWebsite/" target='_blank' rel='noreferrer' onMouseOver={() => {cardFocusIn()}}>
-                    <Card className="projectCards">
-                        <Card.Img variant="top" src={trialWebsite} className='cardImage'></Card.Img>
-                    </Card>
-                </a>
-            </Grid>
             
-            <Grid item xs={12} md={6} xl={4} data-aos="fade-right">
-                <a href="https://github.com/shyamsundarko/Joke-Recommender-System" target='_blank' rel='noreferrer' onMouseOver={() => {cardFocusIn()}}>
-                    <Card className="projectCards">
-                        <Card.Img variant="top" src={jokerecommender} className='cardImage'></Card.Img>
-                    </Card>
-                </a>
-            </Grid>
-            <Grid item xs={12} md={6} xl={4} data-aos="fade-right">
-                <a href="https://github.com/shyamsundarko/AuthenticationSystem" target='_blank' rel='noreferrer' onMouseOver={() => {cardFocusIn()}}>
-                    <Card className="projectCards">
-                        <Card.Img variant="top" src={authenticationsystem} className='cardImage'></Card.Img>
-                    </Card>
-                </a>
-            </Grid>
+        
+            
             <Grid item md={6}></Grid>
             
 
