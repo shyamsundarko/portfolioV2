@@ -12,7 +12,7 @@ const Education = () => {
         });
     },[])
   return (
-    <Grid container style={{ backgroundColor:"white"}}>
+    <Grid container id="educationContainer">
         <Grid item xs={12} className="titles">Education</Grid>
 
         {/* This is for Northeastern */}

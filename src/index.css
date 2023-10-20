@@ -215,6 +215,9 @@ a{
   background-color: #5a8fdd;
 }
 
+#educationContainer{
+  padding-bottom: 6vh;
+}
 .individualEducationContainer{
   padding-bottom: 4vmin;
   padding-top: 3vmin;
