@@ -31,7 +31,7 @@ const Navigationbar = ({check, background}) => {
 
     return (
       
-         <Navbar collapseOnSelect expand="xxxl"   className={background ? 'quickLinksWhite fixed-top' : 'quickLinks fixed-top'} id="navigationBar">
+         <Navbar collapseOnSelect   className={background ? 'quickLinksWhite fixed-top' : 'quickLinks fixed-top'} id="navigationBar">
             <Container fluid>
                <Navbar.Brand href="/">
                   {/* <img src={background ? logoBlack : logo } alt="shyam's website logo" id="websiteLogo"></img> */}
