@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import { Grid } from '@material-ui/core';
 import react from '../images/react.png';
 import html5 from '../images/html5.png';
 import css3 from '../images/css3.png';
@@ -12,16 +12,29 @@ import figma from '../images/figma.png';
 import PS from '../images/ps.png';
 import java from '../images/java.png';
 import git from '../images/git.png';
-
-import {Container, Row, Col, Card} from 'react-bootstrap';
+import LinearProgress from '@mui/material/LinearProgress';
 
 const Skills = () => {
   return (
-      <Container fluid id="skillsContainer" >
-            <Row >
-              <Col id="skillsTitle" className="titles">Skills</Col>
-            </Row>
-            <Row style={{paddingBottom:"6vmin"}}>
+      <Grid id="skillsContainer" style={{paddingTop: "20vmin", paddingBottom:"20vmin"}}>
+            <Grid item xs={12} md={1} ></Grid>
+            <Grid item xs={12} md={4}>
+                <h2 id="skillsTitle" className="titles">Skills & {window.innerWidth<550 ? <></> : <br/> }Knowledge</h2>
+            </Grid>
+            <Grid item xs={12} md={7}>
+                <Grid item xs={12} md={6}>
+                    <LinearProgress variant="determinate" value={50} style={{height:"1vmin", width:"30%"}} />
+                </Grid>
+                <Grid item xs={12} md={6}>
+                    <LinearProgress variant="determinate" value={50} style={{height:"1vmin", width:"30%"}} />
+                </Grid>
+            </Grid>
+            
+            {/* <Row >
+              <Col id="skillsTitle" className="titles">Skills & <br/>Knowledge</Col>
+              <Col></Col>
+            </Row> */}
+            {/* <Row style={{paddingBottom:"6vmin"}}>
             
                 <Col xs="2" md="2"></Col>
                 <Col xs="8" md="8">
@@ -110,10 +123,10 @@ const Skills = () => {
                 
                 <Col xs="2"></Col>
 
-            </Row>
+            </Row> */}
 
             
-      </Container>
+      </Grid>
   );
 }
 

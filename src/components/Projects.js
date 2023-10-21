@@ -34,7 +34,7 @@ const Projects = () => {
         <Grid container id="projectsSection" style={{borderRadius: radius}}>
             
             <Grid item xs={3}></Grid>
-            <Grid item xs={6} style={{marginBottom:"2vmin"}}>Projects</Grid>
+            <Grid item xs={6} className="titles">Projects</Grid>
             <Grid item xs={3}></Grid>
 
             <Grid item xs={12} md={6} xl={4} data-aos="fade-right">
