@@ -7,7 +7,6 @@ const Education = () => {
 
     useEffect(()=>{
         Aos.init({duration: 200,
-                mirror: true,
                 anchorPlacement: "top-bottom"
         });
     },[])

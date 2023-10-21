@@ -9,7 +9,6 @@ const Experience = () => {
     
     useEffect(()=>{
         Aos.init({duration: 100,
-                mirror: true,
                 anchorPlacement: "top-bottom"
         });
     },[])    

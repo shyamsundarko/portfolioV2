@@ -20,7 +20,6 @@ const About = ({check}) => {
     
     useEffect(()=>{
         Aos.init({ duration: 500,
-            mirror: "true",
             anchorPlacement:"top-bottom" });
         
         if(window.innerWidth<960){

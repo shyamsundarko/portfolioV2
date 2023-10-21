@@ -1,12 +1,10 @@
 
 import Grid from '@material-ui/core/Grid'
 import blogProject from '../images/blogSpace.png'
-import trialWebsite from '../images/trialWebsite.png'
 import photographyPortfolio from '../images/photographyPortfolio.png'
 import denguego from '../images/denguego.png'
-import jokerecommender from '../images/jokerecommender.png'
-import authenticationsystem from '../images/authenticationsystem.png'
 
+import Aos from 'aos';
 import { Card } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
 const Projects = () => {
@@ -14,6 +12,9 @@ const Projects = () => {
     const [radius, setRadius] = useState("100px 100px 0px 0px");
 
     useEffect(()=>{
+        Aos.init({duration: 300,
+            anchorPlacement: "top-bottom"
+    });
         if(window.innerWidth<550){
             setRadius("40px 40px 0px 0px");
         }
