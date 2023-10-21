@@ -110,7 +110,7 @@ a{
   color: rgb(202, 49, 49);
 }
 #projectsSection {
-  background-color: rgba(221, 234, 247, 0.397);
+  background-color: rgba(226, 234, 242, 0.397);
   padding: 20vmin;
   padding-top: 4vmin;
   
@@ -306,7 +306,7 @@ a{
 #experienceContainer{
   padding: 2vmin 0vmin 5vmin 0vmin;
   color: #212529;
-  background-color: rgba(221, 234, 247, 0.397);
+  background-color: rgba(226, 234, 242, 0.397);
   overflow: hidden;
 }
 
