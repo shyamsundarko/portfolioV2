@@ -19,6 +19,7 @@ a{
 #navigationBar{
   padding: 1.5vw 0vw 1vw 1vw;
   width: 100vw;
+  overflow: hidden;
 }
 
 #navigationBar  h1{
@@ -75,7 +76,7 @@ a{
 
 
 #introContainer{
-  
+  overflow: hidden;
   padding-bottom: 2vmin;
 }
 
@@ -149,6 +150,7 @@ a{
 
   border-top: #e6e6e6 solid 1px;
   text-align: center;
+  overflow: hidden;
   
 }
 
@@ -170,16 +172,6 @@ a{
   align-items: center;
   justify-content: center;
   
-}
-#designContainer {
-  margin-bottom: 7vmin;
-}
-#codingContainer {
-  padding-bottom: 10vmin;
-  
-}
-#websiteContainer {
-  padding: 6vmin 0vmin 6vmin 0vmin;
 }
 
 .icon{
@@ -319,12 +311,14 @@ a{
   padding: 2vmin 0vmin 5vmin 0vmin;
   color: #212529;
   background-color: #f5f6f6;
+  overflow: hidden;
 }
 
 
 
 #skillsContainer{
   background-color: #1b1b1b;
+  overflow: hidden;
 }
 
 #skillsTitle{
