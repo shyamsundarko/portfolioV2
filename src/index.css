@@ -110,7 +110,7 @@ a{
   color: rgb(202, 49, 49);
 }
 #projectsSection {
-  background-color: white;
+  background-color: rgba(221, 234, 247, 0.397);
   padding: 20vmin;
   padding-top: 4vmin;
   
@@ -306,21 +306,21 @@ a{
 #experienceContainer{
   padding: 2vmin 0vmin 5vmin 0vmin;
   color: #212529;
-  background-color: #f5f6f6;
+  background-color: rgba(221, 234, 247, 0.397);
   overflow: hidden;
 }
 
 
 
 #skillsContainer{
-  background-color: #1b1b1b;
+  background-color: #ffffff;
   overflow: hidden;
-  
+
   
 }
 
 #skillsTitle{
-  color: #ffcc01;
+  color: #da7705;
 }
 .customCard{
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
