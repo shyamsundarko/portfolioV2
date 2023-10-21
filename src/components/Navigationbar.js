@@ -29,13 +29,15 @@ const Navigationbar = ({check, background}) => {
      
    },[])
 
-      
-   console.log("The value of background rn:"+background);
     return (
       
-         <Navbar collapseOnSelect expand="xxxl"   className={background ? 'quickLinksWhite fixed-top' : 'quickLinks fixed-top'} >
+         <Navbar collapseOnSelect expand="xxxl"   className={background ? 'quickLinksWhite fixed-top' : 'quickLinks fixed-top'} id="navigationBar">
             <Container fluid>
-               <Navbar.Brand href="/"><img src={background ? logoBlack : logo } alt="shyam's website logo" id="websiteLogo"></img></Navbar.Brand>
+               <Navbar.Brand href="/">
+                  {/* <img src={background ? logoBlack : logo } alt="shyam's website logo" id="websiteLogo"></img> */}
+                  <h1 id= {background ? "navbarTitleBlack" : "navbarTitleWhite"} >Shyam Sundar</h1>
+                  
+               </Navbar.Brand>
             </Container>
          </Navbar>
        

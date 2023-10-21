@@ -15,10 +15,23 @@
 a{
   text-decoration: none;
 }
+#navigationBar{
+  padding: 1.5vw 0vw 1.5vw 1vw;
+}
 
+#navigationBar  h1{
+  font-size: 3vmin;
+  font-family: 'Cinzel Decorative', serif;
+}
+#navbarTitleBlack{
+  color: #29323d;
+}
+#navbarTitleWhite{
+  color: rgb(211, 211, 211);
+}
 
 #websiteLogo{
- max-width: 30vmin;
+ max-width: 15vw;
 }
 
 .titles{
@@ -311,14 +324,8 @@ a{
 }
 
 #skillsTitle{
-  font-size: 7vmin;
-  font-weight: 600;
-  font-variant: small-caps;
-  margin-bottom: 6vmin;
-  margin-top: 2vmin;
   color: #ffcc01;
-  
-  
+
 }
 .customCard{
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;

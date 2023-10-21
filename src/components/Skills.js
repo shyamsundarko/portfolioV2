@@ -19,7 +19,7 @@ const Skills = () => {
   return (
       <Container fluid id="skillsContainer" >
             <Row >
-              <Col id="skillsTitle">Skills</Col>
+              <Col id="skillsTitle" className="titles">Skills</Col>
             </Row>
             <Row style={{paddingBottom:"6vmin"}}>
             
