@@ -119,17 +119,24 @@ a{
 
 .projectCards {
   margin-bottom: 4vmin; 
-
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; 
+  width: 96%;
   height: 41vmin;
   overflow: hidden;
-  width: 95%;
-  
+  padding: 0.5vmin;
+  border: solid 1px rgb(232, 232, 232);
+  border-radius: 2px;
 }
 
 
+.projectCards:hover{
+  border: solid 3px #334959;
+  
+}
+
 .cardImage {
   height: 100%;
+  
 }
 
 .zoom {
