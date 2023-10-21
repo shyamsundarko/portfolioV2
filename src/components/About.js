@@ -50,11 +50,11 @@ const About = ({check}) => {
                 <Grid item xs={12} md={6} lg={6} >
                 <p data-aos="fade-right" >
                     Currently pursuing a Masters in<br /> 
-                    <span id="customAbt1">Software Engineering Systems @ Northeastern</span><br /> 
-                    following the successful completion of my degree in
-                    <span id="customAbt2">Computer Science @ NTU Singapore</span>
+                    <div id="customAbt1">Software Engineering Systems @ Northeastern</div><br /> 
+                    following the successful completion of my degree in 
+                    <div id="customAbt2">Computer Science @ NTU Singapore</div>
                     <br/>
-                     <span>I excel in dynamic environments, embracing complex challenges with enthusiasm and precision. A quick learner, I eagerly acquire new skills and maintain an organized, curious approach. I consistently explore emerging tools and technologies to stay at the forefront of the field.</span>
+                     <div>I excel in dynamic environments, embracing complex challenges with enthusiasm and precision. A quick learner, I eagerly acquire new skills and maintain an organized, curious approach. I consistently explore emerging tools and technologies to stay at the forefront of the field.</div>
                 </p>
                 </Grid>
             </Grid>
