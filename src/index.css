@@ -111,21 +111,20 @@ a{
 }
 #projectsSection {
   background-color: rgba(226, 234, 242, 0.397);
-  padding: 20vmin;
+  padding: 12vmin;
   padding-top: 4vmin;
-  
-  
+
 }
 
 .projectCards {
   margin-bottom: 4vmin; 
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; 
-  width: 96%;
   height: 41vmin;
   overflow: hidden;
   padding: 0.5vmin;
   border: solid 1px rgb(232, 232, 232);
   border-radius: 2px;
+  width: 97%;
 }
 
 
