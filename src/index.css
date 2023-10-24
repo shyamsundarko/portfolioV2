@@ -317,14 +317,25 @@ a{
 }
 
 
+.progress{
+  width: 80%;
+  margin: 2vmin;
+}
 
 #skillsContainer{
   background-color: #ffffff;
   overflow: hidden;
-
-  
+  display: flex;
 }
-
+.skillImg{
+  width: 5vw;
+  height: 100%;
+  border: solid 1px rgb(197, 197, 197);
+  border-radius: 16px;
+  margin: 2vmin;
+  float: left;
+  padding: 2px;
+}
 #skillsTitle{
   color: #da7705;
 }
