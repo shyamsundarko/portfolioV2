@@ -20,8 +20,8 @@ const Footer = () => {
             
             <Grid item xs={2} md={4}></Grid>
             <Grid item xs={12}><a href="mailto:shyamsundarko@gmail.com" target="_blank" id="email">shyamsundarko@gmail.com</a></Grid>
-            <Grid item xs={12} id="footerText">Say hello.</Grid>
-            <Grid item xs={12} id="copyright">@ Copyright SHYAM SUNDAR, 2023. All Rights Reserved.</Grid>
+            {/* <Grid item xs={12} id="footerText">Say hello!</Grid> */}
+            <Grid item xs={12} id="footerText">Say hello!</Grid>
         </Grid>
     )
 }

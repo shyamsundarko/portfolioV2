@@ -361,14 +361,12 @@ a{
 }
 
 #footerText{
-  font-weight: 500;
+  font-weight: 300;
   font-size: 3vmin;
   font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 4.5vmin;
 }
-#copyright{
-  margin-top: 3vmin;
-  font-size: 2.5vmin;
-}
+
 
 @media (max-width: 854px) {
   .customCard{
