@@ -341,9 +341,8 @@ a{
 }
 #skillsTitle{
   color: #da7705;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  padding-top: 30vh;
+  padding-right: 15vw;
 }
 
 .customCard{
