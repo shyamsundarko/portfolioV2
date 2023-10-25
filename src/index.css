@@ -343,13 +343,13 @@ a{
   width: 13vmin;
   height: 13vmin;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 4px;
   margin: 2vmin;
   float: left;
-  padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  padding: 5px;
+  box-shadow: rgba(78, 78, 78, 0.18) 0px 2px 4px;
   text-align: center;
-  border: solid 1px rgb(205, 204, 204);
+  border: solid 1px rgb(217, 217, 217);
 }
 #skillsTitle{
   
