@@ -21,8 +21,8 @@ function Skill({skillImg, value}) {
     return (
         <div className="indivSkill">
             <img src={skillImg} alt="skill img alt" className="skillImg" />
-            <LinearProgress variant="determinate" value={progressValue} className="progress" sx={{ height: '1vmin',
-                backgroundColor: "#e3e4e6", borderRadius:"5px",
+            <LinearProgress variant="determinate" value={progressValue} className="progress" sx={{ height: '1.3vmin',
+                backgroundColor: "#e3e4e6", borderRadius:"5px", border:"solid 1px #c5c7c6",
               '& .MuiLinearProgress-bar': {
                 backgroundColor: '#595a5c', // Background color
               }
