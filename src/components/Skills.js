@@ -39,9 +39,6 @@ const Skills = () => {
                     <Skill skillImg={git} value="80" />
                 </Grid>
                 <Grid item xs={12} lg={6}>
-                    <Skill skillImg={figma} value="90" />
-                </Grid>
-                <Grid item xs={12} lg={6}>
                     <Skill skillImg={node} value="70" />
                 </Grid>
                 <Grid item xs={12} lg={6}>
@@ -49,6 +46,9 @@ const Skills = () => {
                 </Grid>
                 <Grid item xs={12} lg={6}>
                     <Skill skillImg={XD} value="90" />
+                </Grid>
+                <Grid item xs={12} lg={6}>
+                    <Skill skillImg={figma} value="90" />
                 </Grid>
                 <Grid item xs={12} lg={6}>
                     <Skill skillImg={PS} value="76" />
