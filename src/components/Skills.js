@@ -5,7 +5,6 @@ import react from '../images/react.png';
 import html5 from '../images/html5.png';
 import css3 from '../images/css3.png';
 import node from '../images/node.png';
-import mongo from '../images/mongo.png';
 import mysql from '../images/sql.png';
 import XD from '../images/XD.png';
 import figma from '../images/figma.png';
