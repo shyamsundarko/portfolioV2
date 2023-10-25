@@ -316,19 +316,20 @@ a{
 }
 
 .progress{
-  width: 80%;
-  margin: 2vmin;
+  width: 90%;
+  margin: 0.5vmin 2vmin 4vmin 2vmin;
   text-align: center;
+  float: left;
 }
 
 #skillsContainer{
   background-color: #ffffff;
   overflow: hidden;
   display: flex;
-  padding: 2vmin 8vmin 6vmin 8vmin;
+  padding: 8vmin 10vmin 8vmin 10vmin;
   align-items: center;
   justify-content: center;
-  text-wrap: wrap;
+  
 }
 .skillImg{
   width: 10vmin;
