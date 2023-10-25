@@ -316,7 +316,6 @@ a{
   overflow: hidden;
 }
 
-
 .progress{
   width: 80%;
   margin: 2vmin;
@@ -326,19 +325,27 @@ a{
   background-color: #ffffff;
   overflow: hidden;
   display: flex;
+  padding: 10vmin;
+  text-wrap: wrap;
 }
 .skillImg{
   width: 5vw;
-  height: 100%;
-  border: solid 1px rgb(197, 197, 197);
-  border-radius: 16px;
+  height: 5vw;
+  overflow: hidden;
+  
+  border-radius: 8px;
   margin: 2vmin;
   float: left;
-  padding: 2px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 #skillsTitle{
   color: #da7705;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
 .customCard{
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   background-color: #151616;

@@ -19,10 +19,10 @@ function Skill({skillImg, value}) {
         return () => clearInterval(interval); // Cleanup interval on component unmount
       }, []);
     return (
-        <div>
+        <div className="indivSkill">
             <img src={skillImg} alt="skill img alt" className="skillImg" />
             <LinearProgress variant="determinate" value={progressValue} className="progress" sx={{ height: '9px',
-                backgroundColor: "#e3e4e6", borderRadius:"2px",
+                backgroundColor: "#e3e4e6", borderRadius:"5px",
               '& .MuiLinearProgress-bar': {
                 backgroundColor: '#595a5c', // Background color
               }
