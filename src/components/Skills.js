@@ -12,7 +12,7 @@ import PS from '../images/ps.png';
 import java from '../images/java.png';
 import git from '../images/git.png';
 import Skill from './Skill.js';
-import JS from '../images/JS.png';
+import JS from '../images/javascript.png';
 import flutter from '../images/Flutter.png';
 
 const Skills = () => {
