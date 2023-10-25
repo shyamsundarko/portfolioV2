@@ -332,8 +332,8 @@ a{
   
 }
 .skillImg{
-  width: 10vmin;
-  height: 10vmin;
+  width: 12vmin;
+  height: 12vmin;
   overflow: hidden;
   border-radius: 8px;
   margin: 2vmin;
@@ -341,6 +341,7 @@ a{
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   text-align: center;
+  border: solid 1px rgb(205, 204, 204);
 }
 #skillsTitle{
   color: #da7705;
