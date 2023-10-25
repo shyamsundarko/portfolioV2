@@ -298,9 +298,8 @@ a{
   margin: 0 auto;
   padding: 1.5px;
   color: rgb(107, 107, 108);
-  margin-top: 2vh;
-  margin-bottom: 4.5vh;
-
+  margin-top: 1.5vmin;
+  margin-bottom: 4.5vmin;
 }
 
 .centering{
@@ -310,7 +309,7 @@ a{
 }
 
 #experienceContainer{
-  padding: 2vmin 0vmin 5vmin 0vmin;
+  padding: 2vmin 1vmin 5vmin 1vmin;
   color: #212529;
   background-color: rgba(226, 234, 242, 0.397);
   overflow: hidden;
@@ -319,30 +318,33 @@ a{
 .progress{
   width: 80%;
   margin: 2vmin;
+  text-align: center;
 }
 
 #skillsContainer{
   background-color: #ffffff;
   overflow: hidden;
   display: flex;
-  padding: 10vmin;
-  text-wrap: wrap;
+  padding: 2vmin 8vmin 6vmin 8vmin;
+  align-items: center;
+  justify-content: center;
 }
 .skillImg{
-  width: 5vw;
-  height: 5vw;
+  width: 10vmin;
+  height: 10vmin;
   overflow: hidden;
-  
   border-radius: 8px;
   margin: 2vmin;
   float: left;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  text-align: center;
 }
 #skillsTitle{
   color: #da7705;
-  padding-top: 30vh;
-  padding-right: 22vw;
+  font-weight: 4vmin;
+  text-align: center;
+  
 }
 
 .customCard{
