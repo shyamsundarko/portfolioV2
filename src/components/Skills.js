@@ -19,7 +19,7 @@ const Skills = () => {
       <Grid container id="skillsContainer">
             
             <Grid item xs={12} lg={4}>
-                <h2 id="skillsTitle" className="titles">Skills & {window.innerWidth<550 ? <></> : <br/> }Competencies</h2>
+                <h2 id="skillsTitle" className="titles">Skills & {window.innerWidth<800 ? <></> : <br/> }Competencies</h2>
             </Grid>
             <Grid item xs={12} lg={1} />
             <Grid container item xs={12} lg={7}>

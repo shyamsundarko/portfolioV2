@@ -44,6 +44,7 @@ a{
   font-size: 6.5vmin;
   padding-top: 2vmin;
   padding-bottom: 2vmin;
+  color: #3f4145;
   
 }
 
@@ -194,7 +195,7 @@ a{
 }
 #aboutMeContainer{
   padding: 13vmin 0 11vmin 0;
-  border-bottom: solid 1px #253875;
+  border-bottom: solid 1px #dcdcdc;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -316,7 +317,7 @@ a{
 }
 
 .progress{
-  width: 90%;
+  width: 84%;
   margin: 0.5vmin 2vmin 4vmin 2vmin;
   text-align: center;
   float: left;
@@ -332,8 +333,8 @@ a{
   
 }
 .skillImg{
-  width: 12vmin;
-  height: 12vmin;
+  width: 13vmin;
+  height: 13vmin;
   overflow: hidden;
   border-radius: 8px;
   margin: 2vmin;
@@ -344,9 +345,14 @@ a{
   border: solid 1px rgb(205, 204, 204);
 }
 #skillsTitle{
-  color: #da7705;
+  
   text-align: center;
   overflow: hidden;
+  margin-bottom: 7vmin;
+}
+
+.indivSkill{
+    margin-left: 3vw;
 }
 
 .customCard{
