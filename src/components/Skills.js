@@ -16,6 +16,7 @@ import JS from '../images/javascript.png';
 import flutter from '../images/Flutter.png';
 
 const Skills = () => {
+    
   return (
       <Grid container id="skillsContainer">
             

@@ -21,7 +21,7 @@ const Experience = () => {
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5}>
-                <img src={hci} alt="HCI logo" className="companyLogo" data-aos="fade-up"/>
+                <img src={hci} alt="HCI logo" className="companyLogo" data-aos="zoom-in"/>
             </Grid>
             
             <Grid item xs={12} md={5} >
@@ -42,6 +42,11 @@ const Experience = () => {
                         <hr />
                         In recognition, Nanyang Technological University lobbied and sponsored the project’s submission to the
                         HCI International 2023 Conference
+                        <br />
+                        <hr />
+                        View the paper published on Springer here: 
+                        <br />
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22</a>
                     </p>
                     
                 </h5>
@@ -55,7 +60,7 @@ const Experience = () => {
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5}>
-                <img src={accenture} alt="Accenture logo" className="companyLogo" data-aos="fade-up"/>
+                <img src={accenture} alt="Accenture logo" className="companyLogo" data-aos="zoom-in"/>
             </Grid>
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Accenture Singapore</h4>
@@ -80,7 +85,7 @@ const Experience = () => {
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5}>
-                <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard" data-aos="fade-up"/>
+                <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard" data-aos="zoom-in"/>
             </Grid>
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Continental Automotive Singapore</h4>
