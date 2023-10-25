@@ -17,9 +17,9 @@ import Skill from './Skill.js';
 const Skills = () => {
   return (
       <Grid container id="skillsContainer">
-            <Grid item xs={12} md={1}></Grid>
-            <Grid item xs={12} md={4}>
-                <h2 id="skillsTitle" className="titles">Skills & {window.innerWidth<550 ? <></> : <br/> }Knowledge</h2>
+            
+            <Grid item xs={12} md={5}>
+                <h2 id="skillsTitle" className="titles">Skills & {window.innerWidth<550 ? <></> : <br/> }Competencies</h2>
             </Grid>
             <Grid container item xs={12} md={7}>
                 <Grid item xs={12} md={6}>
