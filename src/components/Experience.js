@@ -54,13 +54,13 @@ const Experience = () => {
                 <h4 className="companyTitle">Continental Automotive Singapore</h4>
                 <h5 className="role" style={{color:"#ffa503"}}>Software Developer Intern</h5>
                 <h5 className="roleTasks">
-                    <p >Developed comprehensive unit tests to ensure software module qualifications, resulting in a 20% decrease in the number of bugs found during testing.
+                    <p >Developed comprehensive unit tests to ensure software module qualifications, resulting in a 20% decrease in the number of bugs found during testing
                         <br/>
                         <hr />
-                        Debugged and streamlined Doxygen documentation generation on Jenkins.
+                        Debugged and streamlined Doxygen documentation generation on Jenkins
                         <br />
                         <hr />
-                        Performed feature engineering via IBM DOORS.
+                        Performed feature engineering via IBM DOORS
                     </p>
                     
                 </h5>
