@@ -328,6 +328,7 @@ a{
   padding: 2vmin 8vmin 6vmin 8vmin;
   align-items: center;
   justify-content: center;
+  text-wrap: wrap;
 }
 .skillImg{
   width: 10vmin;
@@ -342,9 +343,8 @@ a{
 }
 #skillsTitle{
   color: #da7705;
-  font-weight: 4vmin;
   text-align: center;
-  
+  overflow: hidden;
 }
 
 .customCard{
