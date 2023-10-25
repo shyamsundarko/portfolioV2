@@ -23,7 +23,7 @@ const Skills = () => {
             </Grid>
             <Grid item xs={12} md={5}>
                 <Grid item xs={12} md={6}>
-                    <Skill skillImg={react} />
+                    <Skill skillImg={react} value="80" />
                     
 
                 </Grid>
