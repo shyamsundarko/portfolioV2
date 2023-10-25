@@ -1,7 +1,7 @@
 import { Grid } from '@material-ui/core';
 import React, { useEffect } from 'react';
 import Aos from 'aos';
-import ntulogo from '../images/ntulogo.jpg';
+import ntulogo from '../images/ntulogo.png';
 import northeasternlogo from '../images/northeasternlogo.svg';
 const Education = () => {
 
