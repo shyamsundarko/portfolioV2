@@ -324,7 +324,7 @@ a{
 }
 
 .progress{
-  width: 100%;
+  width: 95%;
   margin: 0.5vmin 2vmin 4vmin 2vmin;
   text-align: center;
   float: left;
