@@ -18,10 +18,10 @@ const Education = () => {
         <Grid container className="individualEducationContainer">
             <Grid item xs={12} md={2} />
             <Grid item xs={12} md={3}>
-                <img src={northeasternlogo} alt="Northeastern logo" className="educationLogo" data-aos="fade-right" />
+                <img src={northeasternlogo} alt="Northeastern logo" className="educationLogo" data-aos="fade-right" data-aos-once="true" />
             </Grid>
             <Grid item xs={12} md={1} />
-            <Grid item xs={12} md={4}  style={{paddingTop:"3vmin"}} data-aos="fade-left">
+            <Grid item xs={12} md={4}  style={{paddingTop:"3vmin"}} data-aos="fade-left" data-aos-once="true">
                 <h4 className="uniName">Northeastern University</h4>
                 <h5 className="degreeName">Masters in Software Engineering Systems</h5>
             </Grid>
@@ -32,10 +32,10 @@ const Education = () => {
         <Grid container className="individualEducationContainer">
             <Grid item xs={12} md={2} />
             <Grid item xs={12} md={3}>
-                <img src={ntulogo} alt="Ntu logo" className="educationLogo" data-aos="fade-right"/>
+                <img src={ntulogo} alt="Ntu logo" className="educationLogo" data-aos="fade-right" data-aos-once="true"/>
             </Grid>
             <Grid item xs={12} md={1} />
-            <Grid item xs={12} md={4} style={{paddingTop:"3vmin"}} data-aos="fade-left">
+            <Grid item xs={12} md={4} style={{paddingTop:"3vmin"}} data-aos="fade-left" data-aos-once="true">
                 <h4 className="uniName">Nanyang Technological University</h4>
                 <h5 className="degreeName">Bachelor of Engineering in Computer Science</h5>
                 <h6 className="degreeName degreeCGPA">CGPA: 4.11</h6>

@@ -47,7 +47,7 @@ const About = ({check}) => {
                 <Grid item xs={2} md={1} lg={1} />
                 
                 <Grid item xs={12} md={6} lg={6} >
-                <p data-aos="fade-right" >
+                <p data-aos="fade-right" data-aos-once="true" >
                     Currently pursuing a Masters in<br /> 
                     <div id="customAbt1">Software Engineering Systems @ Northeastern</div><br /> 
                     following the successful completion of my degree in 

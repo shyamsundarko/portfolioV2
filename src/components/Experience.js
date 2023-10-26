@@ -21,7 +21,7 @@ const Experience = () => {
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5}>
-                <img src={hci} alt="HCI logo" className="companyLogo" data-aos="zoom-in"/>
+                <img src={hci} alt="HCI logo" className="companyLogo" data-aos="zoom-in" data-aos-once="true"/>
             </Grid>
             
             <Grid item xs={12} md={5} >
@@ -60,7 +60,7 @@ const Experience = () => {
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5}>
-                <img src={accenture} alt="Accenture logo" className="companyLogo" data-aos="zoom-in"/>
+                <img src={accenture} alt="Accenture logo" className="companyLogo" data-aos="zoom-in" data-aos-once="true"/>
             </Grid>
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Accenture Singapore</h4>
@@ -85,7 +85,7 @@ const Experience = () => {
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5}>
-                <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard" data-aos="zoom-in"/>
+                <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard" data-aos="zoom-in" data-aos-once="true"/>
             </Grid>
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Continental Automotive Singapore</h4>
