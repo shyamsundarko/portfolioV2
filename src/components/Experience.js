@@ -26,7 +26,7 @@ const Experience = () => {
             
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">HCI International 2023</h4>
-                <h5 className="role" style={{ color:"#4ebf89"}}>Publication sponsored by Nanyang Technological University</h5>
+                <h5 className="role" style={{ color:"#53967b"}}>Publication sponsored by Nanyang Technological University</h5>
                 <h4 className="pubTitle">iWILL: A real-time mobile application to expedite first-aid and reduce casualties</h4>
                 <h5 className="roleTasks">
                     <p> 
@@ -44,9 +44,9 @@ const Experience = () => {
                         HCI International 2023 Conference
                         <br />
                         <hr />
-                        View the paper published on Springer here: 
+                        <strong>View the paper published on Springer here:</strong>
                         <br />
-                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22</a>
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22" target="_blank" style={{color: "#1ab051e4"}}>https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22</a>
                     </p>
                     
                 </h5>
