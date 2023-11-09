@@ -37,9 +37,6 @@ const Experience = () => {
                         surrounding Out-Of-Hospital-Cardiac-Arrests (OHCAs)
                         <br />
                         <hr />
-                        <strong>Firebase</strong> was leveraged for authentication with NoSQL database implementation using <strong>Cloud Firestore</strong>
-                        <br />
-                        <hr />
                         In recognition, Nanyang Technological University lobbied and sponsored the project’s submission to the
                         HCI International 2023 Conference
                         <br />
