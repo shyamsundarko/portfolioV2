@@ -113,7 +113,7 @@ a{
 #projectsSection {
   background-color: rgba(226, 234, 242, 0.397);
   padding: 13vmin;
-  padding-top: 4vmin;
+  padding-top: 1vmin;
 
 }
 
@@ -227,7 +227,7 @@ a{
 }
 
 #educationContainer{
-  padding-bottom: 12vh;
+  padding-bottom: 11vmin;
   overflow: hidden;
 }
 .individualEducationContainer{
@@ -305,7 +305,7 @@ a{
   width: 100%;
   margin: 0 auto;
   padding: 1px;
-  color: rgb(205, 205, 205);
+  color: rgb(190, 190, 190);
   margin-top: 1.5vmin;
   margin-bottom: 4.5vmin;
 }
@@ -317,7 +317,7 @@ a{
 }
 
 #experienceContainer{
-  padding: 2vmin 1vmin 5vmin 1vmin;
+  padding: 2vmin 1vmin 11vmin 1vmin;
   color: #212529;
   background-color: rgba(226, 234, 242, 0.397);
   overflow: hidden;
@@ -334,7 +334,7 @@ a{
   background-color: #ffffff;
   overflow: hidden;
   display: flex;
-  padding: 10vmin 12vmin 10vmin 12vmin;
+  padding: 4vmin 12vmin 11vmin 12vmin;
   align-items: center;
   justify-content: center;
   
@@ -351,12 +351,7 @@ a{
   text-align: center;
   border: solid 1px rgb(217, 217, 217);
 }
-#skillsTitle{
-  
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 7vmin;
-}
+
 
 .indivSkill{
     
