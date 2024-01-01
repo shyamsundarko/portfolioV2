@@ -490,6 +490,12 @@ a{
   #name{
     font-size: 15vmin;
   }
+  .cityColor{
+    font-size: 3vmin;
+  }
+  .SubText{
+    font-size: 2vmin;
+  }
 }
 
 
