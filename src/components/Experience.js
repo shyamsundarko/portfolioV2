@@ -40,9 +40,8 @@ const Experience = () => {
                         HCI International 2023 Conference
                         <br />
                         <hr />
-                        <strong>View the paper published on Springer here:</strong>
-                        <br />
-                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22" target="_blank" style={{color: "#1ab051e4"}}>https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22</a>
+                        
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22" target="_blank" id="pubLink">View the paper published on Springer here</a>
                     </p>
                     
                 </h5>

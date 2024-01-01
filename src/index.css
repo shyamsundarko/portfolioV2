@@ -409,6 +409,14 @@ a{
   margin-top: 0.5vmin;
   
 }
+#pubLink{
+  background-color: #1ab051e4;
+  color: rgb(235, 235, 235);
+  padding: 0.5vmin 2vmin;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 1.5vmin;
+}
 
 @media (max-width: 959px){
   
