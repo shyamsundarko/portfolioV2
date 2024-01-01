@@ -43,7 +43,7 @@ const Home = () => {
       
         <Container fluid className={ background ?  "show" : "mainContainer"} >
           
-            <Navigationbar check="true" background={background}/>
+            <Navigationbar />
             <IntroComponent />
             <About />
             <Projects />

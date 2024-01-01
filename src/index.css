@@ -1,9 +1,15 @@
 * {
   font-family: 'Poppins','Helvetica Neue', 'Times New Roman';
-  overflow: visible;
+  background-color: #0d1015;
+  color: rgb(237, 234, 234);
+
+}
+body{
+  /* padding: 30px; */
+  background-color: #0d1015;
 }
 .mainContainer{
-  background-color: #101010;
+  /* background-color: #101010; */
   overflow: hidden;
   padding: 0;
   transition: 0.05 ease-out;
@@ -17,16 +23,17 @@ a{
   text-decoration: none;
 }
 #navigationBar{
-  padding: 2vmin 2vmin 2vmin 1.2vmin;
-  width: 100vw;
-  overflow: hidden;
-  
+  padding: 0vmin 30vmin;
+  /* width: 65vw; */
+  margin: 0 auto;
 }
 
 #navigationBar  h1{
+  padding: 2vmin 2vmin 2vmin 1.2vmin;
   margin: 0 auto;
   font-size: 2.9vmin;
   font-family: 'Cinzel Decorative', serif;
+  
 }
 #navbarTitleBlack{
   color: #29323d;
@@ -35,71 +42,61 @@ a{
   color: rgb(211, 211, 211);
 }
 
-#websiteLogo{
- max-width: 15vw;
-}
 
 .titles{
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
   font-weight: 600;
-  font-size: 6.5vmin;
-  padding-top: 6vmin;
-  padding-bottom: 7vmin;
-  color: #3f4145;
-  
+  font-size: 5vmin;
+  padding: 5vmin 0 2vmin 0;
+  color: #b8b8b8;
+  text-align: center;
 }
 
 .cityColor{
-  color: #e6d02f;
+  background-color: rgb(9, 56, 133);
+  padding: 0.5vmin 4vmin 0.5vmin 3.5vmin;
+  border-radius: 10px;
+  color: rgb(235, 235, 235);
+  font-weight: 500;
+  font-size: 2.4vmin;
 }
 
 .quickLinks, .quickLinksWhite{
-  background-color: #101010;
-  align-items: center;
-  padding-left: 4vmin;
-  text-align: center;
   font-weight: 300;
 }
 
-.quickLinksWhite {
-  background-color: #ffffff; 
-}
-.quickLinksWhite a, .quickLinks a {
-  color: #707070;
-  margin-right: 2rem;
-}
-.quickLinks a:hover{ 
-  color: #dfdede;
-  font-weight: 400;
-}
-.quickLinksWhite a:hover {
-  color: #222222;
-  font-weight: 400;
-}
 
 
 #introContainer{
   overflow: hidden;
   padding-bottom: 2vmin;
+  padding: 13vmin 21vmin;
 }
-
+#name{
+  font-size: 9vmin;
+  color: rgb(221, 219, 219);
+}
 #introText {
-  font-size: 8vmin;
-  text-align: center;
+  font-size: 14vmin;
+  text-align: left;
   color: rgb(240, 240, 240);
   font-weight: 600;
+  padding-top: 7vmin;
 }
 .introSub{
-  font-size: 4vmin;
-  text-align: center;
-  color: rgb(240, 240, 240);
-  font-weight: 600;
+  font-size: 2.5vmin;
+  text-align: left;
+  color: rgb(147, 147, 147);
+  font-weight: 300;
+  padding: 0.5vmin 0;
 }
 .SubText{
-  
-  color: rgba(242, 237, 234, 0.781);
+  color: rgba(156, 156, 156, 0.781);
   font-weight: 300;
-  font-size: 2vmin;
-  padding-top: 3vmin;
+  font-size:1.7vmin;
+  padding-top: 2vmin;
+  text-align: left;
 }
 .scrollDown{
   color: rgba(97, 97, 97, 0.781);
@@ -111,32 +108,30 @@ a{
   color: rgb(202, 49, 49);
 }
 #projectsSection {
-  background-color: rgba(226, 234, 242, 0.397);
-  padding: 13vmin;
-  padding-top: 1vmin;
-
+  /* background-color: rgba(226, 234, 242, 0.397); */
+  padding: 0vmin 32vmin;
+  padding-bottom: 10vmin;
 }
 
 .projectCards {
   margin-bottom: 3vmin; 
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; 
+  box-shadow: rgba(193, 193, 193, 0.08) 0px 4px 12px; 
   height: 41vmin;
   overflow: hidden;
-  padding: 0.5vmin;
-  border: solid 1px rgb(232, 232, 232);
-  border-radius: 2px;
+  padding: 1vmin;
+  border-radius: 5px;
   width: 97%;
 }
 
 
 .projectCards:hover{
-  border: solid 3px #334959;
+  border: solid 3px #2884c5;
   
 }
 
 .cardImage {
   height: 100%;
-  
+  border-radius: 5px;
 }
 
 .zoom {
@@ -151,7 +146,7 @@ a{
 #footerContainer { 
   padding-top: 7vmin;
 
-  border-top: #e6e6e6 solid 1px;
+  border-top: solid 1px #242424;
   text-align: center;
   overflow: hidden;
   
@@ -183,28 +178,24 @@ a{
   margin-right: 3vmin;
 }
 
-#hamburger{
+/* #hamburger{
   border: none;
   
-}
-.down{
-  background: linear-gradient(360deg, #ffffff 50%, #253875 50%);
-}
-.left{
-  background: linear-gradient(270deg, #ffffff 50%, #253875 50%);
-}
+} */
+
 #aboutMeContainer{
-  padding: 13vmin 0 11vmin 0;
-  border-bottom: solid 1px #dcdcdc;
+  padding: 13vmin 21vmin;
+  border-bottom: solid 1px #242424;
   align-items: center;
   justify-content: center;
-  text-align: center;
-
+  text-align: left;
+  overflow: hidden;
+  /* background-color: #0d1623; */
 }
 #aboutMeContainer p{
-  font-size: 2.4vmin;
-  margin: 2.5% 10% 5% 10%;
-  color:#4f5359;
+  font-size: 2.1vmin;
+  color:#b8b8b8;
+  width: 80%;
 }
 #customAbt1{
   font-size: 2.9vmin;
@@ -219,29 +210,32 @@ a{
 #aboutImg{
   border-radius: 1%;
   width: 100%;
-  padding: 1vw;
 }
 
-#CardTop{
-  background-color: #5a8fdd;
-}
+
 
 #educationContainer{
-  padding-bottom: 11vmin;
+  padding: 0vmin 20vmin;
+  padding-bottom: 10vmin;
   overflow: hidden;
+  margin: 0 auto;
+  border-bottom: solid 1px #222222;
+  text-align: left;
 }
 .individualEducationContainer{
-  padding-bottom: 4vmin;
-  padding-top: 3vmin;
+ padding: 5vmin;
 }
 .educationLogo{
-  width: 80%;
-  padding: 2vmin; 
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  width: 90%;
+  padding: 4vmin; 
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  background-color: rgb(76, 83, 93);
+  border-radius: 3px;
 }
 .uniName{
   font-size: 3.5vmin;
-  color:#353638; 
+  color:#acacac; 
   font-weight:600;
 }
 .degreeName{
@@ -251,18 +245,21 @@ a{
 }
 .degreeCGPA{
   font-size: 2vmin;
+  color: #a7a7a7;
 }
 
 .individualExperienceContainer{
   padding: 4vmin 0vmin 6vmin 0vmin;
+  text-align: left;
 }
 
 .companyLogo {
-  width: 65%; 
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  padding: 0vmin 2vmin 5vmin 2vmin;
+  width: 93%; 
+  padding: 2vmin;
   margin-bottom: 2vmin;
-  background-color: white;
+  /* background-color: white; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  background-color: rgb(25, 31, 41);
 }
 
 #contiCard{
@@ -271,41 +268,45 @@ a{
 
 .companyTitle{
   font-size: 3.5vmin;
-  color: rgb(50, 51, 53);
+  color: rgb(192, 192, 193);
   font-weight: 600;
+  width: 93%;
 }
 .role{
   padding-bottom: 1.5vmin;
   font-size: 2vmin;
+  width: 93%;
 }
 
 .roleTasks{
   font-size: 2.3vmin;
-  color: #4c4e51ef;
   font-weight: 300;
-  width: 80%;
-  margin: 0 auto;
+  text-align: left;
+  width: 93%;
+}
+
+.roleTasks p{
+  color: rgb(199, 199, 199);
 }
 
 .roleTasks hr{
-  width: 20%;
-  margin: 0 auto;
-  margin-top: 1.5vmin;
-  margin-bottom: 1.5vmin;
+  width: 10%;
+  margin: 1.5vmin 0;
 }
 .pubTitle{
   font-weight: 500;
-  color: #1ab051e4;
+  color: #829c87;
   font-size: 2.7vmin;
-  margin: 1vmin 0;
-  padding: 2vmin 4vmin;
+  width: 80%;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
 
 }
 #experienceDivider{
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
   padding: 1px;
-  color: rgb(190, 190, 190);
+  color: rgb(62, 62, 62);
   margin-top: 1.5vmin;
   margin-bottom: 4.5vmin;
 }
@@ -317,9 +318,10 @@ a{
 }
 
 #experienceContainer{
-  padding: 2vmin 1vmin 11vmin 1vmin;
+  padding: 0vmin 20vmin 10vmin 20vmin;
   color: #212529;
-  background-color: rgba(226, 234, 242, 0.397);
+  /* background-color: rgba(226, 234, 242, 0.397); */
+  border-bottom: solid 1px #242424;
   overflow: hidden;
 }
 
@@ -331,13 +333,13 @@ a{
 }
 
 #skillsContainer{
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   overflow: hidden;
   display: flex;
-  padding: 4vmin 12vmin 11vmin 12vmin;
+  padding: 0vmin 20vmin 10vmin 20vmin;
   align-items: center;
   justify-content: center;
-  
+  border-bottom: solid 1px #242424;
 }
 .skillImg{
   width: 13vmin;
@@ -347,31 +349,24 @@ a{
   margin: 2vmin;
   float: left;
   padding: 5px;
-  box-shadow: rgba(78, 78, 78, 0.18) 0px 2px 4px;
+  box-shadow: rgba(221, 220, 220, 0.18) 0px 3px 8px;
   text-align: center;
-  border: solid 1px rgb(217, 217, 217);
+  border: solid 1px rgb(53, 53, 53);
 }
 
 
 .indivSkill{
     
     /* border: solid 1px black; */
-    margin: 1vmin;
+    margin: 2vmin;
 }
 
-.customCard{
+#customCard{
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-color: #151616;
-  color: #ffffff;
-  width: 8rem;
-  padding: 0.5rem;
-  margin-bottom: 4vmin;
-  
+  background-color: white;
+  padding: 0.5vw;
 }
 
-.customCardImg{
-  height: 5.7rem;
-}
 
 #email{
   color: #E1A87A; 
@@ -386,9 +381,101 @@ a{
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 4.5vmin;
 }
+.navLink{
+  color: #c5c5c5;
+  text-align: center;
+  font-size: 1.5vmin;
+  font-weight: 300;
+  margin: 0 1.2vmin auto;
+}
+.navLink h6{
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.navLink h6:hover{
+  background-color: #15aa55;
+  font-weight: 700;
+  transition: 0.1s ease-in-out;
+}
 
+#aboutInfo{
+  width: 100%;
+}
 
-@media (max-width: 854px) {
+#hamburger{
+  border: none;
+}
+#responsive-navbar-nav{
+  margin-top: 0.5vmin;
+  
+}
+
+@media (max-width: 959px){
+  
+  /* *{
+    width: 100%;
+  } */
+  #aboutMeContainer p{
+    width: 100%;
+    padding: 0;
+   
+  }
+  #experienceContainer, #skillsContainer, #aboutMeContainer, #projectsSection{
+    width: 100%;
+    padding: 0vmin 10vmin;
+  }
+  #educationContainer{
+    padding: 0vmin 6vmin 4vmin 6vmin;
+  }
+
+  #experienceDivider{
+    width: 100%;
+  }
+  .companyLogo, .educationLogo{
+    width: 100%;
+  }
+
+  .roleTasks{
+    text-align: left;
+  }
+  #aboutMeContainer{
+    margin-top: 6vmin;
+    text-align: justify;
+  }
+  .individualEducationContainer{
+    padding: 2.7vmin 5vmin;
+  }
+  
+  #projectsSection, #skillsContainer, #aboutMeContainer, #educationContainer, #experienceContainer{
+    padding-bottom: 10vmin;
+  }
+  
+}
+
+@media (max-width: 1399px){
+  #navigationBar{
+    padding: 0;
+    width: 65vw;
+  }
+  .navLink h6{
+    padding: 2vh 0;
+    font-size: 3.5vmin;
+    font-weight: 500;
+  }
+}
+@media (max-width: 1027px){
+  #navigationBar{
+    padding: 0;
+    width: 90vw;
+  }
+  .navLink h6{
+    padding: 2vh 0;
+    font-size: 3.5vmin;
+    font-weight: 500;
+  }
+}
+
+/* @media (max-width: 854px) {
   .customCard{
     margin-left: 4.5vw;
   }
@@ -422,4 +509,4 @@ a{
   .customCard{
     margin-left: -3vw;
   }
-}
+} */

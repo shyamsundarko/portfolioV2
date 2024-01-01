@@ -1,50 +1,50 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
-import { useState, useEffect } from 'react'
-import logo from '../images/logo.png'
-import logoBlack from '../images/logoBlack.png'
-import {Container, Nav, Navbar} from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+const Navigationbar = () => {
 
-
-const Navigationbar = ({check, background}) => {
-   const [fSize, setFSize] = useState("2vmin");
-   const [gap, setGap] = useState("2vmin");
-   const [topGap, setTopGap] = useState("0");
-  
-   
+   const [top, setTop] = useState("0");
+   const [bottom, setBottom]= useState("0");
    useEffect(()=>{
       const gapMargin = window.innerHeight/1.9;
-
-         if(window.innerWidth<600){
-            setFSize("1.5rem");
-            setGap(gapMargin+"px");
-            setTopGap((gapMargin*0.75)+"px");
+         if(window.innerWidth<1400){
+            setTop((gapMargin*0.35)+"px");
+            setBottom(gapMargin+"px");
          }
          else{
-            setFSize("4vmin");
-            setTopGap((gapMargin*0.64)+"px");
-            setGap(gapMargin+"px");
+            setTop(0);
+            setBottom(0);
          }
-     
    },[])
+  return (
+    <Navbar collapseOnSelect expand="xxl" className="quickLinksWhite fixed-top" >
+      <Container fluid id="navigationBar">
+        <Navbar.Brand href="/">
+          <h1 id="navbarTitle">Shyam Sundar</h1>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" id="hamburger" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link href="#aboutMeContainer" className="navLink">
+              <h6 className="navLink" style={{marginTop: top}} >About</h6>
+            </Nav.Link>
+            <Nav.Link href="#educationContainer" className="navLink">
+              <h6 className="navLink">Education</h6>
+            </Nav.Link>
+            <Nav.Link href="#experienceContainer" className="navLink">
+              <h6 className="navLink">Experience</h6>
+            </Nav.Link>
+            <Nav.Link href="#skillsContainer" className="navLink">
+              <h6 className="navLink">Skills</h6>
+            </Nav.Link>
+            <Nav.Link href="#projectsSection" className="navLink">
+              <h6 className="navLink" style={{marginBottom: bottom}}>Projects</h6>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
 
-    return (
-      
-         <Navbar collapseOnSelect   className={background ? 'quickLinksWhite fixed-top' : 'quickLinks fixed-top'} id="navigationBar">
-            <Container fluid>
-               <Navbar.Brand href="/">
-                  {/* <img src={background ? logoBlack : logo } alt="shyam's website logo" id="websiteLogo"></img> */}
-                  <h1 id= {background ? "navbarTitleBlack" : "navbarTitleWhite"} >Shyam Sundar</h1>
-                  
-               </Navbar.Brand>
-            </Container>
-         </Navbar>
-       
-       
-
-    )
-}
-
-export default Navigationbar
-
+export default Navigationbar;

@@ -17,7 +17,6 @@ const Experience = () => {
   return (
     <Grid container id="experienceContainer" >
     <Grid item xs={12} className="titles">Publications & Experience</Grid>
-    {/* Accenture */}
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5}>
@@ -26,11 +25,11 @@ const Experience = () => {
             
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">HCI International 2023</h4>
-                <h5 className="role" style={{ color:"#53967b"}}>Publication sponsored by Nanyang Technological University</h5>
+                <h5 className="role" style={{ color:"#179e4b"}}>Publication sponsored by NTU Singapore</h5>
                 <h4 className="pubTitle">iWILL: A real-time mobile application to expedite first-aid and reduce casualties</h4>
                 <h5 className="roleTasks">
                     <p> 
-                        Solo year-long project undertaken in <strong>NTU Singapore</strong> covering the entire process from ideation to execution
+                        Solo year-long project undertaken in <strong>Nanyang Technological University Singapore</strong> covering the entire process from ideation to execution
                         <br />
                         <hr />
                         Real-time mobile application developed using the <strong>Flutter</strong> framework after considerable literature review
