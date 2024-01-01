@@ -17,7 +17,7 @@ const IntroComponent = () => {
           setMarginScreenTop(marginTop+"px");
         }
         else{
-          const marginNew = (window.innerHeight/2)*0.75;
+          const marginNew = (window.innerHeight/2)*0.68;
           const marginTop = marginNew;
 
           setMarginScreen(marginNew+"px");
