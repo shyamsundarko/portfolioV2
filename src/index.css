@@ -413,7 +413,7 @@ a{
   background-color: #1ab051e4;
   color: rgb(235, 235, 235);
   padding: 0.5vmin 2vmin;
-  border-radius: 7px;
+  border-radius: 6px;
   font-weight: 500;
   font-size: 1.5vmin;
 }
@@ -480,6 +480,12 @@ a{
     padding: 2vh 0;
     font-size: 3.5vmin;
     font-weight: 500;
+  }
+}
+
+@media(max-width: 800px){
+  #pubLink{
+    border-radius: 3px;
   }
 }
 
