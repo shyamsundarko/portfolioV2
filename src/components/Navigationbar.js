@@ -17,7 +17,7 @@ const Navigationbar = () => {
          }
    },[])
   return (
-    <Navbar collapseOnSelect expand="xxl" className="quickLinksWhite fixed-top" >
+    <Navbar collapseOnSelect expand="xxl" className="quickLinksWhite fixed-top" variant="dark" >
       <Container fluid id="navigationBar">
         <Navbar.Brand href="/">
           <h1 id="navbarTitle">Shyam Sundar</h1>

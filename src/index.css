@@ -75,7 +75,8 @@ a{
 }
 #name{
   font-size: 9vmin;
-  color: rgb(221, 219, 219);
+  color: rgb(38, 66, 115);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #introText {
   font-size: 14vmin;
@@ -246,6 +247,12 @@ a{
 .degreeCGPA{
   font-size: 2vmin;
   color: #a7a7a7;
+  background-color: rgb(13, 134, 114);
+  color: rgb(221, 221, 221);
+  padding: 1vmin;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
 }
 
 .individualExperienceContainer{
@@ -426,7 +433,8 @@ a{
   #aboutMeContainer p{
     width: 100%;
     padding: 0;
-   
+    font-size: 3vmin;
+    text-align: left;
   }
   #experienceContainer, #skillsContainer, #aboutMeContainer, #projectsSection, #introContainer{
     width: 100%;
@@ -496,42 +504,33 @@ a{
   .SubText{
     font-size: 2vmin;
   }
+  .role{
+    font-size: 2.5vmin;
+  }
+  .roleTasks{
+    font-size: 3vmin;
+  }
+  .pubTitle{
+    font-size: 3.5vmin;
+  }
+  .companyTitle{
+    font-size: 4.5vmin;
+  }
+  .uniName{
+    font-size: 4vmin;
+  }
+  .degreeName{
+    font-size: 3.5vmin;
+  }
+  .degreeCGPA{
+    font-size: 3vmin;
+    border-radius: 5px;
+    padding: 1.5vmin;
+  }
+  #pubLink{
+    font-size: 2.5vmin;
+  }
 }
 
 
 
-/* @media (max-width: 854px) {
-  .customCard{
-    margin-left: 4.5vw;
-  }
-}
-@media (max-width: 666px) {
-  .customCard{
-    margin-left: 12.5vw;
-  }
-}
-@media (max-width: 436px) {
-  .customCard{
-    margin-left: 9.5vw;
-  }
-}
-@media (max-width: 390px) {
-  .customCard{
-    margin-left: 7.5vw;
-  }
-}
-@media (max-width: 347px) {
-  .customCard{
-    margin-left: 4.5vw;
-  }
-}
-@media (max-width: 297px) {
-  .customCard{
-    margin-left: 2.5vw;
-  }
-}
-@media (max-width: 290px) {
-  .customCard{
-    margin-left: -3vw;
-  }
-} */

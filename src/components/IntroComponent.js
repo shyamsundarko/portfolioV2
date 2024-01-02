@@ -30,7 +30,7 @@ const IntroComponent = () => {
         <Grid container id="introContainer" style={{paddingTop: marginScreenTop}} >
           <Grid item xs={1} xl={3}></Grid>
           <Grid item xs={10} xl={6} id="introText" data-aos="fade-right" >
-            <h1 id="name">Shyam Sundar</h1>
+            <h1 id="name">shyam sundar</h1>
             </Grid>
           <Grid item xs={1} xl={3}></Grid>
           <Grid item xs={1} xl={3}></Grid>
