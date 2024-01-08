@@ -83,7 +83,7 @@ const Experience = () => {
                 <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard" data-aos="zoom-in" data-aos-once="true"/>
             </Grid>
             <Grid item xs={12} md={5} >
-                <h4 className="companyTitle">Continental Automotive Singapore</h4>
+                <h4 className="companyTitle">Continental AG Singapore</h4>
                 <h5 className="role" style={{color:"#ffa503"}}>Software Developer Intern</h5>
                 <h5 className="roleTasks">
                     <p >Developed comprehensive unit tests to ensure software module qualifications, resulting in a 20% decrease in the number of bugs found during testing
