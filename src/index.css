@@ -493,7 +493,7 @@ a{
     border-radius: 3px;
   }
   #name{
-    font-size: 16vmin;
+    font-size: 15vmin;
   }
   .cityColor{
     font-size: 3.5vmin;
@@ -502,7 +502,7 @@ a{
     font-size: 2.6vmin;
   }
   .role{
-    font-size: 2.5vmin;
+    font-size: 3.5vmin;
   }
   .roleTasks{
     font-size: 3.5vmin;
@@ -530,7 +530,7 @@ a{
     padding: 1.5vmin 2vmin;
   }
   #aboutMeContainer p{
-    font-size: 3.7vmin;
+    font-size: 3.5vmin;
   }
   #customAbt1{
     font-size: 4vmin;
