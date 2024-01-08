@@ -29,10 +29,10 @@ const Experience = () => {
                 <h4 className="pubTitle">iWILL: A real-time mobile application to expedite first-aid and reduce casualties</h4>
                 <h5 className="roleTasks">
                     <p> 
-                        Solo year-long project undertaken in <i>Nanyang Technological University Singapore</i> covering the entire process from ideation to execution
+                        Solo year-long project undertaken in <b>Nanyang Technological University Singapore</b> covering the entire process from ideation to execution
                         <br />
                         <hr />
-                        Real-time mobile application developed using the <i>Flutter</i> framework after considerable literature review
+                        Real-time mobile application developed using the <b>Flutter</b> framework after considerable literature review
                         surrounding Out-Of-Hospital-Cardiac-Arrests (OHCAs)
                         <br />
                         <hr />

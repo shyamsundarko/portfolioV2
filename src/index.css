@@ -205,7 +205,7 @@ a{
 }
 #customAbt2{
   font-size: 2.9vmin;
-  color: #3d6ba6;
+  color: rgb(56, 112, 185);
   font-weight: 500;
 }
 #aboutImg{
@@ -229,9 +229,8 @@ a{
 .educationLogo{
   width: 90%;
   padding: 4vmin; 
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-  background-color: rgb(76, 83, 93);
+  box-shadow: 0 8px 16px rgba(62, 62, 62, 0.4);
+  background-color: rgb(50, 64, 84);
   border-radius: 3px;
 }
 .uniName{
@@ -247,7 +246,7 @@ a{
 .degreeCGPA{
   font-size: 2vmin;
   color: #a7a7a7;
-  background-color: rgb(13, 134, 114);
+  background-color: rgb(32, 98, 160);
   color: rgb(221, 221, 221);
   padding: 1vmin;
   border-radius: 10px;
@@ -290,6 +289,7 @@ a{
   font-weight: 300;
   text-align: left;
   width: 93%;
+  line-height: 1.5;
 }
 
 .roleTasks p{
@@ -302,7 +302,7 @@ a{
 }
 .pubTitle{
   font-weight: 500;
-  color: #829c87;
+  color: #6e9a77;
   font-size: 2.7vmin;
   width: 80%;
   text-align: left;
@@ -417,19 +417,16 @@ a{
   
 }
 #pubLink{
-  background-color: #1ab051e4;
-  color: rgb(235, 235, 235);
+  background-color: #2ba246;
+  color: rgb(236, 236, 236);
   padding: 0.5vmin 2vmin;
   border-radius: 6px;
   font-weight: 500;
-  font-size: 1.5vmin;
+  font-size: 1.7vmin;
 }
 
 @media (max-width: 959px){
   
-  /* *{
-    width: 100%;
-  } */
   #aboutMeContainer p{
     width: 100%;
     padding: 0;
@@ -496,31 +493,32 @@ a{
     border-radius: 3px;
   }
   #name{
-    font-size: 15vmin;
+    font-size: 16vmin;
   }
   .cityColor{
-    font-size: 3vmin;
+    font-size: 3.5vmin;
   }
   .SubText{
-    font-size: 2vmin;
+    font-size: 2.6vmin;
   }
   .role{
     font-size: 2.5vmin;
   }
   .roleTasks{
-    font-size: 3vmin;
+    font-size: 3.5vmin;
+    line-height: 1.5;
   }
   .pubTitle{
-    font-size: 3.5vmin;
-  }
-  .companyTitle{
     font-size: 4.5vmin;
   }
+  .companyTitle{
+    font-size: 5.5vmin;
+  }
   .uniName{
-    font-size: 4vmin;
+    font-size: 5vmin;
   }
   .degreeName{
-    font-size: 3.5vmin;
+    font-size: 4vmin;
   }
   .degreeCGPA{
     font-size: 3vmin;
@@ -528,7 +526,17 @@ a{
     padding: 1.5vmin;
   }
   #pubLink{
-    font-size: 2.5vmin;
+    font-size: 3vmin;
+    padding: 1.5vmin 2vmin;
+  }
+  #aboutMeContainer p{
+    font-size: 3.7vmin;
+  }
+  #customAbt1{
+    font-size: 4vmin;
+  }
+  #customAbt2{
+    font-size: 4vmin;
   }
 }
 

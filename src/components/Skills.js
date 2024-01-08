@@ -10,7 +10,7 @@ import XD from '../images/XD.png';
 import figma from '../images/figma.png';
 import PS from '../images/ps.png';
 import java from '../images/java.png';
-import git from '../images/git.png';
+import git from '../images/github.png'
 import Skill from './Skill.js';
 import JS from '../images/javascript.png';
 import flutter from '../images/Flutter.png';

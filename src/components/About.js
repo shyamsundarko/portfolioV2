@@ -46,7 +46,7 @@ const About = ({check}) => {
                     <p data-aos="fade-right" data-aos-once="true" id="aboutInfo" >
                         Currently pursuing a Masters in<br /> 
                         <div id="customAbt1">Software Engineering Systems @ Northeastern</div><br /> 
-                        following the successful completion of my degree in 
+                        following the completion of my degree in 
                         <div id="customAbt2">Computer Science @ NTU Singapore</div>
                         <br/>
                         I excel in dynamic environments, embracing complex challenges with enthusiasm and precision. A quick learner, I eagerly acquire new skills and maintain an organized, curious approach. I consistently explore emerging tools and technologies to stay at the forefront of the field.
