@@ -26,12 +26,9 @@ const Experience = () => {
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">HCI International 2023</h4>
                 <h5 className="role" style={{ color:"#179e4b"}}>Publication sponsored by NTU Singapore</h5>
-                <h4 className="pubTitle">iWILL: A real-time mobile application to expedite first-aid and reduce casualties</h4>
+                <h4 className="pubTitle">iWILL: A real-time mobile app to expedite first-aid and reduce casualties</h4>
                 <h5 className="roleTasks">
                     <p> 
-                        {/* Solo year-long project undertaken in <b>Nanyang Technological University Singapore</b> covering the entire process from ideation to execution
-                        <br />
-                        <hr /> */}
                         Real-time mobile application developed using the <b>Flutter</b> framework after considerable literature review
                         surrounding Out-Of-Hospital-Cardiac-Arrests (OHCAs)
                         <br />
@@ -39,7 +36,7 @@ const Experience = () => {
                         In recognition, Nanyang Technological University lobbied and sponsored the project’s submission to the
                         HCI International 2023 Conference
                         <br />
-                        <hr />
+                        <hr id="customLine" />
                         
                         <a href="https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22" target="_blank" id="pubLink">View the paper published on Springer here</a>
                     </p>

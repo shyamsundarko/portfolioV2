@@ -179,10 +179,6 @@ a{
   margin-right: 3vmin;
 }
 
-/* #hamburger{
-  border: none;
-  
-} */
 
 #aboutMeContainer{
   padding: 13vmin 21vmin;
@@ -425,6 +421,8 @@ a{
   font-size: 1.7vmin;
 }
 
+
+
 @media (max-width: 959px){
   
   #aboutMeContainer p{
@@ -491,6 +489,9 @@ a{
 @media(max-width: 800px){
   #pubLink{
     border-radius: 3px;
+  }
+  #customLine{
+    margin-bottom: 4vmin;
   }
   #name{
     font-size: 15vmin;
