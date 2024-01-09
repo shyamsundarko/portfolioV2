@@ -45,7 +45,7 @@ const About = ({check}) => {
                 <Grid item xs={12} md={6}>
                     <p data-aos="fade-right" data-aos-once="true" id="aboutInfo" >
                         Currently pursuing a Masters in<br /> 
-                        <div id="customAbt1">Software Engineering Systems @ Northeastern</div><br /> 
+                        <div id="customAbt1">Software Engineering Systems @ NEU</div><br /> 
                         following the completion of my degree in 
                         <div id="customAbt2">Computer Science @ NTU Singapore</div>
                         <br/>

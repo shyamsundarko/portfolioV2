@@ -195,7 +195,7 @@ a{
 }
 #aboutMeContainer p{
   font-size: 2.1vmin;
-  color:#b8b8b8;
+  color:#a1a1a1;
   width: 80%;
 }
 #customAbt1{
@@ -534,9 +534,11 @@ a{
   }
   #customAbt1{
     font-size: 4vmin;
+    font-weight: 600;
   }
   #customAbt2{
     font-size: 4vmin;
+    font-weight: 600;
   }
 }
 
