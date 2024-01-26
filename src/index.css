@@ -109,40 +109,57 @@ a{
   color: rgb(202, 49, 49);
 }
 #projectsSection {
-  /* background-color: rgba(226, 234, 242, 0.397); */
+ 
   padding: 0vmin 32vmin;
   padding-bottom: 10vmin;
 }
 
-.projectCards {
+/* .projectCards {
   margin-bottom: 3vmin; 
   box-shadow: rgba(193, 193, 193, 0.08) 0px 4px 12px; 
-  height: 41vmin;
+  height: 61vmin;
   overflow: hidden;
   padding: 1vmin;
   border-radius: 5px;
   width: 97%;
-}
-
-
-.projectCards:hover{
-  border: solid 3px #2884c5;
+} */
+.project{
+  padding: 1vmin;
+  width: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1vmin;
   
 }
 
-.cardImage {
-  height: 100%;
-  border-radius: 5px;
+.projectImage{
+  width: 100%;
+  height: 32vh;
+}
+.projectTitle{
+  font-size: 3vmin;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  color: rgb(200, 200, 200);
+  margin-top: 1.5vmin;
+  margin-bottom: 0.7vmin;
+}
+.desc{
+  text-align: left;
+  color: rgb(144, 144, 144);
+  font-size: 1.8vmin;
 }
 
-.zoom {
-  transition: transform 0.2s;
-  z-index: 1;
+
+.project:hover{
+  border: solid 1px #15aa55;
+  transition: 0.1s ease-in-out;
+  
 }
 
-.zoom:hover {
-  transform: scale(1.05);
-}
+
+
 
 #footerContainer { 
   padding-top: 7vmin;
@@ -540,6 +557,15 @@ a{
   #customAbt2{
     font-size: 4vmin;
     font-weight: 500;
+  }
+  .projectTitle{
+    font-size: 4vmin;
+    margin-top: 3vmin;
+    margin-bottom: 1vmin;
+  }
+  .desc{
+    font-size: 3vmin;
+    margin-bottom: 6vmin;
   }
 }
 
