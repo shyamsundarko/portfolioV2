@@ -28,7 +28,7 @@ const Experience = () => {
                 <h5 className="role" style={{ color:"#179e4b"}}>Publication sponsored by NTU Singapore</h5>
                 <h4 className="pubTitle">iWILL: A real-time mobile app to expedite first-aid and reduce casualties</h4>
                 <h5 className="roleTasks">
-                    <p> 
+                    <p> <hr style={{ width:"100%"}} />
                         Real-time mobile application developed using the <b>Flutter</b> framework after considerable literature review
                         surrounding Out-Of-Hospital-Cardiac-Arrests (OHCAs)
                         <br />
