@@ -25,42 +25,47 @@ const Skills = () => {
             </Grid>
             <Grid item xs={1} />
             <Grid container item xs={12} md={10} >
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={react} value="80" />
+                
+                <Grid item xs={3} md={2}>
+                    <Skill skill="Python" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={flutter} value="70" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="Java" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={java} value="75" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="ReactJS" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={html5} value="90" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="HTML5" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={css3} value="85" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="CSS3" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={JS} value="70" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="NodeJS" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={git} value="80" />
+                
+                <Grid item xs={3} md={2}>
+                    <Skill skill="JavaScript" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={node} value="70" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="Flutter" />
+                </Grid><Grid item xs={3} md={2}>
+                    <Skill skill="MySQL" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={mysql} value="70" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="Git" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={XD} value="90" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="Docker" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={figma} value="90" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="Photoshop" />
                 </Grid>
-                <Grid item xs={12} md={6}>
-                    <Skill skillImg={PS} value="76" />
+                <Grid item xs={3} md={2}>
+                    <Skill skill="Figma" />
                 </Grid>
+                
             </Grid>
             <Grid item xs={1} />
       </Grid>

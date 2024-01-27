@@ -378,7 +378,19 @@ a{
 .indivSkill{
     
     /* border: solid 1px black; */
-    margin: 2vmin;
+    margin: 0.5vmin;
+    padding: 1vmin 3vmin;
+    border: solid 1px green;
+    border-radius: 20px;
+    /* background-color: #15aa55;
+  color: white; */
+  font-size: 2vmin;
+    
+}
+.indivSkill:hover{
+  border: none;
+  background-color: #15aa55;
+  color: white;
 }
 
 #customCard{
