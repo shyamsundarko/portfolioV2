@@ -532,23 +532,24 @@ a{
     font-size: 2.6vmin;
   }
   .role{
-    font-size: 3.5vmin;
+    font-size: 3vmin;
   }
   .roleTasks{
-    font-size: 3.5vmin;
+    font-size: 3vmin;
     line-height: 1.5;
   }
   .pubTitle{
-    font-size: 4.5vmin;
+    font-size: 4vmin;
   }
   .companyTitle{
-    font-size: 5.5vmin;
+    font-size: 5vmin;
   }
   .uniName{
     font-size: 5vmin;
   }
   .degreeName{
-    font-size: 4vmin;
+    font-size: 3.5vmin;
+    margin-bottom: 3vmin;
   }
   .degreeCGPA{
     font-size: 3vmin;
@@ -556,18 +557,18 @@ a{
     padding: 1.5vmin;
   }
   #pubLink{
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     padding: 1.5vmin 2vmin;
   }
   #aboutMeContainer p{
-    font-size: 3.5vmin;
+    font-size: 3vmin;
   }
   #customAbt1{
-    font-size: 4vmin;
+    font-size: 3.5vmin;
     font-weight: 500;
   }
   #customAbt2{
-    font-size: 4vmin;
+    font-size: 3.5vmin;
     font-weight: 500;
   }
   .projectTitle{
@@ -580,7 +581,7 @@ a{
     margin-bottom: 6vmin;
   }
   .indivSkill{
-    font-size: 2.1vmin;
+    font-size: 2.4vmin;
   }
 }
 
