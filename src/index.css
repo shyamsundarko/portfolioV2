@@ -1,11 +1,10 @@
 * {
   font-family: 'Poppins','Helvetica Neue', 'Times New Roman';
-  background-color: #0d1015;
+  background-color: #1d1f22;
   color: rgb(237, 234, 234);
 
 }
 body{
-  /* padding: 30px; */
   background-color: #0d1015;
 }
 .mainContainer{
@@ -54,7 +53,7 @@ a{
 }
 
 .cityColor{
-  background-color: rgb(9, 56, 133);
+  background-color: rgb(25, 75, 155);
   padding: 0.5vmin 4vmin 0.5vmin 3.5vmin;
   border-radius: 10px;
   color: rgb(235, 235, 235);
@@ -75,7 +74,7 @@ a{
 }
 #name{
   font-size: 9vmin;
-  color: rgb(38, 66, 115);
+  color: rgb(42, 78, 139);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #introText {
@@ -114,15 +113,6 @@ a{
   padding-bottom: 10vmin;
 }
 
-/* .projectCards {
-  margin-bottom: 3vmin; 
-  box-shadow: rgba(193, 193, 193, 0.08) 0px 4px 12px; 
-  height: 61vmin;
-  overflow: hidden;
-  padding: 1vmin;
-  border-radius: 5px;
-  width: 97%;
-} */
 .project{
   padding: 2vmin;
   width: 50%;
