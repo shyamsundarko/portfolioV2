@@ -1,6 +1,6 @@
 * {
   font-family: 'Poppins','Helvetica Neue', 'Times New Roman';
-  background-color: #1d1f22;
+  background-color: #181a1d;
   color: rgb(237, 234, 234);
 
 }
@@ -74,7 +74,7 @@ a{
 }
 #name{
   font-size: 9vmin;
-  color: rgb(42, 78, 139);
+  color: rgb(39, 69, 121);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #introText {
@@ -268,7 +268,7 @@ a{
   margin-bottom: 2vmin;
   /* background-color: white; */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-  background-color: rgb(25, 31, 41);
+  background-color: rgb(67, 73, 84);
 }
 
 #contiCard{
