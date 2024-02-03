@@ -52,7 +52,7 @@ const Experience = () => {
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5}>
-                <img src={accenture} alt="Accenture logo" className="companyLogo" data-aos="zoom-in" data-aos-once="true"/>
+                <img src={accenture} alt="Accenture logo" className="companyLogo accenture" data-aos="zoom-in" data-aos-once="true"/>
             </Grid>
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Accenture Singapore</h4>

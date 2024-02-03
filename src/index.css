@@ -22,8 +22,7 @@ a{
   text-decoration: none;
 }
 #navigationBar{
-  padding: 0vmin 30vmin;
-  /* width: 65vw; */
+  width: 64vw;
   margin: 0 auto;
 }
 
@@ -264,11 +263,14 @@ a{
 
 .companyLogo {
   width: 93%; 
-  padding: 2vmin;
+  padding: 1vmin;
   margin-bottom: 2vmin;
-  /* background-color: white; */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-  background-color: rgb(67, 73, 84);
+  
+}
+.accenture{
+  padding: 2vmin;
+  background-color: rgb(147, 152, 161);
 }
 
 #contiCard{
@@ -444,6 +446,7 @@ a{
   background-color: rgb(236, 236, 236);
   color: #2ba246;
 }
+
 
 
 @media (max-width: 959px){
