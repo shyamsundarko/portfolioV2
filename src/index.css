@@ -233,7 +233,7 @@ a{
   width: 90%;
   padding: 4vmin; 
   box-shadow: 0 8px 16px rgba(62, 62, 62, 0.4);
-  background-color: rgb(50, 64, 84);
+  background-color: rgb(95, 104, 116);
   border-radius: 3px;
 }
 .uniName{
@@ -243,13 +243,13 @@ a{
 }
 .degreeName{
   font-size: 2.5vmin;
-  color: #5d6063;
+  color: #7f8489;
   font-weight: 500;
 }
 .degreeCGPA{
   font-size: 2vmin;
   color: #a7a7a7;
-  background-color: rgb(32, 98, 160);
+  background-color: rgb(61, 91, 168);
   color: rgb(221, 221, 221);
   padding: 1vmin;
   border-radius: 10px;
@@ -439,7 +439,11 @@ a{
   font-weight: 500;
   font-size: 1.7vmin;
 }
-
+#pubLink:hover{
+  transition: 0.3s ease-in-out;
+  background-color: rgb(236, 236, 236);
+  color: #2ba246;
+}
 
 
 @media (max-width: 959px){
