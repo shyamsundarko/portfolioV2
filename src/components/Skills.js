@@ -65,7 +65,7 @@ const Skills = () => {
                     <Skill skill="Figma" />
                 </Grid>
                 <Grid item xs={3} md={3} lg={2}>
-                    <Skill skill="Adobe XD" />
+                    <Skill skill="XD" />
                 </Grid>
                 <Grid item xs={3} md={3} lg={2}>
                     <Skill skill="Photoshop" />

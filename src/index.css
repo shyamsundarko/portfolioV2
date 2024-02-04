@@ -8,7 +8,6 @@ body{
   background-color: #0d1015;
 }
 .mainContainer{
-  /* background-color: #101010; */
   overflow: hidden;
   padding: 0;
   transition: 0.05 ease-out;
@@ -449,7 +448,7 @@ a{
 
 
 
-@media (max-width: 959px){
+@media (max-width: 1200px){
   
   #aboutMeContainer p{
     width: 100%;
@@ -489,6 +488,8 @@ a{
   
 }
 
+
+
 @media (max-width: 1399px){
   #navigationBar{
     padding: 0;
@@ -507,7 +508,7 @@ a{
   }
   .navLink h6{
     padding: 2vh 0;
-    font-size: 3.5vmin;
+    font-size: 5vmin;
     font-weight: 500;
   }
 }
