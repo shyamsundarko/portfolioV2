@@ -454,9 +454,13 @@
       font-size: 3vmin;
       text-align: left;
     }
-    #experienceContainer, #skillsContainer, #aboutMeContainer, #projectsSection, #introContainer{
+    #experienceContainer, #skillsContainer, #aboutMeContainer, #projectsSection{
       width: 100%;
       padding: 0vmin 8vmin;
+    }
+    #introContainer{
+      padding: 0 1.5vmin;
+      width: 100%;
     }
     #educationContainer{
       padding: 0vmin 4vmin 4vmin 4vmin;
@@ -519,10 +523,11 @@
       margin-bottom: 4vmin;
     }
     #name{
-      font-size: 15vmin;
+      font-size: 17vmin;
     }
     .cityColor{
       font-size: 3.5vmin;
+      border-radius: 5px;
     }
     .SubText{
       font-size: 2.8vmin;
