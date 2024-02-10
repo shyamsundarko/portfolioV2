@@ -45,7 +45,7 @@ const About = ({check}) => {
                 
                 <Grid item xs={12} md={6}>
                     <p data-aos="fade-right" data-aos-once="true" id="aboutInfo" >
-                    Originating from Singapore, I bring a unique perspective shaped by diverse experiences, including my mandatory two-year <span id="customAbt2">military service</span>. This has instilled in me valuable skills such as discipline, adaptability, and effective teamwork. <br/> <br/> As a results-driven software engineering master's student, I possess a deep expertise in full-stack engineering, with a particular passion for <span id="customAbt1">frontend development</span>. 
+                    Originating from Singapore, I bring a unique perspective shaped by diverse experiences, including my mandatory two-year <span id="customAbt2">military service</span>. This has instilled in me valuable skills such as discipline, adaptability, and effective teamwork. <br/> <br/> As a results-driven software engineering master's student, I possess a deep expertise in <span id="customAbt1">full-stack </span>engineering, with a particular passion for <span id="customAbt1">frontend </span>development. 
                     </p>
                 </Grid>
             </Grid>
