@@ -25,8 +25,8 @@ const Experience = () => {
             <Grid item xs={12} md={1}/>
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">HCI International 2023</h4>
-                <h5 className="role" style={{ color:"#179e4b"}}>Publication sponsored by NTU Singapore</h5>
-                <h4 className="pubTitle">iWILL: A real-time mobile app to expedite first-aid and reduce casualties</h4>
+                {/* <h5 className="role" style={{ color:"#179e4b"}}>Publication sponsored by NTU Singapore</h5> */}
+                <h5 className="role" style={{ color:"#179e4b"}}>iWILL: A real-time mobile app to expedite first-aid and reduce casualties</h5>
                 <h5 className="roleTasks">
                     <p> <hr style={{ width:"24%"}} />
                         Real-time mobile application developed using the <b>Flutter</b> framework after considerable literature review
