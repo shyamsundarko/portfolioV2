@@ -424,7 +424,7 @@
     
   }
   #pubLink{
-    background-color: #2ba246;
+    background-color: #179e4b;
     color: rgb(236, 236, 236);
     padding: 0.5vmin 2vmin;
     border-radius: 6px;
@@ -434,7 +434,7 @@
   #pubLink:hover{
     transition: 0.3s ease-in-out;
     background-color: rgb(236, 236, 236);
-    color: #2ba246;
+    color: #179e4b;
   }
   
   
