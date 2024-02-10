@@ -200,16 +200,11 @@
     width: 80%;
 
   }
-  #customAbt1{
-    font-size: 2.9vmin;
-    color: #b6b6b6;
+  #customAbt1, #customAbt2{
+    
+    color: #c0b058;
     font-weight: 400;
     
-  }
-  #customAbt2{
-    font-size: 2.9vmin;
-    color:#b6b6b6;
-    font-weight: 400;
   }
   
   #aboutImg{
