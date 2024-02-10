@@ -32,7 +32,8 @@ const IntroComponent = () => {
           <Grid item xs={1} xl={3}></Grid>
           <Grid item xs={10} xl={6} id="introText" data-aos="fade-right" >
             <h1 id="name">shyam sundar</h1>
-            </Grid>
+            
+          </Grid>
           <Grid item xs={1} xl={3}></Grid>
 
           <Grid item xs={1} xl={3}></Grid>

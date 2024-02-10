@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-
+import '../index.css';
+// import '../day.css'
 const Navigationbar = () => {
 
    const [top, setTop] = useState("0");
    const [bottom, setBottom]= useState("0");
+   const [isNightMode, setIsNightMode] = useState(false);
    useEffect(()=>{
       const gapMargin = window.innerHeight/1.9;
          if(window.innerWidth<1400){
@@ -16,6 +18,9 @@ const Navigationbar = () => {
             setBottom(0);
          }
    },[])
+   const toggle =() =>{
+    setIsNightMode(prevMode => !prevMode)
+   }
   return (
     <Navbar collapseOnSelect expand="xxl" className="quickLinksWhite fixed-top" variant="dark" >
       <Container fluid id="navigationBar">
@@ -40,9 +45,13 @@ const Navigationbar = () => {
             <Nav.Link href="#projectsSection" className="navLink">
               <h6 className="navLink" style={{marginBottom: bottom}}>Projects</h6>
             </Nav.Link>
+            {/* <button onClick={toggle}>
+              {isNightMode ? 'night' : 'day'}
+            </button> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
+      {/* <link rel="stylesheet" type="text/css" href={isNightMode ? "../index.css" : "../day.css"} /> */}
     </Navbar>
   );
 };
