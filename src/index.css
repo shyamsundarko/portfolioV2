@@ -198,17 +198,20 @@
     font-size: 2.1vmin;
     color:#a1a1a1;
     width: 80%;
+
   }
   #customAbt1{
     font-size: 2.9vmin;
-    color: #37a153;
-    font-weight: 500;
+    color: #b6b6b6;
+    font-weight: 400;
+    
   }
   #customAbt2{
     font-size: 2.9vmin;
-    color: rgb(56, 112, 185);
-    font-weight: 500;
+    color:#b6b6b6;
+    font-weight: 400;
   }
+  
   #aboutImg{
     border-radius: 1%;
     width: 100%;
@@ -527,20 +530,21 @@
       font-size: 3.5vmin;
     }
     .SubText{
-      font-size: 2.6vmin;
+      font-size: 2.8vmin;
     }
     .role{
-      font-size: 3vmin;
+      font-size: 4.5vmin;
     }
     .roleTasks{
-      font-size: 3vmin;
+      font-size: 4vmin;
       line-height: 1.5;
+      font-weight: 200;
     }
     .pubTitle{
-      font-size: 4vmin;
+      font-size: 5vmin;
     }
     .companyTitle{
-      font-size: 5vmin;
+      font-size: 5.5vmin;
     }
     .uniName{
       font-size: 5vmin;
@@ -555,31 +559,29 @@
       padding: 1.5vmin;
     }
     #pubLink{
-      font-size: 2.5vmin;
+      font-size: 3.2vmin;
       padding: 1.5vmin 2vmin;
     }
     #aboutMeContainer p{
-      font-size: 3vmin;
-    }
-    #customAbt1{
-      font-size: 3.5vmin;
-      font-weight: 500;
-    }
-    #customAbt2{
-      font-size: 3.5vmin;
-      font-weight: 500;
-    }
-    .projectTitle{
       font-size: 4vmin;
+      font-weight: 300;
+    }
+    #customAbt1, #customAbt2{
+      font-size: 4.8vmin;
+      font-weight: 500;
+    }
+    
+    .projectTitle{
+      font-size: 4.5vmin;
       margin-top: 3vmin;
       margin-bottom: 1vmin;
     }
     .desc{
-      font-size: 3vmin;
+      font-size: 3.8vmin;
       margin-bottom: 6vmin;
     }
     .indivSkill{
-      font-size: 2.4vmin;
+      font-size: 3vmin;
     }
   }
   

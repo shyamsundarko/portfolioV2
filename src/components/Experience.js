@@ -19,10 +19,10 @@ const Experience = () => {
     <Grid item xs={12} className="titles">Publications & Experience</Grid>
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
-            <Grid item xs={12} md={5}>
+            <Grid item xs={12} md={4}>
                 <img src={hci} alt="HCI logo" className="companyLogo" data-aos="zoom-in" data-aos-once="true"/>
             </Grid>
-            
+            <Grid item xs={12} md={1}/>
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">HCI International 2023</h4>
                 <h5 className="role" style={{ color:"#179e4b"}}>Publication sponsored by NTU Singapore</h5>
@@ -51,12 +51,13 @@ const Experience = () => {
     {/* Accenture */}
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
-            <Grid item xs={12} md={5}>
+            <Grid item xs={12} md={4}>
                 <img src={accenture} alt="Accenture logo" className="companyLogo accenture" data-aos="zoom-in" data-aos-once="true"/>
             </Grid>
+            <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Accenture Singapore</h4>
-                <h5 className="role" style={{ color:"#a200ff"}}>Operations Support Practitioner Intern</h5>
+                <h5 className="role" style={{ color:"#a200ff"}}>Operations Support Practitioner</h5>
                 <h5 className="roleTasks">
                     <p >Worked on a major healthcare system in Singapore and supported project leads with critical project tasks
                         <br/>
@@ -76,12 +77,13 @@ const Experience = () => {
     {/* Continental */}
     <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
-            <Grid item xs={12} md={5}>
+            <Grid item xs={12} md={4}>
                 <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard" data-aos="zoom-in" data-aos-once="true"/>
             </Grid>
+            <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Continental AG Singapore</h4>
-                <h5 className="role" style={{color:"#ffa503"}}>Software Developer Intern</h5>
+                <h5 className="role" style={{color:"#ffa503"}}>Software Developer</h5>
                 <h5 className="roleTasks">
                     <p >Developed comprehensive unit tests to ensure software module qualifications, resulting in a 20% decrease in the number of bugs found during testing
                         <br/>

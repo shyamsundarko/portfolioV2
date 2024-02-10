@@ -5,6 +5,7 @@ import Aos from 'aos';
 import AboutCard from '../components/AboutCard.js';
 import Experience from './Experience';
 import Skills from './Skills';
+import Skill from './Skill'
 import ScrollToTop from './ScrollToTop';
 import Education from './Education';
 
@@ -44,12 +45,7 @@ const About = ({check}) => {
                 
                 <Grid item xs={12} md={6}>
                     <p data-aos="fade-right" data-aos-once="true" id="aboutInfo" >
-                        Currently pursuing a Masters in<br /> 
-                        <div id="customAbt1">Software Engineering Systems @ NEU</div><br /> 
-                        following the completion of my degree in 
-                        <div id="customAbt2">Computer Science @ NTU Singapore</div>
-                        <br/>
-                        I excel in dynamic environments, embracing complex challenges with enthusiasm and precision. A quick learner, I eagerly acquire new skills and maintain an organized, curious approach. I consistently explore emerging tools and technologies to stay at the forefront of the field.
+                    Originating from Singapore, I bring a unique perspective shaped by diverse experiences, including my mandatory <span id="customAbt2">two-year military service</span>. This has instilled in me valuable skills such as discipline, adaptability, and effective teamwork. <br/> <br/> As a results-driven software engineering master's student, I possess a deep expertise in full-stack engineering, with a particular passion for <span id="customAbt1">frontend development</span>. 
                     </p>
                 </Grid>
             </Grid>
