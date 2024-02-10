@@ -200,12 +200,6 @@
     width: 80%;
 
   }
-  #customAbt1, #customAbt2{
-    
-    color: #c0b058;
-    font-weight: 400;
-    
-  }
   
   #aboutImg{
     border-radius: 1%;
@@ -530,7 +524,7 @@
       border-radius: 5px;
     }
     .SubText{
-      font-size: 2.8vmin;
+      font-size: 3vmin;
     }
     .role{
       font-size: 4.5vmin;
@@ -547,14 +541,14 @@
       font-size: 5.5vmin;
     }
     .uniName{
-      font-size: 5vmin;
+      font-size: 5.5vmin;
     }
     .degreeName{
-      font-size: 3.5vmin;
+      font-size: 3.9vmin;
       margin-bottom: 3vmin;
     }
     .degreeCGPA{
-      font-size: 3vmin;
+      font-size: 3.5vmin;
       border-radius: 5px;
       padding: 1.5vmin;
     }
@@ -566,10 +560,7 @@
       font-size: 4vmin;
       font-weight: 300;
     }
-    #customAbt1, #customAbt2{
-      font-size: 4.8vmin;
-      font-weight: 500;
-    }
+    
     
     .projectTitle{
       font-size: 4.5vmin;
