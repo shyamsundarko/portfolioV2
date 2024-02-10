@@ -49,12 +49,16 @@
     color: #b8b8b8;
     text-align: center;
   }
-  
+  #name{
+    font-size: 9vmin;
+    color: #c0b058;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
   .cityColor{
-    background-color: rgb(25, 75, 155);
+    background-color: #c4b353;
     padding: 0.5vmin 4vmin 0.5vmin 3.5vmin;
     border-radius: 10px;
-    color: rgb(235, 235, 235);
+    color: rgb(246, 246, 246);
     font-weight: 500;
     font-size: 2.4vmin;
   }
@@ -70,11 +74,7 @@
     padding-bottom: 2vmin;
     padding: 13vmin 21vmin;
   }
-  #name{
-    font-size: 9vmin;
-    color: rgb(39, 69, 121);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+  
   #introText {
     font-size: 14vmin;
     text-align: left;
@@ -303,12 +303,12 @@
     margin: 1.5vmin 0;
   }
   .pubTitle{
-    font-weight: 500;
-    color: #6e9a77;
+    font-weight: 300;
+    color: #648ca7;
     font-size: 2.7vmin;
-    width: 80%;
+    width: 90%;
     text-align: left;
-    font-family: 'Playfair Display', serif;
+    
   
   }
   #experienceDivider{
@@ -431,7 +431,7 @@
     
   }
   #pubLink{
-    background-color: #2ba246;
+    background-color: #518eb6;
     color: rgb(236, 236, 236);
     padding: 0.5vmin 2vmin;
     border-radius: 6px;
@@ -441,7 +441,7 @@
   #pubLink:hover{
     transition: 0.3s ease-in-out;
     background-color: rgb(236, 236, 236);
-    color: #2ba246;
+    color: #518eb6;
   }
   
   
