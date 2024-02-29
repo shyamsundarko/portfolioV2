@@ -435,7 +435,26 @@ a{
 }
 
 
-
+@media (min-width: 1920px){
+  #introContainer{
+    padding: 0vmin;
+  }
+  #aboutMeContainer{
+    padding: 13vmin 0;
+  }
+  #experienceContainer, #skillsContainer, #educationContainer {
+    padding: 6vmin 0vmin;
+  }
+  #skillsContainer{
+    padding-bottom: 15vmin;
+  }
+  #projectsSection{
+    padding: 6vmin 10vmin;
+  }
+  .navLink{
+    margin: 0 1.9vmin auto;
+  }
+}
 @media (max-width: 1200px){
   
   #aboutMeContainer p{
