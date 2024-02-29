@@ -1,597 +1,597 @@
 * {
-    font-family: 'Poppins','Helvetica Neue', 'Times New Roman';
-    background-color: rgb(15, 16, 18);
-    color: rgb(237, 234, 234);
-  
-  }
-  body{
-    background-color: #0d1015;
-  }
-  .mainContainer{
-    overflow: hidden;
-    padding: 0;
-    transition: 0.05 ease-out;
-  }
-  .show {
-    padding: 0;
-    transition: 0.05 ease-out;
-    
-  }
-  a{
-    text-decoration: none;
-  }
-  #navigationBar{
-    width: 66vw;
-    margin: 0 auto;
-    
-  }
-  
-  #navigationBar  h1{
-    padding: 2vmin 2vmin 2.2vmin 1.2vmin;
-    margin: 0 auto;
-    font-size: 2.9vmin;
-    font-family: 'Cinzel Decorative', serif;
-    
-  }
-  #navbarTitleBlack{
-    color: #29323d;
-  }
-  #navbarTitleWhite{
-    color: rgb(211, 211, 211);
-  }
-  
-  
-  .titles{
-    font-family: 'Playfair Display', serif;
-    overflow: hidden;
-    font-weight: 600;
-    font-size: 5vmin;
-    padding: 5vmin 0 2vmin 0;
-    color: #b8b8b8;
-    text-align: center;
-  }
-  
-  .cityColor{
-    background-color: rgb(37, 40, 45);
-    padding: 0.5vmin 4vmin 0.5vmin 3.5vmin;
-    border-radius: 10px;
-    color: rgb(235, 235, 235);
-    font-weight: 500;
-    font-size: 2.4vmin;
-  }
-  
-  .quickLinks, .quickLinksWhite{
-    font-weight: 300;
-  }
-  
-  
-  
-  #introContainer{
-    overflow: hidden;
-    padding-bottom: 2vmin;
-    padding: 13vmin 21vmin;
-  }
-  #name{
-    font-size: 9vmin;
-    color: rgb(44, 136, 102);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  #introText {
-    font-size: 14vmin;
-    text-align: left;
-    color: rgb(240, 240, 240);
-    font-weight: 600;
-    padding-top: 7vmin;
-  }
-  .introSub{
-    font-size: 2.5vmin;
-    text-align: left;
-    color: rgb(147, 147, 147);
-    font-weight: 300;
-    padding: 0.5vmin 0;
-    
-  }
-  .SubText{
-    color: rgba(156, 156, 156, 0.781);
-    font-weight: 300;
-    font-size: 2.5vmin;
-    padding-top: 2vmin;
-    text-align: left;
-  }
-  .scrollDown{
-    color: rgba(97, 97, 97, 0.781);
-    font-weight: 200;
-    font-size: 2.3vmin;
-  }
-  
-  #projectsSection {
-   
-    padding: 0vmin 32vmin;
-    padding-bottom: 10vmin;
-  }
-  
-  .project{
-    padding: 2vmin;
-    width: 50%;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 1vmin;
-    
-  }
-  
-  .projectImage{
-    width: 100%;
-    height: 32vh;
-  }
-  .projectTitle{
-    font-size: 3vmin;
-    font-weight: 600;
-    text-align: left;
-    width: 100%;
-    color: rgb(200, 200, 200);
-    margin-top: 1.5vmin;
-    margin-bottom: 0.7vmin;
-  }
-  .desc{
-    text-align: left;
-    color: rgb(144, 144, 144);
-    font-size: 1.8vmin;
-  }
-  
-  
-  .project:hover{
-    border: solid 1px #15aa55;
-    transition: 0.1s ease-in-out;
-    
-  }
-  
-  
-  
-  
-  #footerContainer { 
-    padding-top: 7vmin;
-  
-    border-top: solid 1px #242424;
-    text-align: center;
-    overflow: hidden;
-    
-  }
-  
-  .socialLogo {
-    max-width: 6vmin;
-  }
-  
-  
-  
-  #headerText {
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    color: #575757;
-    font-weight: 500;
-  }
-  
-  .project {
-    align-items: center;
-    justify-content: center;
-    
-  }
-  
-  .icon{
-    width: 8vmin;
-    margin-top: 2vmin;
-    margin-right: 3vmin;
-  }
-  
-  
-  #aboutMeContainer{
-    padding: 13vmin 21vmin;
-    border-bottom: solid 1px #242424;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    overflow: hidden;
-    /* background-color: #0d1623; */
-  }
-  #aboutMeContainer p{
-    font-size: 2.1vmin;
-    color:#a1a1a1;
-    width: 80%;
+  font-family: 'Poppins','Helvetica Neue', 'Times New Roman';
+  background-color: rgb(15, 16, 18);
+  color: rgb(237, 234, 234);
 
-  }
+}
+body{
+  background-color: #0d1015;
+}
+.mainContainer{
+  overflow: hidden;
+  padding: 0;
+  transition: 0.05 ease-out;
+}
+.show {
+  padding: 0;
+  transition: 0.05 ease-out;
   
-  #aboutImg{
-    border-radius: 1%;
+}
+a{
+  text-decoration: none;
+}
+#navigationBar{
+  width: 65vw;
+  margin: 0 auto;
+}
+
+#navigationBar  h1{
+  padding: 2vmin 2vmin 2vmin 1.2vmin;
+  margin: 0 auto;
+  font-size: 2.9vmin;
+  font-family: 'Cinzel Decorative', serif;
+  
+}
+#navbarTitleBlack{
+  color: #29323d;
+}
+#navbarTitleWhite{
+  color: rgb(211, 211, 211);
+}
+
+
+.titles{
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 5vmin;
+  padding: 5vmin 0 2vmin 0;
+  color: #b8b8b8;
+  text-align: center;
+}
+
+.cityColor{
+  background-color: rgb(37, 40, 45);
+  padding: 0.5vmin 4vmin 0.5vmin 3.5vmin;
+  border-radius: 10px;
+  color: rgb(235, 235, 235);
+  font-weight: 500;
+  font-size: 2.4vmin;
+}
+
+.quickLinks, .quickLinksWhite{
+  font-weight: 300;
+}
+
+
+
+#introContainer{
+  overflow: hidden;
+  padding-bottom: 2vmin;
+  padding: 13vmin;
+}
+#name{
+  font-size: 9vmin;
+  color: rgb(44, 136, 102);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#introText {
+  font-size: 14vmin;
+  text-align: left;
+  color: rgb(240, 240, 240);
+  font-weight: 600;
+  padding-top: 7vmin;
+}
+.introSub{
+  font-size: 2.5vmin;
+  text-align: left;
+  color: rgb(147, 147, 147);
+  font-weight: 300;
+  padding: 0.5vmin 0;
+  
+}
+.SubText{
+  color: rgba(156, 156, 156, 0.781);
+  font-weight: 300;
+  font-size: 2.5vmin;
+  padding-top: 2vmin;
+  text-align: left;
+}
+.scrollDown{
+  color: rgba(97, 97, 97, 0.781);
+  font-weight: 200;
+  font-size: 2.3vmin;
+}
+
+#projectsSection {
+ 
+  padding: 0vmin 24vmin;
+  padding-bottom: 10vmin;
+}
+
+.project{
+  padding: 2vmin;
+  width: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1vmin;
+  
+}
+
+.projectImage{
+  width: 100%;
+  height: 32vh;
+}
+.projectTitle{
+  font-size: 3vmin;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  color: rgb(200, 200, 200);
+  margin-top: 1.5vmin;
+  margin-bottom: 0.7vmin;
+}
+.desc{
+  text-align: left;
+  color: rgb(144, 144, 144);
+  font-size: 1.8vmin;
+}
+
+
+.project:hover{
+  border: solid 1px #15aa55;
+  transition: 0.1s ease-in-out;
+  
+}
+
+
+
+
+#footerContainer { 
+  padding-top: 7vmin;
+
+  border-top: solid 1px #242424;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+.socialLogo {
+  max-width: 6vmin;
+}
+
+
+
+#headerText {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  color: #575757;
+  font-weight: 500;
+}
+
+.project {
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.icon{
+  width: 8vmin;
+  margin-top: 2vmin;
+  margin-right: 3vmin;
+}
+
+
+#aboutMeContainer{
+  padding: 13vmin;
+  border-bottom: solid 1px #242424;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  overflow: hidden;
+  /* background-color: #0d1623; */
+}
+#aboutMeContainer p{
+  font-size: 2.5vmin;
+  color:#a1a1a1;
+  width: 80%;
+
+}
+
+#aboutImg{
+  border-radius: 1%;
+  width: 100%;
+}
+
+
+
+#educationContainer{
+  padding: 0vmin 13vmin;
+  padding-bottom: 10vmin;
+  overflow: hidden;
+  margin: 0 auto;
+  border-bottom: solid 1px #222222;
+  text-align: left;
+}
+.individualEducationContainer{
+ padding: 3vmin 0vmin;
+}
+.educationLogo{
+  width: 90%;
+  padding: 4vmin; 
+  box-shadow: 0 8px 16px rgba(62, 62, 62, 0.4);
+  background-color: rgb(95, 104, 116);
+  border-radius: 3px;
+}
+.uniName{
+  font-size: 3.5vmin;
+  color:#acacac; 
+  font-weight:600;
+}
+.degreeName{
+  font-size: 2.5vmin;
+  color: #7f8489;
+  font-weight: 500;
+}
+.degreeCGPA{
+  font-size: 2vmin;
+  color: #a7a7a7;
+  background-color: rgb(61, 91, 168);
+  color: rgb(221, 221, 221);
+  padding: 1vmin;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+.individualExperienceContainer{
+  padding: 4vmin 0vmin 6vmin 0vmin;
+  text-align: left;
+}
+
+.companyLogo {
+  width: 93%; 
+  padding: 1vmin;
+  margin-bottom: 2vmin;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  
+}
+.accenture{
+  padding: 2vmin;
+  background-color: rgb(147, 152, 161);
+}
+
+#contiCard{
+  padding: 0.5vmin;
+}
+
+.companyTitle{
+  font-size: 3.5vmin;
+  color: rgb(192, 192, 193);
+  font-weight: 600;
+  width: 93%;
+}
+.role{
+  padding-bottom: 1.5vmin;
+  font-size: 2.5vmin;
+  width: 93%;
+}
+
+.roleTasks{
+  font-size: 2.5vmin;
+  font-weight: 300;
+  text-align: left;
+  width: 93%;
+  line-height: 1.4;
+}
+
+.roleTasks p{
+  color: rgb(150, 150, 150);
+}
+
+.roleTasks hr{
+  width: 10%;
+  margin: 1.5vmin 0;
+}
+.pubTitle{
+  font-weight: 500;
+  color: #6e9a77;
+  font-size: 2.7vmin;
+  width: 80%;
+  text-align: left;
+  
+
+}
+#experienceDivider{
+  width: 85%;
+  margin: 0 auto;
+  padding: 1px;
+  color: rgb(62, 62, 62);
+  margin-top: 1.5vmin;
+  margin-bottom: 4.5vmin;
+}
+
+.centering{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#experienceContainer{
+  padding: 0vmin 13vmin 10vmin 13vmin;
+  color: #212529;
+  border-bottom: solid 1px #242424;
+  overflow: hidden;
+}
+
+.progress{
+  width: 93%;
+  margin: 0.5vmin 2vmin 4vmin 2vmin;
+  text-align: center;
+  float: left;
+}
+
+#skillsContainer{
+  /* background-color: #ffffff; */
+  overflow: hidden;
+  display: flex;
+  padding: 0vmin 20vmin 10vmin 20vmin;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px #242424;
+}
+.skillImg{
+  width: 13vmin;
+  height: 13vmin;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 2vmin;
+  float: left;
+  padding: 5px;
+  box-shadow: rgba(221, 220, 220, 0.18) 0px 3px 8px;
+  text-align: center;
+  border: solid 1px rgb(53, 53, 53);
+}
+
+
+.indivSkill{
+    
+    /* border: solid 1px black; */
+    margin: 0.5vmin;
+    padding: 1vmin 3vmin;
+    border: solid 1px green;
+    border-radius: 20px;
+    /* background-color: #15aa55;
+  color: white; */
+  font-size: 2vmin;
+    
+}
+.indivSkill:hover{
+  border: none;
+  background-color: #15aa55;
+  color: white;
+}
+
+#customCard{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: white;
+  padding: 0.5vw;
+}
+
+
+#email{
+  color: #E1A87A; 
+  font-weight: 300;
+  text-decoration: underline;
+  font-size: 3vmin;
+}
+
+#footerText{
+  font-weight: 300;
+  font-size: 3vmin;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 4.5vmin;
+}
+.navLink{
+  color: #c5c5c5;
+  text-align: center;
+  font-size: 1.5vmin;
+  font-weight: 300;
+  margin: 0 1.2vmin auto;
+}
+.navLink h6{
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.navLink h6:hover{
+  background-color: #15aa55;
+  font-weight: 700;
+  transition: 0.1s ease-in-out;
+}
+
+#aboutInfo{
+  width: 100%;
+}
+
+#hamburger{
+  border: none;
+}
+#responsive-navbar-nav{
+  margin-top: 0.5vmin;
+  
+}
+#pubLink{
+  background-color: #1f8747;
+  color: rgb(236, 236, 236);
+  padding: 0.5vmin 2vmin;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1.7vmin;
+}
+#pubLink:hover{
+  transition: 0.3s ease-in-out;
+  background-color: rgb(236, 236, 236);
+  color: #179e4b;
+}
+
+
+
+@media (max-width: 1200px){
+  
+  #aboutMeContainer p{
+    width: 100%;
+    padding: 0;
+    font-size: 3vmin;
+    text-align: left;
+  }
+  #experienceContainer, #skillsContainer, #aboutMeContainer, #projectsSection{
+    width: 100%;
+    padding: 0vmin 8vmin;
+  }
+  #introContainer{
+    padding: 0 1.5vmin;
     width: 100%;
   }
-  
-  
-  
   #educationContainer{
-    padding: 0vmin 20vmin;
-    padding-bottom: 10vmin;
-    overflow: hidden;
-    margin: 0 auto;
-    border-bottom: solid 1px #222222;
+    padding: 0vmin 4vmin 4vmin 4vmin;
+  }
+
+  #experienceDivider{
+    width: 100%;
+  }
+  .companyLogo, .educationLogo{
+    width: 100%;
+  }
+
+  .roleTasks{
     text-align: left;
+  }
+  #aboutMeContainer{
+    margin-top: 6vmin;
+    text-align: justify;
   }
   .individualEducationContainer{
-   padding: 5vmin;
+    padding: 2.7vmin 5vmin;
   }
-  .educationLogo{
-    width: 90%;
-    padding: 4vmin; 
-    box-shadow: 0 8px 16px rgba(62, 62, 62, 0.4);
-    background-color: rgb(95, 104, 116);
-    border-radius: 3px;
+  
+  #projectsSection, #skillsContainer, #aboutMeContainer, #educationContainer, #experienceContainer{
+    padding-bottom: 10vmin;
   }
-  .uniName{
+  
+}
+
+
+
+@media (max-width: 1399px){
+  #navigationBar{
+    padding: 0;
+    width: 65vw;
+  }
+  
+  .navLink h6{
+    padding: 2vh 0;
     font-size: 3.5vmin;
-    color:#acacac; 
-    font-weight:600;
-  }
-  .degreeName{
-    font-size: 2.5vmin;
-    color: #7f8489;
     font-weight: 500;
   }
-  .degreeCGPA{
-    font-size: 2vmin;
-    color: #a7a7a7;
-    background-color: rgb(61, 91, 168);
-    color: rgb(221, 221, 221);
-    padding: 1vmin;
-    border-radius: 10px;
-    width: 50%;
-    text-align: center;
-  }
-  
-  .individualExperienceContainer{
-    padding: 4vmin 0vmin 6vmin 0vmin;
-    text-align: left;
-  }
-  
-  .companyLogo {
-    width: 93%; 
-    padding: 1vmin;
-    margin-bottom: 2vmin;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 1027px){
+  #navigationBar{
+    padding: 0;
+    width: 90vw;
     
-  }
-  .accenture{
-    padding: 2vmin;
-    background-color: rgb(147, 152, 161);
-  }
-  
-  #contiCard{
-    padding: 0.5vmin;
-  }
-  
-  .companyTitle{
-    font-size: 3.5vmin;
-    color: rgb(192, 192, 193);
-    font-weight: 600;
-    width: 93%;
-  }
-  .role{
-    padding-bottom: 1.5vmin;
-    font-size: 2vmin;
-    width: 93%;
-  }
-  
-  .roleTasks{
-    font-size: 2.3vmin;
-    font-weight: 300;
-    text-align: left;
-    width: 93%;
-    line-height: 1.4;
-  }
-  
-  .roleTasks p{
-    color: rgb(150, 150, 150);
-  }
-  
-  .roleTasks hr{
-    width: 10%;
-    margin: 1.5vmin 0;
-  }
-  .pubTitle{
-    font-weight: 500;
-    color: #6e9a77;
-    font-size: 2.7vmin;
-    width: 80%;
-    text-align: left;
-    
-  
-  }
-  #experienceDivider{
-    width: 85%;
-    margin: 0 auto;
-    padding: 1px;
-    color: rgb(62, 62, 62);
-    margin-top: 1.5vmin;
-    margin-bottom: 4.5vmin;
-  }
-  
-  .centering{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  #experienceContainer{
-    padding: 0vmin 20vmin 10vmin 20vmin;
-    color: #212529;
-    /* background-color: rgba(226, 234, 242, 0.397); */
-    border-bottom: solid 1px #242424;
-    overflow: hidden;
-  }
-  
-  .progress{
-    width: 93%;
-    margin: 0.5vmin 2vmin 4vmin 2vmin;
-    text-align: center;
-    float: left;
-  }
-  
-  #skillsContainer{
-    /* background-color: #ffffff; */
-    overflow: hidden;
-    display: flex;
-    padding: 0vmin 20vmin 10vmin 20vmin;
-    align-items: center;
-    justify-content: center;
-    border-bottom: solid 1px #242424;
-  }
-  .skillImg{
-    width: 13vmin;
-    height: 13vmin;
-    overflow: hidden;
-    border-radius: 4px;
-    margin: 2vmin;
-    float: left;
-    padding: 5px;
-    box-shadow: rgba(221, 220, 220, 0.18) 0px 3px 8px;
-    text-align: center;
-    border: solid 1px rgb(53, 53, 53);
-  }
-  
-  
-  .indivSkill{
-      
-      /* border: solid 1px black; */
-      margin: 0.5vmin;
-      padding: 1vmin 3vmin;
-      border: solid 1px green;
-      border-radius: 20px;
-      /* background-color: #15aa55;
-    color: white; */
-    font-size: 2vmin;
-      
-  }
-  .indivSkill:hover{
-    border: none;
-    background-color: #15aa55;
-    color: white;
-  }
-  
-  #customCard{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    background-color: white;
-    padding: 0.5vw;
-  }
-  
-  
-  #email{
-    color: #E1A87A; 
-    font-weight: 300;
-    text-decoration: underline;
-    font-size: 3vmin;
-  }
-  
-  #footerText{
-    font-weight: 300;
-    font-size: 3vmin;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 4.5vmin;
-  }
-  .navLink{
-    color: #c5c5c5;
-    text-align: center;
-    font-size: 1.5vmin;
-    font-weight: 300;
-    margin: 0 1.2vmin auto;
+
   }
   .navLink h6{
-    padding: 5px 20px;
-    border-radius: 20px;
+    padding: 2vh 0;
+    font-size: 5vmin;
+    font-weight: 500;
   }
-  .navLink h6:hover{
-    background-color: #15aa55;
-    font-weight: 700;
-    transition: 0.1s ease-in-out;
-  }
-  
-  #aboutInfo{
-    width: 100%;
-  }
-  
-  #hamburger{
-    border: none;
-  }
-  #responsive-navbar-nav{
-    margin-top: 0.5vmin;
-    
+}
+
+@media(max-width: 800px){
+  #navigationBar{
+    border: solid 1px rgb(145, 145, 145);
+    border-radius: 10px;
+    padding: 2vmin 3vmin;
   }
   #pubLink{
-    background-color: #1f8747;
-    color: rgb(236, 236, 236);
-    padding: 0.5vmin 2vmin;
-    border-radius: 6px;
-    font-weight: 500;
-    font-size: 1.7vmin;
+    border-radius: 3px;
   }
-  #pubLink:hover{
-    transition: 0.3s ease-in-out;
-    background-color: rgb(236, 236, 236);
-    color: #179e4b;
+  #customLine{
+    margin-bottom: 4vmin;
   }
-  
-  
-  
-  @media (max-width: 1200px){
-    
-    #aboutMeContainer p{
-      width: 100%;
-      padding: 0;
-      font-size: 3vmin;
-      text-align: left;
-    }
-    #experienceContainer, #skillsContainer, #aboutMeContainer, #projectsSection{
-      width: 100%;
-      padding: 0vmin 8vmin;
-    }
-    #introContainer{
-      padding: 0 1.5vmin;
-      width: 100%;
-    }
-    #educationContainer{
-      padding: 0vmin 4vmin 4vmin 4vmin;
-    }
-  
-    #experienceDivider{
-      width: 100%;
-    }
-    .companyLogo, .educationLogo{
-      width: 100%;
-    }
-  
-    .roleTasks{
-      text-align: left;
-    }
-    #aboutMeContainer{
-      margin-top: 6vmin;
-      text-align: justify;
-    }
-    .individualEducationContainer{
-      padding: 2.7vmin 5vmin;
-    }
-    
-    #projectsSection, #skillsContainer, #aboutMeContainer, #educationContainer, #experienceContainer{
-      padding-bottom: 10vmin;
-    }
-    
+  #name{
+    font-size: 17vmin;
   }
-  
-  
-  
-  @media (max-width: 1399px){
-    #navigationBar{
-      padding: 0;
-      width: 65vw;
-    }
-    .navLink h6{
-      padding: 2vh 0;
-      font-size: 3.5vmin;
-      font-weight: 500;
-    }
+ 
+  .cityColor{
+    font-size: 3.5vmin;
+    border-radius: 5px;
   }
-  @media (max-width: 1027px){
-    #navigationBar{
-      padding: 0;
-      width: 90vw;
-    }
-    .navLink h6{
-      padding: 2vh 0;
-      font-size: 5vmin;
-      font-weight: 500;
-    }
+  .SubText{
+    font-size: 3vmin;
   }
-  
-  @media(max-width: 800px){
-    #pubLink{
-      border-radius: 3px;
-    }
-    #customLine{
-      margin-bottom: 4vmin;
-    }
-    #name{
-      font-size: 17vmin;
-    }
-   
-    .cityColor{
-      font-size: 3.5vmin;
-      border-radius: 5px;
-    }
-    .SubText{
-      font-size: 3vmin;
-    }
-    .role{
-      font-size: 5vmin;
-    }
-    .roleTasks{
-      font-size: 4.5vmin;
-      line-height: 1.4;
-      font-weight: 300;
-    }
-    .pubTitle{
-      font-size: 4.6vmin;
-    }
-    .companyTitle{
-      font-size: 5.5vmin;
-    }
-    .uniName{
-      font-size: 5.5vmin;
-    }
-    .degreeName{
-      font-size: 3.9vmin;
-      margin-bottom: 3vmin;
-    }
-    .degreeCGPA{
-      font-size: 3.5vmin;
-      border-radius: 5px;
-      padding: 1.5vmin;
-    }
-    #pubLink{
-      font-size: 3vmin;
-      padding: 1.5vmin 2vmin;
-    }
-    #aboutMeContainer p{
-      font-size: 4.5vmin;
-      font-weight: 300;
-    }
-    
-    .scrollDown{
-      font-size: 3vmin;
-    }
-    .projectTitle{
-      font-size: 5vmin;
-      margin-top: 3vmin;
-      margin-bottom: 1vmin;
-    }
-    .desc{
-      font-size: 4.7vmin;
-      margin-bottom: 6vmin;
-      font-weight: 300;
-    }
-    .indivSkill{
-      font-size: 3vmin;
-    }
-    
-    #navigationBar{
-      padding: 2vmin 4vmin;
-      border: solid 1px rgb(155, 155, 155);
-      border-radius: 15px;
-    }
-    #navigationBar  h1{
+  .role{
     font-size: 4.5vmin;
-    }
-    #footerText, #email{
-      font-size: 4vmin;
-    }
-    .socialLogo{
-      max-width: 9vmin;
-    }
   }
+  .roleTasks{
+    font-size: 4vmin;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+  .pubTitle{
+    font-size: 4.6vmin;
+  }
+  .companyTitle{
+    font-size: 5vmin;
+  }
+  .uniName{
+    font-size: 5.5vmin;
+  }
+  .degreeName{
+    font-size: 3.9vmin;
+    margin-bottom: 3vmin;
+  }
+  .degreeCGPA{
+    font-size: 3.5vmin;
+    border-radius: 5px;
+    padding: 1.5vmin;
+  }
+  #pubLink{
+    font-size: 3.2vmin;
+    padding: 1.5vmin 2vmin;
+  }
+  #aboutMeContainer p{
+    font-size: 4vmin;
+    font-weight: 300;
+  }
+  
+  .scrollDown{
+    font-size: 3vmin;
+  }
+  .projectTitle{
+    font-size: 4.5vmin;
+    margin-top: 3vmin;
+    margin-bottom: 1vmin;
+  }
+  .desc{
+    font-size: 4.5vmin;
+    margin-bottom: 6vmin;
+    font-weight: 300;
+  }
+  .indivSkill{
+    font-size: 3vmin;
+  }
+  #navigationBar  h1{
+  font-size: 4.5vmin;
+  }
+  #footerText, #email{
+    font-size: 4vmin;
+  }
+  .socialLogo{
+    max-width: 9vmin;
+  }
+}
   
   
   
