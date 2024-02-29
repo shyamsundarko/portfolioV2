@@ -282,11 +282,11 @@
     font-weight: 300;
     text-align: left;
     width: 93%;
-    line-height: 1.5;
+    line-height: 1.4;
   }
   
   .roleTasks p{
-    color: rgb(199, 199, 199);
+    color: rgb(150, 150, 150);
   }
   
   .roleTasks hr{
@@ -422,7 +422,7 @@
     
   }
   #pubLink{
-    background-color: #179e4b;
+    background-color: #1f8747;
     color: rgb(236, 236, 236);
     padding: 0.5vmin 2vmin;
     border-radius: 6px;
@@ -529,8 +529,8 @@
     }
     .roleTasks{
       font-size: 4.5vmin;
-      line-height: 1.5;
-      font-weight: 200;
+      line-height: 1.4;
+      font-weight: 300;
     }
     .pubTitle{
       font-size: 4.6vmin;
