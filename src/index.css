@@ -100,7 +100,7 @@
   .scrollDown{
     color: rgba(97, 97, 97, 0.781);
     font-weight: 200;
-    font-size: 3.2vmin;
+    font-size: 2.3vmin;
   }
   
   #projectsSection {
@@ -559,7 +559,9 @@
       font-weight: 300;
     }
     
-    
+    .scrollDown{
+      font-size: 3vmin;
+    }
     .projectTitle{
       font-size: 5vmin;
       margin-top: 3vmin;
