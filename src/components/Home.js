@@ -9,40 +9,10 @@ import Navigationbar from './Navigationbar';
 import Aos from 'aos';
 import Education from './Education';
 const Home = () => {
-    const [background, setBackground] = useState(false);
-  
-    const changeBackground = () => {
-      if(window.innerHeight>400){
-        if(window.scrollY>=600) {
-           setBackground(true);
-         }
-         else setBackground(false);
-     }
-     else if (window.innerHeight > 300){
-        if(window.scrollY>=300) {
-           setBackground(true);
-         }
-         else setBackground(false);
-     }
-     else{
-        if(window.scrollY>=150) {
-          setBackground(true);
-        }
-        else setBackground(false);
-     }
-    }
-    
-    window.addEventListener('scroll', changeBackground);
-    
-    useEffect(()=>{
-      Aos.init({ duration: 300,
-        mirror: "true",
-        anchorPlacement:"center-bottom" });
-    },[]);
 
     return (
       
-        <Container fluid className={ background ?  "show" : "mainContainer"} >
+        <Container  >
           
             <Navigationbar />
             <IntroComponent />

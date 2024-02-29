@@ -23,10 +23,11 @@
   #navigationBar{
     width: 66vw;
     margin: 0 auto;
+    
   }
   
   #navigationBar  h1{
-    padding: 2vmin 2vmin 2vmin 1.2vmin;
+    padding: 2vmin 2vmin 2.2vmin 1.2vmin;
     margin: 0 auto;
     font-size: 2.9vmin;
     font-family: 'Cinzel Decorative', serif;
@@ -574,6 +575,12 @@
     }
     .indivSkill{
       font-size: 3vmin;
+    }
+    
+    #navigationBar{
+      padding: 2vmin 4vmin;
+      border: solid 1px rgb(155, 155, 155);
+      border-radius: 15px;
     }
     #navigationBar  h1{
     font-size: 4.5vmin;
