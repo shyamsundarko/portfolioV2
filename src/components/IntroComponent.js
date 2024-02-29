@@ -10,14 +10,14 @@ const IntroComponent = () => {
     useEffect(() => {
         
         if(window.innerWidth>600){
-          const marginNew = (window.innerHeight/2)*0.7;
+          const marginNew = (window.innerHeight/2)*0.65;
           const marginTop = marginNew*0.88;
 
           setMarginScreen(marginNew+"px");
           setMarginScreenTop(marginTop+"px");
         }
         else{
-          const marginNew = (window.innerHeight/2)*0.6;
+          const marginNew = (window.innerHeight/2)*0.55;
           const marginTop = marginNew;
 
           setMarginScreen(marginNew+"px");

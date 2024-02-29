@@ -51,7 +51,7 @@
   }
   
   .cityColor{
-    background-color: rgb(25, 75, 155);
+    background-color: rgb(37, 40, 45);
     padding: 0.5vmin 4vmin 0.5vmin 3.5vmin;
     border-radius: 10px;
     color: rgb(235, 235, 235);
@@ -72,7 +72,7 @@
   }
   #name{
     font-size: 9vmin;
-    color: rgb(39, 69, 121);
+    color: rgb(44, 136, 102);
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   #introText {
@@ -88,23 +88,21 @@
     color: rgb(147, 147, 147);
     font-weight: 300;
     padding: 0.5vmin 0;
+    
   }
   .SubText{
     color: rgba(156, 156, 156, 0.781);
     font-weight: 300;
-    font-size:1.7vmin;
+    font-size: 2.5vmin;
     padding-top: 2vmin;
     text-align: left;
   }
   .scrollDown{
     color: rgba(97, 97, 97, 0.781);
     font-weight: 200;
-    font-size: 2vmin;
-    padding-top: 3vmin;
+    font-size: 3.5vmin;
   }
-  .colorize{
-    color: rgb(202, 49, 49);
-  }
+  
   #projectsSection {
    
     padding: 0vmin 32vmin;
@@ -518,6 +516,7 @@
     #name{
       font-size: 17vmin;
     }
+   
     .cityColor{
       font-size: 3.5vmin;
       border-radius: 5px;
@@ -526,10 +525,10 @@
       font-size: 3vmin;
     }
     .role{
-      font-size: 4.5vmin;
+      font-size: 5vmin;
     }
     .roleTasks{
-      font-size: 4vmin;
+      font-size: 4.5vmin;
       line-height: 1.5;
       font-weight: 200;
     }
@@ -556,19 +555,20 @@
       padding: 1.5vmin 2vmin;
     }
     #aboutMeContainer p{
-      font-size: 4vmin;
+      font-size: 4.5vmin;
       font-weight: 300;
     }
     
     
     .projectTitle{
-      font-size: 4.5vmin;
+      font-size: 5vmin;
       margin-top: 3vmin;
       margin-bottom: 1vmin;
     }
     .desc{
-      font-size: 3.8vmin;
+      font-size: 4.7vmin;
       margin-bottom: 6vmin;
+      font-weight: 300;
     }
     .indivSkill{
       font-size: 3vmin;
