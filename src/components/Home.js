@@ -7,6 +7,7 @@ import Footer from './Footer';
 import {useState, useEffect} from 'react';
 import Navigationbar from './Navigationbar';
 import Aos from 'aos';
+import Education from './Education';
 const Home = () => {
     const [background, setBackground] = useState(false);
   
@@ -47,6 +48,7 @@ const Home = () => {
             <IntroComponent />
             <About />
             <Projects />
+            <Education />
             <Footer />
       </Container>
     )

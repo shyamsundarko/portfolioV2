@@ -7,7 +7,7 @@ import Experience from './Experience';
 import Skills from './Skills';
 import Skill from './Skill'
 import ScrollToTop from './ScrollToTop';
-import Education from './Education';
+
 
 
 
@@ -51,9 +51,6 @@ const About = ({check}) => {
             </Grid>
             <Grid item xs={12} md={1} />
             <Grid container>
-                <Grid item xs={12}>
-                    <Education />
-                </Grid>
                 <Grid item xs={12}>
                     <Experience />
                 </Grid>
