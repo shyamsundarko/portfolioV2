@@ -38,7 +38,7 @@ const Experience = () => {
                         <br />
                         <hr id="customLine" />
                         
-                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22" target="_blank" id="pubLink">View the paper published on Springer here</a>
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-35998-9_22" target="_blank" id="pubLink">View the Springer publication</a>
                     </p>
                     
                 </h5>
