@@ -469,7 +469,7 @@ a{
   }
   #introContainer{
     padding: 0 14vmin;
-    
+    width: 100%;
   }
   #educationContainer{
     padding: 0vmin 4vmin 4vmin 4vmin;
@@ -607,6 +607,10 @@ a{
   }
   .indivSkill{
     font-size: 2vmin;
+  }
+  #introContainer{
+    padding: 0 1.5vmin;
+    width: 100%;
   }
   #navigationBar  h1{
   font-size: 4.5vmin;
