@@ -57,15 +57,18 @@ const Experience = () => {
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={5} >
                 <h4 className="companyTitle">Accenture Singapore</h4>
-                <h5 className="role" style={{ color:"#a200ff"}}>Operations Support Practitioner</h5>
+                <h5 className="role" style={{ color:"#a200ff"}}>Software Engineer Intern</h5>
                 <h5 className="roleTasks">
-                    <p >Worked on a major healthcare system in Singapore and supported project leads with critical project tasks
+                    <p >Redesigned and developed the medical records system for a major healthcare system in Singapore, managing
+data for 3.2 million citizens; enhanced UX, achieving a 33% improvement in record access
                         <br/>
                         <hr />
-                        Improved the codebase's quality assurance by 40% by debugging and implementing fixes for issues
+                        Contributed to a reusable React component library with 50+ components, promoting consistency and
+reducing development time by 25%
                         <br />
                         <hr />
-                        Collaborated with techno-functional teams to deliver seamless solutions to address client’s concerns
+                        Optimized application performance through code refactoring, React.memo, and lazy loading, resulting in 40%
+faster page load times and 30% better responsiveness for 10,000+ healthcare professionals
                     </p>
                     
                 </h5>
@@ -75,7 +78,7 @@ const Experience = () => {
     <hr id="experienceDivider" />
 
     {/* Continental */}
-    <Grid container className="individualExperienceContainer">
+    {/* <Grid container className="individualExperienceContainer">
             <Grid item xs={12} md={1} />
             <Grid item xs={12} md={4}>
                 <img src={continental} alt="Continental logo" className="companyLogo" id="contiCard" data-aos="zoom-in" data-aos-once="true"/>
@@ -97,7 +100,7 @@ const Experience = () => {
                 </h5>
             </Grid>
             <Grid item xs={12} md={1}/>
-    </Grid>
+    </Grid> */}
     
     </Grid>
   );
